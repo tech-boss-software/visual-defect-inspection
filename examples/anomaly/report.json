@@ -1,0 +1,2148 @@
+{
+  "features": {
+    "backbone": "resnet18",
+    "weights": "ResNet18_Weights.IMAGENET1K_V1",
+    "url": "https://download.pytorch.org/models/resnet18-f37072fd.pth",
+    "checkpoint_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+    "layers": [
+      "layer2",
+      "layer3"
+    ],
+    "input_size": 224,
+    "grid_shape": [
+      28,
+      28
+    ],
+    "dim": 384,
+    "local_pool": "3x3 average",
+    "torchvision": "0.29.2+cpu",
+    "torch": "2.15.0+cpu"
+  },
+  "coreset_fraction": 0.1,
+  "target_false_alarm": 0.05,
+  "sigma": 4.0,
+  "categories": {
+    "plate": {
+      "train_good": 60,
+      "calibration_good": 20,
+      "test": {
+        "good": 20,
+        "defective": 32
+      },
+      "bank_patches": 4704,
+      "fit_seconds": 107.0,
+      "calibration": {
+        "good_images": 20,
+        "target_false_alarm": 0.05,
+        "threshold": 1.4241455793380737,
+        "good_score_median": 1.3187413811683655,
+        "good_score_max": 1.5076771974563599
+      },
+      "threshold": 1.4241455793380737,
+      "image_auroc": 1.0,
+      "pixel_auroc": 0.9898622468451231,
+      "at_threshold": {
+        "threshold": 1.4241455793380737,
+        "true_positive": 32,
+        "false_positive": 1,
+        "false_negative": 0,
+        "true_negative": 19,
+        "precision": 0.9697,
+        "recall": 1.0,
+        "f1": 0.9846,
+        "false_positive_rate": 0.05
+      },
+      "per_defect": {
+        "scratch": {
+          "count": 8,
+          "caught": 8,
+          "mean_score": 3.570502281188965
+        },
+        "dent": {
+          "count": 8,
+          "caught": 8,
+          "mean_score": 2.7728562355041504
+        },
+        "stain": {
+          "count": 8,
+          "caught": 8,
+          "mean_score": 3.505751818418503
+        },
+        "missing_hole": {
+          "count": 8,
+          "caught": 8,
+          "mean_score": 2.1274441331624985
+        }
+      },
+      "histogram_svg": "<svg xmlns='http://www.w3.org/2000/svg' width='520' height='200' viewBox='0 0 520 200' style='background:#fff;border:1px solid #e2e8f0'><rect x='40.0' y='35.0' width='7.7' height='135.0' fill='#16a34a' opacity='0.8'/><rect x='47.7' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='55.3' y='20.0' width='7.7' height='150.0' fill='#16a34a' opacity='0.8'/><rect x='63.0' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='70.7' y='155.0' width='7.7' height='15.0' fill='#16a34a' opacity='0.8'/><rect x='78.3' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='86.0' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='93.7' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='101.3' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='109.0' y='125.0' width='7.7' height='45.0' fill='#dc2626' opacity='0.8'/><rect x='116.7' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='124.3' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='132.0' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='139.7' y='155.0' width='7.7' height='15.0' fill='#dc2626' opacity='0.8'/><rect x='147.3' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='155.0' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='162.7' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='170.3' y='140.0' width='7.7' height='30.0' fill='#dc2626' opacity='0.8'/><rect x='178.0' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='185.7' y='155.0' width='7.7' height='15.0' fill='#dc2626' opacity='0.8'/><rect x='193.3' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='201.0' y='155.0' width='7.7' height='15.0' fill='#dc2626' opacity='0.8'/><rect x='208.7' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='216.3' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='224.0' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='231.7' y='140.0' width='7.7' height='30.0' fill='#dc2626' opacity='0.8'/><rect x='239.3' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='247.0' y='140.0' width='7.7' height='30.0' fill='#dc2626' opacity='0.8'/><rect x='254.7' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='262.3' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='270.0' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='277.7' y='155.0' width='7.7' height='15.0' fill='#dc2626' opacity='0.8'/><rect x='285.3' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='293.0' y='155.0' width='7.7' height='15.0' fill='#dc2626' opacity='0.8'/><rect x='300.7' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='308.3' y='140.0' width='7.7' height='30.0' fill='#dc2626' opacity='0.8'/><rect x='316.0' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='323.7' y='125.0' width='7.7' height='45.0' fill='#dc2626' opacity='0.8'/><rect x='331.3' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='339.0' y='140.0' width='7.7' height='30.0' fill='#dc2626' opacity='0.8'/><rect x='346.7' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='354.3' y='155.0' width='7.7' height='15.0' fill='#dc2626' opacity='0.8'/><rect x='362.0' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='369.7' y='140.0' width='7.7' height='30.0' fill='#dc2626' opacity='0.8'/><rect x='377.3' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='385.0' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='392.7' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='400.3' y='140.0' width='7.7' height='30.0' fill='#dc2626' opacity='0.8'/><rect x='408.0' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='415.7' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='423.3' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='431.0' y='140.0' width='7.7' height='30.0' fill='#dc2626' opacity='0.8'/><rect x='438.7' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='446.3' y='140.0' width='7.7' height='30.0' fill='#dc2626' opacity='0.8'/><rect x='454.0' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='461.7' y='155.0' width='7.7' height='15.0' fill='#dc2626' opacity='0.8'/><rect x='469.3' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='477.0' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='484.7' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='492.3' y='155.0' width='7.7' height='15.0' fill='#dc2626' opacity='0.8'/><line x1='69.3' y1='20' x2='69.3' y2='170' stroke='#111' stroke-width='2' stroke-dasharray='4 3'/><text x='73.3' y='32' font-size='11' fill='#111'>threshold 1.424</text><text x='40' y='192' font-size='11' fill='#64748b'>1.22</text><text x='470' y='192' font-size='11' fill='#64748b'>4.36</text><text x='90' y='192' font-size='11' fill='#16a34a'>good</text><text x='130' y='192' font-size='11' fill='#dc2626'>defective</text></svg>",
+      "records": [
+        {
+          "file": "good_000.png",
+          "score": 1.5239194631576538,
+          "threshold": 1.4241455793380737,
+          "defect": true,
+          "margin": 0.09977388381958008,
+          "heatmap": "heatmaps/good_000.png",
+          "score_ms": 132.4,
+          "heat_max": 1.4623279571533203,
+          "heat_argmax_xy": [
+            235,
+            235
+          ]
+        },
+        {
+          "file": "good_001.png",
+          "score": 1.2543655633926392,
+          "threshold": 1.4241455793380737,
+          "defect": false,
+          "margin": -0.16978001594543457,
+          "heatmap": "heatmaps/good_001.png",
+          "score_ms": 135.5,
+          "heat_max": 1.1870110034942627,
+          "heat_argmax_xy": [
+            222,
+            118
+          ]
+        },
+        {
+          "file": "good_002.png",
+          "score": 1.3980964422225952,
+          "threshold": 1.4241455793380737,
+          "defect": false,
+          "margin": -0.026049137115478516,
+          "heatmap": "heatmaps/good_002.png",
+          "score_ms": 165.5,
+          "heat_max": 1.2936604022979736,
+          "heat_argmax_xy": [
+            42,
+            13
+          ]
+        },
+        {
+          "file": "good_003.png",
+          "score": 1.2499046325683594,
+          "threshold": 1.4241455793380737,
+          "defect": false,
+          "margin": -0.17424094676971436,
+          "heatmap": "heatmaps/good_003.png",
+          "score_ms": 112.7,
+          "heat_max": 1.1776171922683716,
+          "heat_argmax_xy": [
+            142,
+            78
+          ]
+        },
+        {
+          "file": "good_004.png",
+          "score": 1.2399660348892212,
+          "threshold": 1.4241455793380737,
+          "defect": false,
+          "margin": -0.18417954444885254,
+          "heatmap": "heatmaps/good_004.png",
+          "score_ms": 155.5,
+          "heat_max": 1.1974050998687744,
+          "heat_argmax_xy": [
+            114,
+            161
+          ]
+        },
+        {
+          "file": "good_005.png",
+          "score": 1.3436790704727173,
+          "threshold": 1.4241455793380737,
+          "defect": false,
+          "margin": -0.08046650886535645,
+          "heatmap": "heatmaps/good_005.png",
+          "score_ms": 142.2,
+          "heat_max": 1.2451012134552002,
+          "heat_argmax_xy": [
+            238,
+            14
+          ]
+        },
+        {
+          "file": "good_006.png",
+          "score": 1.2853477001190186,
+          "threshold": 1.4241455793380737,
+          "defect": false,
+          "margin": -0.13879787921905518,
+          "heatmap": "heatmaps/good_006.png",
+          "score_ms": 111.4,
+          "heat_max": 1.2214173078536987,
+          "heat_argmax_xy": [
+            150,
+            234
+          ]
+        },
+        {
+          "file": "good_007.png",
+          "score": 1.3886244297027588,
+          "threshold": 1.4241455793380737,
+          "defect": false,
+          "margin": -0.03552114963531494,
+          "heatmap": "heatmaps/good_007.png",
+          "score_ms": 129.6,
+          "heat_max": 1.3578606843948364,
+          "heat_argmax_xy": [
+            52,
+            104
+          ]
+        },
+        {
+          "file": "good_008.png",
+          "score": 1.3375256061553955,
+          "threshold": 1.4241455793380737,
+          "defect": false,
+          "margin": -0.08661997318267822,
+          "heatmap": "heatmaps/good_008.png",
+          "score_ms": 158.7,
+          "heat_max": 1.2767305374145508,
+          "heat_argmax_xy": [
+            236,
+            236
+          ]
+        },
+        {
+          "file": "good_009.png",
+          "score": 1.2515615224838257,
+          "threshold": 1.4241455793380737,
+          "defect": false,
+          "margin": -0.17258405685424805,
+          "heatmap": "heatmaps/good_009.png",
+          "score_ms": 169.8,
+          "heat_max": 1.1977496147155762,
+          "heat_argmax_xy": [
+            206,
+            199
+          ]
+        },
+        {
+          "file": "good_010.png",
+          "score": 1.2248538732528687,
+          "threshold": 1.4241455793380737,
+          "defect": false,
+          "margin": -0.19929170608520508,
+          "heatmap": "heatmaps/good_010.png",
+          "score_ms": 156.2,
+          "heat_max": 1.1505917310714722,
+          "heat_argmax_xy": [
+            238,
+            14
+          ]
+        },
+        {
+          "file": "good_011.png",
+          "score": 1.260753870010376,
+          "threshold": 1.4241455793380737,
+          "defect": false,
+          "margin": -0.16339170932769775,
+          "heatmap": "heatmaps/good_011.png",
+          "score_ms": 159.8,
+          "heat_max": 1.1798069477081299,
+          "heat_argmax_xy": [
+            237,
+            237
+          ]
+        },
+        {
+          "file": "good_012.png",
+          "score": 1.3828179836273193,
+          "threshold": 1.4241455793380737,
+          "defect": false,
+          "margin": -0.041327595710754395,
+          "heatmap": "heatmaps/good_012.png",
+          "score_ms": 147.8,
+          "heat_max": 1.271742582321167,
+          "heat_argmax_xy": [
+            29,
+            101
+          ]
+        },
+        {
+          "file": "good_013.png",
+          "score": 1.2796233892440796,
+          "threshold": 1.4241455793380737,
+          "defect": false,
+          "margin": -0.14452219009399414,
+          "heatmap": "heatmaps/good_013.png",
+          "score_ms": 144.8,
+          "heat_max": 1.2310734987258911,
+          "heat_argmax_xy": [
+            52,
+            46
+          ]
+        },
+        {
+          "file": "good_014.png",
+          "score": 1.3564196825027466,
+          "threshold": 1.4241455793380737,
+          "defect": false,
+          "margin": -0.06772589683532715,
+          "heatmap": "heatmaps/good_014.png",
+          "score_ms": 106.0,
+          "heat_max": 1.2206248044967651,
+          "heat_argmax_xy": [
+            59,
+            188
+          ]
+        },
+        {
+          "file": "good_015.png",
+          "score": 1.408115029335022,
+          "threshold": 1.4241455793380737,
+          "defect": false,
+          "margin": -0.016030550003051758,
+          "heatmap": "heatmaps/good_015.png",
+          "score_ms": 141.5,
+          "heat_max": 1.2984325885772705,
+          "heat_argmax_xy": [
+            237,
+            14
+          ]
+        },
+        {
+          "file": "good_016.png",
+          "score": 1.3718433380126953,
+          "threshold": 1.4241455793380737,
+          "defect": false,
+          "margin": -0.05230224132537842,
+          "heatmap": "heatmaps/good_016.png",
+          "score_ms": 108.9,
+          "heat_max": 1.2942646741867065,
+          "heat_argmax_xy": [
+            239,
+            87
+          ]
+        },
+        {
+          "file": "good_017.png",
+          "score": 1.3515667915344238,
+          "threshold": 1.4241455793380737,
+          "defect": false,
+          "margin": -0.0725787878036499,
+          "heatmap": "heatmaps/good_017.png",
+          "score_ms": 121.6,
+          "heat_max": 1.2800837755203247,
+          "heat_argmax_xy": [
+            235,
+            16
+          ]
+        },
+        {
+          "file": "good_018.png",
+          "score": 1.3327898979187012,
+          "threshold": 1.4241455793380737,
+          "defect": false,
+          "margin": -0.09135568141937256,
+          "heatmap": "heatmaps/good_018.png",
+          "score_ms": 121.6,
+          "heat_max": 1.2490785121917725,
+          "heat_argmax_xy": [
+            222,
+            12
+          ]
+        },
+        {
+          "file": "good_019.png",
+          "score": 1.31643807888031,
+          "threshold": 1.4241455793380737,
+          "defect": false,
+          "margin": -0.10770750045776367,
+          "heatmap": "heatmaps/good_019.png",
+          "score_ms": 169.2,
+          "heat_max": 1.255871295928955,
+          "heat_argmax_xy": [
+            115,
+            95
+          ]
+        },
+        {
+          "file": "scratch_000.png",
+          "score": 2.552694320678711,
+          "threshold": 1.4241455793380737,
+          "defect": true,
+          "margin": 1.1285487413406372,
+          "heatmap": "heatmaps/scratch_000.png",
+          "score_ms": 165.5,
+          "heat_max": 2.3809196949005127,
+          "heat_argmax_xy": [
+            13,
+            91
+          ]
+        },
+        {
+          "file": "scratch_001.png",
+          "score": 3.4905426502227783,
+          "threshold": 1.4241455793380737,
+          "defect": true,
+          "margin": 2.0663970708847046,
+          "heatmap": "heatmaps/scratch_001.png",
+          "score_ms": 109.6,
+          "heat_max": 3.3086440563201904,
+          "heat_argmax_xy": [
+            170,
+            160
+          ]
+        },
+        {
+          "file": "scratch_002.png",
+          "score": 3.9443740844726562,
+          "threshold": 1.4241455793380737,
+          "defect": true,
+          "margin": 2.5202285051345825,
+          "heatmap": "heatmaps/scratch_002.png",
+          "score_ms": 171.6,
+          "heat_max": 3.6859335899353027,
+          "heat_argmax_xy": [
+            175,
+            165
+          ]
+        },
+        {
+          "file": "scratch_003.png",
+          "score": 3.4937832355499268,
+          "threshold": 1.4241455793380737,
+          "defect": true,
+          "margin": 2.069637656211853,
+          "heatmap": "heatmaps/scratch_003.png",
+          "score_ms": 139.9,
+          "heat_max": 3.3843836784362793,
+          "heat_argmax_xy": [
+            156,
+            92
+          ]
+        },
+        {
+          "file": "scratch_004.png",
+          "score": 3.985966205596924,
+          "threshold": 1.4241455793380737,
+          "defect": true,
+          "margin": 2.56182062625885,
+          "heatmap": "heatmaps/scratch_004.png",
+          "score_ms": 125.7,
+          "heat_max": 3.702486991882324,
+          "heat_argmax_xy": [
+            98,
+            239
+          ]
+        },
+        {
+          "file": "scratch_005.png",
+          "score": 3.0611469745635986,
+          "threshold": 1.4241455793380737,
+          "defect": true,
+          "margin": 1.637001395225525,
+          "heatmap": "heatmaps/scratch_005.png",
+          "score_ms": 158.1,
+          "heat_max": 2.9462687969207764,
+          "heat_argmax_xy": [
+            218,
+            168
+          ]
+        },
+        {
+          "file": "scratch_006.png",
+          "score": 3.919095754623413,
+          "threshold": 1.4241455793380737,
+          "defect": true,
+          "margin": 2.4949501752853394,
+          "heatmap": "heatmaps/scratch_006.png",
+          "score_ms": 110.4,
+          "heat_max": 3.700578451156616,
+          "heat_argmax_xy": [
+            145,
+            71
+          ]
+        },
+        {
+          "file": "scratch_007.png",
+          "score": 4.116415023803711,
+          "threshold": 1.4241455793380737,
+          "defect": true,
+          "margin": 2.692269444465637,
+          "heatmap": "heatmaps/scratch_007.png",
+          "score_ms": 124.2,
+          "heat_max": 3.906806707382202,
+          "heat_argmax_xy": [
+            23,
+            124
+          ]
+        },
+        {
+          "file": "dent_000.png",
+          "score": 2.5039169788360596,
+          "threshold": 1.4241455793380737,
+          "defect": true,
+          "margin": 1.0797713994979858,
+          "heatmap": "heatmaps/dent_000.png",
+          "score_ms": 148.0,
+          "heat_max": 2.4032225608825684,
+          "heat_argmax_xy": [
+            198,
+            224
+          ]
+        },
+        {
+          "file": "dent_001.png",
+          "score": 1.885387897491455,
+          "threshold": 1.4241455793380737,
+          "defect": true,
+          "margin": 0.46124231815338135,
+          "heatmap": "heatmaps/dent_001.png",
+          "score_ms": 125.9,
+          "heat_max": 1.7904415130615234,
+          "heat_argmax_xy": [
+            199,
+            194
+          ]
+        },
+        {
+          "file": "dent_002.png",
+          "score": 2.618086576461792,
+          "threshold": 1.4241455793380737,
+          "defect": true,
+          "margin": 1.1939409971237183,
+          "heatmap": "heatmaps/dent_002.png",
+          "score_ms": 149.6,
+          "heat_max": 2.4794845581054688,
+          "heat_argmax_xy": [
+            77,
+            189
+          ]
+        },
+        {
+          "file": "dent_003.png",
+          "score": 3.0087318420410156,
+          "threshold": 1.4241455793380737,
+          "defect": true,
+          "margin": 1.584586262702942,
+          "heatmap": "heatmaps/dent_003.png",
+          "score_ms": 140.3,
+          "heat_max": 2.7518703937530518,
+          "heat_argmax_xy": [
+            113,
+            105
+          ]
+        },
+        {
+          "file": "dent_004.png",
+          "score": 3.394366502761841,
+          "threshold": 1.4241455793380737,
+          "defect": true,
+          "margin": 1.970220923423767,
+          "heatmap": "heatmaps/dent_004.png",
+          "score_ms": 120.2,
+          "heat_max": 3.2123358249664307,
+          "heat_argmax_xy": [
+            91,
+            50
+          ]
+        },
+        {
+          "file": "dent_005.png",
+          "score": 2.633788824081421,
+          "threshold": 1.4241455793380737,
+          "defect": true,
+          "margin": 1.2096432447433472,
+          "heatmap": "heatmaps/dent_005.png",
+          "score_ms": 191.2,
+          "heat_max": 2.5108962059020996,
+          "heat_argmax_xy": [
+            133,
+            77
+          ]
+        },
+        {
+          "file": "dent_006.png",
+          "score": 3.2479159832000732,
+          "threshold": 1.4241455793380737,
+          "defect": true,
+          "margin": 1.8237704038619995,
+          "heatmap": "heatmaps/dent_006.png",
+          "score_ms": 109.6,
+          "heat_max": 3.128890037536621,
+          "heat_argmax_xy": [
+            129,
+            137
+          ]
+        },
+        {
+          "file": "dent_007.png",
+          "score": 2.890655279159546,
+          "threshold": 1.4241455793380737,
+          "defect": true,
+          "margin": 1.4665096998214722,
+          "heatmap": "heatmaps/dent_007.png",
+          "score_ms": 183.2,
+          "heat_max": 2.7739834785461426,
+          "heat_argmax_xy": [
+            34,
+            146
+          ]
+        },
+        {
+          "file": "stain_000.png",
+          "score": 4.358194351196289,
+          "threshold": 1.4241455793380737,
+          "defect": true,
+          "margin": 2.9340487718582153,
+          "heatmap": "heatmaps/stain_000.png",
+          "score_ms": 152.8,
+          "heat_max": 4.045168399810791,
+          "heat_argmax_xy": [
+            160,
+            158
+          ]
+        },
+        {
+          "file": "stain_001.png",
+          "score": 3.1448490619659424,
+          "threshold": 1.4241455793380737,
+          "defect": true,
+          "margin": 1.7207034826278687,
+          "heatmap": "heatmaps/stain_001.png",
+          "score_ms": 106.3,
+          "heat_max": 2.9673104286193848,
+          "heat_argmax_xy": [
+            199,
+            194
+          ]
+        },
+        {
+          "file": "stain_002.png",
+          "score": 3.8534834384918213,
+          "threshold": 1.4241455793380737,
+          "defect": true,
+          "margin": 2.4293378591537476,
+          "heatmap": "heatmaps/stain_002.png",
+          "score_ms": 175.2,
+          "heat_max": 3.573049306869507,
+          "heat_argmax_xy": [
+            142,
+            231
+          ]
+        },
+        {
+          "file": "stain_003.png",
+          "score": 3.1753056049346924,
+          "threshold": 1.4241455793380737,
+          "defect": true,
+          "margin": 1.7511600255966187,
+          "heatmap": "heatmaps/stain_003.png",
+          "score_ms": 125.2,
+          "heat_max": 2.909085988998413,
+          "heat_argmax_xy": [
+            185,
+            86
+          ]
+        },
+        {
+          "file": "stain_004.png",
+          "score": 3.69454026222229,
+          "threshold": 1.4241455793380737,
+          "defect": true,
+          "margin": 2.2703946828842163,
+          "heatmap": "heatmaps/stain_004.png",
+          "score_ms": 172.2,
+          "heat_max": 3.463386058807373,
+          "heat_argmax_xy": [
+            183,
+            77
+          ]
+        },
+        {
+          "file": "stain_005.png",
+          "score": 3.6439273357391357,
+          "threshold": 1.4241455793380737,
+          "defect": true,
+          "margin": 2.219781756401062,
+          "heatmap": "heatmaps/stain_005.png",
+          "score_ms": 148.0,
+          "heat_max": 3.4829623699188232,
+          "heat_argmax_xy": [
+            170,
+            137
+          ]
+        },
+        {
+          "file": "stain_006.png",
+          "score": 3.2406387329101562,
+          "threshold": 1.4241455793380737,
+          "defect": true,
+          "margin": 1.8164931535720825,
+          "heatmap": "heatmaps/stain_006.png",
+          "score_ms": 182.7,
+          "heat_max": 3.1624608039855957,
+          "heat_argmax_xy": [
+            201,
+            80
+          ]
+        },
+        {
+          "file": "stain_007.png",
+          "score": 2.9350757598876953,
+          "threshold": 1.4241455793380737,
+          "defect": true,
+          "margin": 1.5109301805496216,
+          "heatmap": "heatmaps/stain_007.png",
+          "score_ms": 113.7,
+          "heat_max": 2.8153648376464844,
+          "heat_argmax_xy": [
+            206,
+            192
+          ]
+        },
+        {
+          "file": "missing_hole_000.png",
+          "score": 1.7263362407684326,
+          "threshold": 1.4241455793380737,
+          "defect": true,
+          "margin": 0.3021906614303589,
+          "heatmap": "heatmaps/missing_hole_000.png",
+          "score_ms": 122.2,
+          "heat_max": 1.684523105621338,
+          "heat_argmax_xy": [
+            70,
+            201
+          ]
+        },
+        {
+          "file": "missing_hole_001.png",
+          "score": 2.34335994720459,
+          "threshold": 1.4241455793380737,
+          "defect": true,
+          "margin": 0.9192143678665161,
+          "heatmap": "heatmaps/missing_hole_001.png",
+          "score_ms": 159.7,
+          "heat_max": 2.2595877647399902,
+          "heat_argmax_xy": [
+            202,
+            52
+          ]
+        },
+        {
+          "file": "missing_hole_002.png",
+          "score": 2.1481921672821045,
+          "threshold": 1.4241455793380737,
+          "defect": true,
+          "margin": 0.7240465879440308,
+          "heatmap": "heatmaps/missing_hole_002.png",
+          "score_ms": 189.6,
+          "heat_max": 2.0684008598327637,
+          "heat_argmax_xy": [
+            202,
+            202
+          ]
+        },
+        {
+          "file": "missing_hole_003.png",
+          "score": 1.7350982427597046,
+          "threshold": 1.4241455793380737,
+          "defect": true,
+          "margin": 0.31095266342163086,
+          "heatmap": "heatmaps/missing_hole_003.png",
+          "score_ms": 138.4,
+          "heat_max": 1.6731606721878052,
+          "heat_argmax_xy": [
+            60,
+            202
+          ]
+        },
+        {
+          "file": "missing_hole_004.png",
+          "score": 2.191972255706787,
+          "threshold": 1.4241455793380737,
+          "defect": true,
+          "margin": 0.7678266763687134,
+          "heatmap": "heatmaps/missing_hole_004.png",
+          "score_ms": 177.8,
+          "heat_max": 2.082597255706787,
+          "heat_argmax_xy": [
+            60,
+            53
+          ]
+        },
+        {
+          "file": "missing_hole_005.png",
+          "score": 1.6720786094665527,
+          "threshold": 1.4241455793380737,
+          "defect": true,
+          "margin": 0.247933030128479,
+          "heatmap": "heatmaps/missing_hole_005.png",
+          "score_ms": 144.0,
+          "heat_max": 1.6169061660766602,
+          "heat_argmax_xy": [
+            59,
+            52
+          ]
+        },
+        {
+          "file": "missing_hole_006.png",
+          "score": 2.0907180309295654,
+          "threshold": 1.4241455793380737,
+          "defect": true,
+          "margin": 0.6665724515914917,
+          "heatmap": "heatmaps/missing_hole_006.png",
+          "score_ms": 99.4,
+          "heat_max": 2.007680892944336,
+          "heat_argmax_xy": [
+            196,
+            59
+          ]
+        },
+        {
+          "file": "missing_hole_007.png",
+          "score": 3.111797571182251,
+          "threshold": 1.4241455793380737,
+          "defect": true,
+          "margin": 1.6876519918441772,
+          "heatmap": "heatmaps/missing_hole_007.png",
+          "score_ms": 121.1,
+          "heat_max": 3.0044825077056885,
+          "heat_argmax_xy": [
+            199,
+            203
+          ]
+        }
+      ]
+    },
+    "cap": {
+      "train_good": 60,
+      "calibration_good": 20,
+      "test": {
+        "good": 20,
+        "defective": 24
+      },
+      "bank_patches": 4704,
+      "fit_seconds": 100.5,
+      "calibration": {
+        "good_images": 20,
+        "target_false_alarm": 0.05,
+        "threshold": 1.2287594079971313,
+        "good_score_median": 1.1044301390647888,
+        "good_score_max": 1.2603498697280884
+      },
+      "threshold": 1.2287594079971313,
+      "image_auroc": 0.9666666666666667,
+      "pixel_auroc": 0.9961940835318976,
+      "at_threshold": {
+        "threshold": 1.2287594079971313,
+        "true_positive": 23,
+        "false_positive": 0,
+        "false_negative": 1,
+        "true_negative": 20,
+        "precision": 1.0,
+        "recall": 0.9583,
+        "f1": 0.9787,
+        "false_positive_rate": 0.0
+      },
+      "per_defect": {
+        "scratch": {
+          "count": 8,
+          "caught": 8,
+          "mean_score": 2.9851696491241455
+        },
+        "chip": {
+          "count": 8,
+          "caught": 8,
+          "mean_score": 2.9880383014678955
+        },
+        "stain": {
+          "count": 8,
+          "caught": 7,
+          "mean_score": 3.505647823214531
+        }
+      },
+      "histogram_svg": "<svg xmlns='http://www.w3.org/2000/svg' width='520' height='200' viewBox='0 0 520 200' style='background:#fff;border:1px solid #e2e8f0'><rect x='40.0' y='20.0' width='7.7' height='150.0' fill='#16a34a' opacity='0.8'/><rect x='47.7' y='158.5' width='7.7' height='11.5' fill='#dc2626' opacity='0.8'/><rect x='55.3' y='89.2' width='7.7' height='80.8' fill='#16a34a' opacity='0.8'/><rect x='63.0' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='70.7' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='78.3' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='86.0' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='93.7' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='101.3' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='109.0' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='116.7' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='124.3' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='132.0' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='139.7' y='158.5' width='7.7' height='11.5' fill='#dc2626' opacity='0.8'/><rect x='147.3' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='155.0' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='162.7' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='170.3' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='178.0' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='185.7' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='193.3' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='201.0' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='208.7' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='216.3' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='224.0' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='231.7' y='146.9' width='7.7' height='23.1' fill='#dc2626' opacity='0.8'/><rect x='239.3' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='247.0' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='254.7' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='262.3' y='146.9' width='7.7' height='23.1' fill='#dc2626' opacity='0.8'/><rect x='270.0' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='277.7' y='135.4' width='7.7' height='34.6' fill='#dc2626' opacity='0.8'/><rect x='285.3' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='293.0' y='158.5' width='7.7' height='11.5' fill='#dc2626' opacity='0.8'/><rect x='300.7' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='308.3' y='135.4' width='7.7' height='34.6' fill='#dc2626' opacity='0.8'/><rect x='316.0' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='323.7' y='135.4' width='7.7' height='34.6' fill='#dc2626' opacity='0.8'/><rect x='331.3' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='339.0' y='146.9' width='7.7' height='23.1' fill='#dc2626' opacity='0.8'/><rect x='346.7' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='354.3' y='146.9' width='7.7' height='23.1' fill='#dc2626' opacity='0.8'/><rect x='362.0' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='369.7' y='158.5' width='7.7' height='11.5' fill='#dc2626' opacity='0.8'/><rect x='377.3' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='385.0' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='392.7' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='400.3' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='408.0' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='415.7' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='423.3' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='431.0' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='438.7' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='446.3' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='454.0' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='461.7' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='469.3' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='477.0' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='484.7' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='492.3' y='135.4' width='7.7' height='34.6' fill='#dc2626' opacity='0.8'/><line x1='66.6' y1='20' x2='66.6' y2='170' stroke='#111' stroke-width='2' stroke-dasharray='4 3'/><text x='70.6' y='32' font-size='11' fill='#111'>threshold 1.229</text><text x='40' y='192' font-size='11' fill='#64748b'>1.02</text><text x='470' y='192' font-size='11' fill='#64748b'>4.66</text><text x='90' y='192' font-size='11' fill='#16a34a'>good</text><text x='130' y='192' font-size='11' fill='#dc2626'>defective</text></svg>",
+      "records": [
+        {
+          "file": "good_000.png",
+          "score": 1.132826805114746,
+          "threshold": 1.2287594079971313,
+          "defect": false,
+          "margin": -0.09593260288238525,
+          "heatmap": "heatmaps/good_000.png",
+          "score_ms": 146.6,
+          "heat_max": 1.0886896848678589,
+          "heat_argmax_xy": [
+            236,
+            90
+          ]
+        },
+        {
+          "file": "good_001.png",
+          "score": 1.111079216003418,
+          "threshold": 1.2287594079971313,
+          "defect": false,
+          "margin": -0.11768019199371338,
+          "heatmap": "heatmaps/good_001.png",
+          "score_ms": 140.6,
+          "heat_max": 1.0285381078720093,
+          "heat_argmax_xy": [
+            42,
+            13
+          ]
+        },
+        {
+          "file": "good_002.png",
+          "score": 1.1976033449172974,
+          "threshold": 1.2287594079971313,
+          "defect": false,
+          "margin": -0.031156063079833984,
+          "heatmap": "heatmaps/good_002.png",
+          "score_ms": 127.6,
+          "heat_max": 1.0878053903579712,
+          "heat_argmax_xy": [
+            125,
+            17
+          ]
+        },
+        {
+          "file": "good_003.png",
+          "score": 1.2158513069152832,
+          "threshold": 1.2287594079971313,
+          "defect": false,
+          "margin": -0.012908101081848145,
+          "heatmap": "heatmaps/good_003.png",
+          "score_ms": 129.3,
+          "heat_max": 1.0716936588287354,
+          "heat_argmax_xy": [
+            43,
+            232
+          ]
+        },
+        {
+          "file": "good_004.png",
+          "score": 1.0859375,
+          "threshold": 1.2287594079971313,
+          "defect": false,
+          "margin": -0.14282190799713135,
+          "heatmap": "heatmaps/good_004.png",
+          "score_ms": 135.1,
+          "heat_max": 1.0279943943023682,
+          "heat_argmax_xy": [
+            31,
+            12
+          ]
+        },
+        {
+          "file": "good_005.png",
+          "score": 1.1045435667037964,
+          "threshold": 1.2287594079971313,
+          "defect": false,
+          "margin": -0.12421584129333496,
+          "heatmap": "heatmaps/good_005.png",
+          "score_ms": 107.0,
+          "heat_max": 1.0269914865493774,
+          "heat_argmax_xy": [
+            208,
+            118
+          ]
+        },
+        {
+          "file": "good_006.png",
+          "score": 1.0729929208755493,
+          "threshold": 1.2287594079971313,
+          "defect": false,
+          "margin": -0.15576648712158203,
+          "heatmap": "heatmaps/good_006.png",
+          "score_ms": 146.1,
+          "heat_max": 1.0057944059371948,
+          "heat_argmax_xy": [
+            235,
+            222
+          ]
+        },
+        {
+          "file": "good_007.png",
+          "score": 1.1100573539733887,
+          "threshold": 1.2287594079971313,
+          "defect": false,
+          "margin": -0.11870205402374268,
+          "heatmap": "heatmaps/good_007.png",
+          "score_ms": 101.5,
+          "heat_max": 1.0419379472732544,
+          "heat_argmax_xy": [
+            17,
+            50
+          ]
+        },
+        {
+          "file": "good_008.png",
+          "score": 1.1429269313812256,
+          "threshold": 1.2287594079971313,
+          "defect": false,
+          "margin": -0.08583247661590576,
+          "heatmap": "heatmaps/good_008.png",
+          "score_ms": 133.1,
+          "heat_max": 1.0397595167160034,
+          "heat_argmax_xy": [
+            12,
+            12
+          ]
+        },
+        {
+          "file": "good_009.png",
+          "score": 1.0699506998062134,
+          "threshold": 1.2287594079971313,
+          "defect": false,
+          "margin": -0.15880870819091797,
+          "heatmap": "heatmaps/good_009.png",
+          "score_ms": 76.2,
+          "heat_max": 0.9564887285232544,
+          "heat_argmax_xy": [
+            138,
+            229
+          ]
+        },
+        {
+          "file": "good_010.png",
+          "score": 1.0180072784423828,
+          "threshold": 1.2287594079971313,
+          "defect": false,
+          "margin": -0.21075212955474854,
+          "heatmap": "heatmaps/good_010.png",
+          "score_ms": 69.6,
+          "heat_max": 0.9661391377449036,
+          "heat_argmax_xy": [
+            135,
+            234
+          ]
+        },
+        {
+          "file": "good_011.png",
+          "score": 1.1372857093811035,
+          "threshold": 1.2287594079971313,
+          "defect": false,
+          "margin": -0.09147369861602783,
+          "heatmap": "heatmaps/good_011.png",
+          "score_ms": 114.0,
+          "heat_max": 1.0723819732666016,
+          "heat_argmax_xy": [
+            18,
+            12
+          ]
+        },
+        {
+          "file": "good_012.png",
+          "score": 1.090428113937378,
+          "threshold": 1.2287594079971313,
+          "defect": false,
+          "margin": -0.13833129405975342,
+          "heatmap": "heatmaps/good_012.png",
+          "score_ms": 110.2,
+          "heat_max": 1.0012654066085815,
+          "heat_argmax_xy": [
+            17,
+            13
+          ]
+        },
+        {
+          "file": "good_013.png",
+          "score": 1.050252914428711,
+          "threshold": 1.2287594079971313,
+          "defect": false,
+          "margin": -0.1785064935684204,
+          "heatmap": "heatmaps/good_013.png",
+          "score_ms": 127.0,
+          "heat_max": 0.9959034323692322,
+          "heat_argmax_xy": [
+            211,
+            214
+          ]
+        },
+        {
+          "file": "good_014.png",
+          "score": 1.162357211112976,
+          "threshold": 1.2287594079971313,
+          "defect": false,
+          "margin": -0.06640219688415527,
+          "heatmap": "heatmaps/good_014.png",
+          "score_ms": 110.8,
+          "heat_max": 1.0733762979507446,
+          "heat_argmax_xy": [
+            47,
+            124
+          ]
+        },
+        {
+          "file": "good_015.png",
+          "score": 1.1600971221923828,
+          "threshold": 1.2287594079971313,
+          "defect": false,
+          "margin": -0.06866228580474854,
+          "heatmap": "heatmaps/good_015.png",
+          "score_ms": 135.2,
+          "heat_max": 1.064578652381897,
+          "heat_argmax_xy": [
+            124,
+            21
+          ]
+        },
+        {
+          "file": "good_016.png",
+          "score": 1.1983739137649536,
+          "threshold": 1.2287594079971313,
+          "defect": false,
+          "margin": -0.030385494232177734,
+          "heatmap": "heatmaps/good_016.png",
+          "score_ms": 82.8,
+          "heat_max": 1.1253798007965088,
+          "heat_argmax_xy": [
+            112,
+            210
+          ]
+        },
+        {
+          "file": "good_017.png",
+          "score": 1.1212009191513062,
+          "threshold": 1.2287594079971313,
+          "defect": false,
+          "margin": -0.1075584888458252,
+          "heatmap": "heatmaps/good_017.png",
+          "score_ms": 169.9,
+          "heat_max": 1.0670078992843628,
+          "heat_argmax_xy": [
+            80,
+            12
+          ]
+        },
+        {
+          "file": "good_018.png",
+          "score": 1.1417531967163086,
+          "threshold": 1.2287594079971313,
+          "defect": false,
+          "margin": -0.08700621128082275,
+          "heatmap": "heatmaps/good_018.png",
+          "score_ms": 117.0,
+          "heat_max": 1.0432499647140503,
+          "heat_argmax_xy": [
+            98,
+            14
+          ]
+        },
+        {
+          "file": "good_019.png",
+          "score": 1.0995105504989624,
+          "threshold": 1.2287594079971313,
+          "defect": false,
+          "margin": -0.12924885749816895,
+          "heatmap": "heatmaps/good_019.png",
+          "score_ms": 160.4,
+          "heat_max": 1.0025277137756348,
+          "heat_argmax_xy": [
+            225,
+            14
+          ]
+        },
+        {
+          "file": "scratch_000.png",
+          "score": 3.566845655441284,
+          "threshold": 1.2287594079971313,
+          "defect": true,
+          "margin": 2.338086247444153,
+          "heatmap": "heatmaps/scratch_000.png",
+          "score_ms": 77.3,
+          "heat_max": 3.3365261554718018,
+          "heat_argmax_xy": [
+            111,
+            128
+          ]
+        },
+        {
+          "file": "scratch_001.png",
+          "score": 2.7166290283203125,
+          "threshold": 1.2287594079971313,
+          "defect": true,
+          "margin": 1.4878696203231812,
+          "heatmap": "heatmaps/scratch_001.png",
+          "score_ms": 87.6,
+          "heat_max": 2.5803654193878174,
+          "heat_argmax_xy": [
+            77,
+            111
+          ]
+        },
+        {
+          "file": "scratch_002.png",
+          "score": 2.498884439468384,
+          "threshold": 1.2287594079971313,
+          "defect": true,
+          "margin": 1.2701250314712524,
+          "heatmap": "heatmaps/scratch_002.png",
+          "score_ms": 206.3,
+          "heat_max": 2.335193395614624,
+          "heat_argmax_xy": [
+            93,
+            185
+          ]
+        },
+        {
+          "file": "scratch_003.png",
+          "score": 2.955641984939575,
+          "threshold": 1.2287594079971313,
+          "defect": true,
+          "margin": 1.7268825769424438,
+          "heatmap": "heatmaps/scratch_003.png",
+          "score_ms": 98.7,
+          "heat_max": 2.8272271156311035,
+          "heat_argmax_xy": [
+            121,
+            115
+          ]
+        },
+        {
+          "file": "scratch_004.png",
+          "score": 3.5299694538116455,
+          "threshold": 1.2287594079971313,
+          "defect": true,
+          "margin": 2.301210045814514,
+          "heatmap": "heatmaps/scratch_004.png",
+          "score_ms": 105.8,
+          "heat_max": 3.345777750015259,
+          "heat_argmax_xy": [
+            126,
+            170
+          ]
+        },
+        {
+          "file": "scratch_005.png",
+          "score": 1.8359811305999756,
+          "threshold": 1.2287594079971313,
+          "defect": true,
+          "margin": 0.6072217226028442,
+          "heatmap": "heatmaps/scratch_005.png",
+          "score_ms": 223.3,
+          "heat_max": 1.744015097618103,
+          "heat_argmax_xy": [
+            155,
+            206
+          ]
+        },
+        {
+          "file": "scratch_006.png",
+          "score": 3.22646427154541,
+          "threshold": 1.2287594079971313,
+          "defect": true,
+          "margin": 1.9977048635482788,
+          "heatmap": "heatmaps/scratch_006.png",
+          "score_ms": 155.8,
+          "heat_max": 3.0476558208465576,
+          "heat_argmax_xy": [
+            169,
+            155
+          ]
+        },
+        {
+          "file": "scratch_007.png",
+          "score": 3.550941228866577,
+          "threshold": 1.2287594079971313,
+          "defect": true,
+          "margin": 2.322181820869446,
+          "heatmap": "heatmaps/scratch_007.png",
+          "score_ms": 174.4,
+          "heat_max": 3.3467323780059814,
+          "heat_argmax_xy": [
+            81,
+            136
+          ]
+        },
+        {
+          "file": "chip_000.png",
+          "score": 3.165787935256958,
+          "threshold": 1.2287594079971313,
+          "defect": true,
+          "margin": 1.9370285272598267,
+          "heatmap": "heatmaps/chip_000.png",
+          "score_ms": 95.7,
+          "heat_max": 2.982257604598999,
+          "heat_argmax_xy": [
+            86,
+            62
+          ]
+        },
+        {
+          "file": "chip_001.png",
+          "score": 2.9345006942749023,
+          "threshold": 1.2287594079971313,
+          "defect": true,
+          "margin": 1.705741286277771,
+          "heatmap": "heatmaps/chip_001.png",
+          "score_ms": 164.6,
+          "heat_max": 2.8141069412231445,
+          "heat_argmax_xy": [
+            209,
+            110
+          ]
+        },
+        {
+          "file": "chip_002.png",
+          "score": 2.8655612468719482,
+          "threshold": 1.2287594079971313,
+          "defect": true,
+          "margin": 1.636801838874817,
+          "heatmap": "heatmaps/chip_002.png",
+          "score_ms": 145.2,
+          "heat_max": 2.713517665863037,
+          "heat_argmax_xy": [
+            212,
+            106
+          ]
+        },
+        {
+          "file": "chip_003.png",
+          "score": 3.2983527183532715,
+          "threshold": 1.2287594079971313,
+          "defect": true,
+          "margin": 2.06959331035614,
+          "heatmap": "heatmaps/chip_003.png",
+          "score_ms": 92.6,
+          "heat_max": 3.111419200897217,
+          "heat_argmax_xy": [
+            88,
+            58
+          ]
+        },
+        {
+          "file": "chip_004.png",
+          "score": 3.151160955429077,
+          "threshold": 1.2287594079971313,
+          "defect": true,
+          "margin": 1.9224015474319458,
+          "heatmap": "heatmaps/chip_004.png",
+          "score_ms": 149.8,
+          "heat_max": 3.0172412395477295,
+          "heat_argmax_xy": [
+            123,
+            45
+          ]
+        },
+        {
+          "file": "chip_005.png",
+          "score": 2.5602877140045166,
+          "threshold": 1.2287594079971313,
+          "defect": true,
+          "margin": 1.3315283060073853,
+          "heatmap": "heatmaps/chip_005.png",
+          "score_ms": 218.5,
+          "heat_max": 2.43105149269104,
+          "heat_argmax_xy": [
+            218,
+            121
+          ]
+        },
+        {
+          "file": "chip_006.png",
+          "score": 3.1313717365264893,
+          "threshold": 1.2287594079971313,
+          "defect": true,
+          "margin": 1.902612328529358,
+          "heatmap": "heatmaps/chip_006.png",
+          "score_ms": 144.8,
+          "heat_max": 2.981706142425537,
+          "heat_argmax_xy": [
+            206,
+            145
+          ]
+        },
+        {
+          "file": "chip_007.png",
+          "score": 2.797283411026001,
+          "threshold": 1.2287594079971313,
+          "defect": true,
+          "margin": 1.5685240030288696,
+          "heatmap": "heatmaps/chip_007.png",
+          "score_ms": 109.4,
+          "heat_max": 2.6201486587524414,
+          "heat_argmax_xy": [
+            187,
+            185
+          ]
+        },
+        {
+          "file": "stain_000.png",
+          "score": 3.2743399143218994,
+          "threshold": 1.2287594079971313,
+          "defect": true,
+          "margin": 2.045580506324768,
+          "heatmap": "heatmaps/stain_000.png",
+          "score_ms": 144.4,
+          "heat_max": 3.0975887775421143,
+          "heat_argmax_xy": [
+            194,
+            150
+          ]
+        },
+        {
+          "file": "stain_001.png",
+          "score": 4.631836414337158,
+          "threshold": 1.2287594079971313,
+          "defect": true,
+          "margin": 3.403077006340027,
+          "heatmap": "heatmaps/stain_001.png",
+          "score_ms": 162.3,
+          "heat_max": 4.366265773773193,
+          "heat_argmax_xy": [
+            84,
+            154
+          ]
+        },
+        {
+          "file": "stain_002.png",
+          "score": 3.3956942558288574,
+          "threshold": 1.2287594079971313,
+          "defect": true,
+          "margin": 2.166934847831726,
+          "heatmap": "heatmaps/stain_002.png",
+          "score_ms": 135.0,
+          "heat_max": 3.1982686519622803,
+          "heat_argmax_xy": [
+            203,
+            151
+          ]
+        },
+        {
+          "file": "stain_003.png",
+          "score": 1.0855721235275269,
+          "threshold": 1.2287594079971313,
+          "defect": false,
+          "margin": -0.1431872844696045,
+          "heatmap": "heatmaps/stain_003.png",
+          "score_ms": 130.9,
+          "heat_max": 0.9924406409263611,
+          "heat_argmax_xy": [
+            199,
+            178
+          ]
+        },
+        {
+          "file": "stain_004.png",
+          "score": 3.3896899223327637,
+          "threshold": 1.2287594079971313,
+          "defect": true,
+          "margin": 2.1609305143356323,
+          "heatmap": "heatmaps/stain_004.png",
+          "score_ms": 185.1,
+          "heat_max": 3.2315516471862793,
+          "heat_argmax_xy": [
+            159,
+            181
+          ]
+        },
+        {
+          "file": "stain_005.png",
+          "score": 4.619770526885986,
+          "threshold": 1.2287594079971313,
+          "defect": true,
+          "margin": 3.391011118888855,
+          "heatmap": "heatmaps/stain_005.png",
+          "score_ms": 99.0,
+          "heat_max": 4.435239791870117,
+          "heat_argmax_xy": [
+            125,
+            137
+          ]
+        },
+        {
+          "file": "stain_006.png",
+          "score": 2.990450620651245,
+          "threshold": 1.2287594079971313,
+          "defect": true,
+          "margin": 1.7616912126541138,
+          "heatmap": "heatmaps/stain_006.png",
+          "score_ms": 91.3,
+          "heat_max": 2.8618290424346924,
+          "heat_argmax_xy": [
+            63,
+            125
+          ]
+        },
+        {
+          "file": "stain_007.png",
+          "score": 4.6578288078308105,
+          "threshold": 1.2287594079971313,
+          "defect": true,
+          "margin": 3.429069399833679,
+          "heatmap": "heatmaps/stain_007.png",
+          "score_ms": 126.8,
+          "heat_max": 4.386326789855957,
+          "heat_argmax_xy": [
+            118,
+            105
+          ]
+        }
+      ]
+    },
+    "tile": {
+      "train_good": 60,
+      "calibration_good": 20,
+      "test": {
+        "good": 20,
+        "defective": 24
+      },
+      "bank_patches": 4704,
+      "fit_seconds": 93.4,
+      "calibration": {
+        "good_images": 20,
+        "target_false_alarm": 0.05,
+        "threshold": 1.166082739830017,
+        "good_score_median": 0.926160603761673,
+        "good_score_max": 1.5416826009750366
+      },
+      "threshold": 1.166082739830017,
+      "image_auroc": 1.0,
+      "pixel_auroc": 0.9976427452794596,
+      "at_threshold": {
+        "threshold": 1.166082739830017,
+        "true_positive": 24,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 20,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "false_positive_rate": 0.0
+      },
+      "per_defect": {
+        "crack": {
+          "count": 8,
+          "caught": 8,
+          "mean_score": 3.3540837466716766
+        },
+        "stain": {
+          "count": 8,
+          "caught": 8,
+          "mean_score": 5.038528263568878
+        },
+        "dent": {
+          "count": 8,
+          "caught": 8,
+          "mean_score": 4.819350600242615
+        }
+      },
+      "histogram_svg": "<svg xmlns='http://www.w3.org/2000/svg' width='520' height='200' viewBox='0 0 520 200' style='background:#fff;border:1px solid #e2e8f0'><rect x='40.0' y='20.0' width='7.7' height='150.0' fill='#16a34a' opacity='0.8'/><rect x='47.7' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='55.3' y='120.0' width='7.7' height='50.0' fill='#16a34a' opacity='0.8'/><rect x='63.0' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='70.7' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='78.3' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='86.0' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='93.7' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='101.3' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='109.0' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='116.7' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='124.3' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='132.0' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='139.7' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='147.3' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='155.0' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='162.7' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='170.3' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='178.0' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='185.7' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='193.3' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='201.0' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='208.7' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='216.3' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='224.0' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='231.7' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='239.3' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='247.0' y='160.0' width='7.7' height='10.0' fill='#dc2626' opacity='0.8'/><rect x='254.7' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='262.3' y='140.0' width='7.7' height='30.0' fill='#dc2626' opacity='0.8'/><rect x='270.0' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='277.7' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='285.3' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='293.0' y='150.0' width='7.7' height='20.0' fill='#dc2626' opacity='0.8'/><rect x='300.7' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='308.3' y='150.0' width='7.7' height='20.0' fill='#dc2626' opacity='0.8'/><rect x='316.0' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='323.7' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='331.3' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='339.0' y='160.0' width='7.7' height='10.0' fill='#dc2626' opacity='0.8'/><rect x='346.7' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='354.3' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='362.0' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='369.7' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='377.3' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='385.0' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='392.7' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='400.3' y='140.0' width='7.7' height='30.0' fill='#dc2626' opacity='0.8'/><rect x='408.0' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='415.7' y='150.0' width='7.7' height='20.0' fill='#dc2626' opacity='0.8'/><rect x='423.3' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='431.0' y='160.0' width='7.7' height='10.0' fill='#dc2626' opacity='0.8'/><rect x='438.7' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='446.3' y='110.0' width='7.7' height='60.0' fill='#dc2626' opacity='0.8'/><rect x='454.0' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='461.7' y='150.0' width='7.7' height='20.0' fill='#dc2626' opacity='0.8'/><rect x='469.3' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='477.0' y='170.0' width='7.7' height='0.0' fill='#dc2626' opacity='0.8'/><rect x='484.7' y='170.0' width='7.7' height='0.0' fill='#16a34a' opacity='0.8'/><rect x='492.3' y='160.0' width='7.7' height='10.0' fill='#dc2626' opacity='0.8'/><line x1='74.1' y1='20' x2='74.1' y2='170' stroke='#111' stroke-width='2' stroke-dasharray='4 3'/><text x='78.1' y='32' font-size='11' fill='#111'>threshold 1.166</text><text x='40' y='192' font-size='11' fill='#64748b'>0.81</text><text x='470' y='192' font-size='11' fill='#64748b'>5.65</text><text x='90' y='192' font-size='11' fill='#16a34a'>good</text><text x='130' y='192' font-size='11' fill='#dc2626'>defective</text></svg>",
+      "records": [
+        {
+          "file": "good_000.png",
+          "score": 0.861483097076416,
+          "threshold": 1.166082739830017,
+          "defect": false,
+          "margin": -0.3045996427536011,
+          "heatmap": "heatmaps/good_000.png",
+          "score_ms": 102.2,
+          "heat_max": 0.7557270526885986,
+          "heat_argmax_xy": [
+            213,
+            53
+          ]
+        },
+        {
+          "file": "good_001.png",
+          "score": 0.9172266721725464,
+          "threshold": 1.166082739830017,
+          "defect": false,
+          "margin": -0.2488560676574707,
+          "heatmap": "heatmaps/good_001.png",
+          "score_ms": 167.3,
+          "heat_max": 0.8872048854827881,
+          "heat_argmax_xy": [
+            229,
+            238
+          ]
+        },
+        {
+          "file": "good_002.png",
+          "score": 0.8067623972892761,
+          "threshold": 1.166082739830017,
+          "defect": false,
+          "margin": -0.35932034254074097,
+          "heatmap": "heatmaps/good_002.png",
+          "score_ms": 102.7,
+          "heat_max": 0.7065015435218811,
+          "heat_argmax_xy": [
+            202,
+            44
+          ]
+        },
+        {
+          "file": "good_003.png",
+          "score": 0.9079510569572449,
+          "threshold": 1.166082739830017,
+          "defect": false,
+          "margin": -0.2581316828727722,
+          "heatmap": "heatmaps/good_003.png",
+          "score_ms": 130.8,
+          "heat_max": 0.8433698415756226,
+          "heat_argmax_xy": [
+            16,
+            51
+          ]
+        },
+        {
+          "file": "good_004.png",
+          "score": 0.8434267044067383,
+          "threshold": 1.166082739830017,
+          "defect": false,
+          "margin": -0.3226560354232788,
+          "heatmap": "heatmaps/good_004.png",
+          "score_ms": 144.0,
+          "heat_max": 0.7782622575759888,
+          "heat_argmax_xy": [
+            195,
+            50
+          ]
+        },
+        {
+          "file": "good_005.png",
+          "score": 0.9680941700935364,
+          "threshold": 1.166082739830017,
+          "defect": false,
+          "margin": -0.1979885697364807,
+          "heatmap": "heatmaps/good_005.png",
+          "score_ms": 166.0,
+          "heat_max": 0.915229082107544,
+          "heat_argmax_xy": [
+            63,
+            234
+          ]
+        },
+        {
+          "file": "good_006.png",
+          "score": 0.9134780168533325,
+          "threshold": 1.166082739830017,
+          "defect": false,
+          "margin": -0.25260472297668457,
+          "heatmap": "heatmaps/good_006.png",
+          "score_ms": 152.2,
+          "heat_max": 0.8132864236831665,
+          "heat_argmax_xy": [
+            231,
+            15
+          ]
+        },
+        {
+          "file": "good_007.png",
+          "score": 0.8164436221122742,
+          "threshold": 1.166082739830017,
+          "defect": false,
+          "margin": -0.3496391177177429,
+          "heatmap": "heatmaps/good_007.png",
+          "score_ms": 167.8,
+          "heat_max": 0.7437604069709778,
+          "heat_argmax_xy": [
+            93,
+            183
+          ]
+        },
+        {
+          "file": "good_008.png",
+          "score": 0.8257354497909546,
+          "threshold": 1.166082739830017,
+          "defect": false,
+          "margin": -0.3403472900390625,
+          "heatmap": "heatmaps/good_008.png",
+          "score_ms": 166.5,
+          "heat_max": 0.7625365257263184,
+          "heat_argmax_xy": [
+            15,
+            135
+          ]
+        },
+        {
+          "file": "good_009.png",
+          "score": 0.8549245595932007,
+          "threshold": 1.166082739830017,
+          "defect": false,
+          "margin": -0.3111581802368164,
+          "heatmap": "heatmaps/good_009.png",
+          "score_ms": 156.7,
+          "heat_max": 0.7799615263938904,
+          "heat_argmax_xy": [
+            103,
+            212
+          ]
+        },
+        {
+          "file": "good_010.png",
+          "score": 0.8898622989654541,
+          "threshold": 1.166082739830017,
+          "defect": false,
+          "margin": -0.276220440864563,
+          "heatmap": "heatmaps/good_010.png",
+          "score_ms": 125.4,
+          "heat_max": 0.7431383728981018,
+          "heat_argmax_xy": [
+            38,
+            45
+          ]
+        },
+        {
+          "file": "good_011.png",
+          "score": 0.8378382921218872,
+          "threshold": 1.166082739830017,
+          "defect": false,
+          "margin": -0.3282444477081299,
+          "heatmap": "heatmaps/good_011.png",
+          "score_ms": 107.7,
+          "heat_max": 0.7678039073944092,
+          "heat_argmax_xy": [
+            141,
+            16
+          ]
+        },
+        {
+          "file": "good_012.png",
+          "score": 0.8261764645576477,
+          "threshold": 1.166082739830017,
+          "defect": false,
+          "margin": -0.3399062752723694,
+          "heatmap": "heatmaps/good_012.png",
+          "score_ms": 159.7,
+          "heat_max": 0.771105945110321,
+          "heat_argmax_xy": [
+            14,
+            71
+          ]
+        },
+        {
+          "file": "good_013.png",
+          "score": 1.0765634775161743,
+          "threshold": 1.166082739830017,
+          "defect": false,
+          "margin": -0.08951926231384277,
+          "heatmap": "heatmaps/good_013.png",
+          "score_ms": 126.9,
+          "heat_max": 0.9546842575073242,
+          "heat_argmax_xy": [
+            14,
+            239
+          ]
+        },
+        {
+          "file": "good_014.png",
+          "score": 0.9972764253616333,
+          "threshold": 1.166082739830017,
+          "defect": false,
+          "margin": -0.1688063144683838,
+          "heatmap": "heatmaps/good_014.png",
+          "score_ms": 80.4,
+          "heat_max": 0.9084759950637817,
+          "heat_argmax_xy": [
+            186,
+            223
+          ]
+        },
+        {
+          "file": "good_015.png",
+          "score": 0.8390848636627197,
+          "threshold": 1.166082739830017,
+          "defect": false,
+          "margin": -0.32699787616729736,
+          "heatmap": "heatmaps/good_015.png",
+          "score_ms": 92.2,
+          "heat_max": 0.7933596968650818,
+          "heat_argmax_xy": [
+            214,
+            209
+          ]
+        },
+        {
+          "file": "good_016.png",
+          "score": 0.9934861660003662,
+          "threshold": 1.166082739830017,
+          "defect": false,
+          "margin": -0.17259657382965088,
+          "heatmap": "heatmaps/good_016.png",
+          "score_ms": 105.2,
+          "heat_max": 0.9317569136619568,
+          "heat_argmax_xy": [
+            16,
+            14
+          ]
+        },
+        {
+          "file": "good_017.png",
+          "score": 1.0124104022979736,
+          "threshold": 1.166082739830017,
+          "defect": false,
+          "margin": -0.15367233753204346,
+          "heatmap": "heatmaps/good_017.png",
+          "score_ms": 95.7,
+          "heat_max": 0.9515807628631592,
+          "heat_argmax_xy": [
+            23,
+            195
+          ]
+        },
+        {
+          "file": "good_018.png",
+          "score": 0.8174265623092651,
+          "threshold": 1.166082739830017,
+          "defect": false,
+          "margin": -0.34865617752075195,
+          "heatmap": "heatmaps/good_018.png",
+          "score_ms": 99.3,
+          "heat_max": 0.7729279398918152,
+          "heat_argmax_xy": [
+            148,
+            236
+          ]
+        },
+        {
+          "file": "good_019.png",
+          "score": 1.0075721740722656,
+          "threshold": 1.166082739830017,
+          "defect": false,
+          "margin": -0.15851056575775146,
+          "heatmap": "heatmaps/good_019.png",
+          "score_ms": 200.2,
+          "heat_max": 0.9490962624549866,
+          "heat_argmax_xy": [
+            90,
+            238
+          ]
+        },
+        {
+          "file": "crack_000.png",
+          "score": 3.4692039489746094,
+          "threshold": 1.166082739830017,
+          "defect": true,
+          "margin": 2.3031212091445923,
+          "heatmap": "heatmaps/crack_000.png",
+          "score_ms": 136.3,
+          "heat_max": 3.346513509750366,
+          "heat_argmax_xy": [
+            235,
+            202
+          ]
+        },
+        {
+          "file": "crack_001.png",
+          "score": 3.1714320182800293,
+          "threshold": 1.166082739830017,
+          "defect": true,
+          "margin": 2.005349278450012,
+          "heatmap": "heatmaps/crack_001.png",
+          "score_ms": 113.6,
+          "heat_max": 2.917675018310547,
+          "heat_argmax_xy": [
+            81,
+            122
+          ]
+        },
+        {
+          "file": "crack_002.png",
+          "score": 3.6530182361602783,
+          "threshold": 1.166082739830017,
+          "defect": true,
+          "margin": 2.4869354963302612,
+          "heatmap": "heatmaps/crack_002.png",
+          "score_ms": 88.1,
+          "heat_max": 3.4464118480682373,
+          "heat_argmax_xy": [
+            63,
+            179
+          ]
+        },
+        {
+          "file": "crack_003.png",
+          "score": 3.0518786907196045,
+          "threshold": 1.166082739830017,
+          "defect": true,
+          "margin": 1.8857959508895874,
+          "heatmap": "heatmaps/crack_003.png",
+          "score_ms": 158.2,
+          "heat_max": 2.9662554264068604,
+          "heat_argmax_xy": [
+            139,
+            139
+          ]
+        },
+        {
+          "file": "crack_004.png",
+          "score": 3.1370737552642822,
+          "threshold": 1.166082739830017,
+          "defect": true,
+          "margin": 1.9709910154342651,
+          "heatmap": "heatmaps/crack_004.png",
+          "score_ms": 107.5,
+          "heat_max": 3.0136125087738037,
+          "heat_argmax_xy": [
+            43,
+            101
+          ]
+        },
+        {
+          "file": "crack_005.png",
+          "score": 3.5023393630981445,
+          "threshold": 1.166082739830017,
+          "defect": true,
+          "margin": 2.3362566232681274,
+          "heatmap": "heatmaps/crack_005.png",
+          "score_ms": 107.8,
+          "heat_max": 3.259974241256714,
+          "heat_argmax_xy": [
+            142,
+            111
+          ]
+        },
+        {
+          "file": "crack_006.png",
+          "score": 3.2135813236236572,
+          "threshold": 1.166082739830017,
+          "defect": true,
+          "margin": 2.04749858379364,
+          "heatmap": "heatmaps/crack_006.png",
+          "score_ms": 75.0,
+          "heat_max": 3.108335256576538,
+          "heat_argmax_xy": [
+            193,
+            82
+          ]
+        },
+        {
+          "file": "crack_007.png",
+          "score": 3.6341426372528076,
+          "threshold": 1.166082739830017,
+          "defect": true,
+          "margin": 2.4680598974227905,
+          "heatmap": "heatmaps/crack_007.png",
+          "score_ms": 156.0,
+          "heat_max": 3.5177600383758545,
+          "heat_argmax_xy": [
+            78,
+            231
+          ]
+        },
+        {
+          "file": "stain_000.png",
+          "score": 4.631173133850098,
+          "threshold": 1.166082739830017,
+          "defect": true,
+          "margin": 3.4650903940200806,
+          "heatmap": "heatmaps/stain_000.png",
+          "score_ms": 120.3,
+          "heat_max": 4.278447151184082,
+          "heat_argmax_xy": [
+            58,
+            170
+          ]
+        },
+        {
+          "file": "stain_001.png",
+          "score": 4.763729095458984,
+          "threshold": 1.166082739830017,
+          "defect": true,
+          "margin": 3.5976463556289673,
+          "heatmap": "heatmaps/stain_001.png",
+          "score_ms": 121.2,
+          "heat_max": 4.350065231323242,
+          "heat_argmax_xy": [
+            150,
+            152
+          ]
+        },
+        {
+          "file": "stain_002.png",
+          "score": 5.023555755615234,
+          "threshold": 1.166082739830017,
+          "defect": true,
+          "margin": 3.8574730157852173,
+          "heatmap": "heatmaps/stain_002.png",
+          "score_ms": 173.7,
+          "heat_max": 4.84639835357666,
+          "heat_argmax_xy": [
+            120,
+            86
+          ]
+        },
+        {
+          "file": "stain_003.png",
+          "score": 4.665194511413574,
+          "threshold": 1.166082739830017,
+          "defect": true,
+          "margin": 3.499111771583557,
+          "heatmap": "heatmaps/stain_003.png",
+          "score_ms": 147.3,
+          "heat_max": 4.406039714813232,
+          "heat_argmax_xy": [
+            232,
+            91
+          ]
+        },
+        {
+          "file": "stain_004.png",
+          "score": 5.309632301330566,
+          "threshold": 1.166082739830017,
+          "defect": true,
+          "margin": 4.143549561500549,
+          "heatmap": "heatmaps/stain_004.png",
+          "score_ms": 107.0,
+          "heat_max": 5.096607208251953,
+          "heat_argmax_xy": [
+            84,
+            124
+          ]
+        },
+        {
+          "file": "stain_005.png",
+          "score": 5.089136600494385,
+          "threshold": 1.166082739830017,
+          "defect": true,
+          "margin": 3.9230538606643677,
+          "heatmap": "heatmaps/stain_005.png",
+          "score_ms": 100.9,
+          "heat_max": 4.709013938903809,
+          "heat_argmax_xy": [
+            97,
+            151
+          ]
+        },
+        {
+          "file": "stain_006.png",
+          "score": 5.171175956726074,
+          "threshold": 1.166082739830017,
+          "defect": true,
+          "margin": 4.005093216896057,
+          "heatmap": "heatmaps/stain_006.png",
+          "score_ms": 175.7,
+          "heat_max": 4.871576309204102,
+          "heat_argmax_xy": [
+            159,
+            74
+          ]
+        },
+        {
+          "file": "stain_007.png",
+          "score": 5.654628753662109,
+          "threshold": 1.166082739830017,
+          "defect": true,
+          "margin": 4.488546013832092,
+          "heatmap": "heatmaps/stain_007.png",
+          "score_ms": 95.7,
+          "heat_max": 5.2556071281433105,
+          "heat_argmax_xy": [
+            180,
+            105
+          ]
+        },
+        {
+          "file": "dent_000.png",
+          "score": 4.863937854766846,
+          "threshold": 1.166082739830017,
+          "defect": true,
+          "margin": 3.6978551149368286,
+          "heatmap": "heatmaps/dent_000.png",
+          "score_ms": 136.4,
+          "heat_max": 4.58518123626709,
+          "heat_argmax_xy": [
+            205,
+            112
+          ]
+        },
+        {
+          "file": "dent_001.png",
+          "score": 5.135381698608398,
+          "threshold": 1.166082739830017,
+          "defect": true,
+          "margin": 3.9692989587783813,
+          "heatmap": "heatmaps/dent_001.png",
+          "score_ms": 88.1,
+          "heat_max": 4.83172607421875,
+          "heat_argmax_xy": [
+            114,
+            161
+          ]
+        },
+        {
+          "file": "dent_002.png",
+          "score": 3.9280991554260254,
+          "threshold": 1.166082739830017,
+          "defect": true,
+          "margin": 2.7620164155960083,
+          "heatmap": "heatmaps/dent_002.png",
+          "score_ms": 100.7,
+          "heat_max": 3.727468729019165,
+          "heat_argmax_xy": [
+            223,
+            38
+          ]
+        },
+        {
+          "file": "dent_003.png",
+          "score": 4.801661014556885,
+          "threshold": 1.166082739830017,
+          "defect": true,
+          "margin": 3.6355782747268677,
+          "heatmap": "heatmaps/dent_003.png",
+          "score_ms": 124.3,
+          "heat_max": 4.548005104064941,
+          "heat_argmax_xy": [
+            213,
+            27
+          ]
+        },
+        {
+          "file": "dent_004.png",
+          "score": 4.6369524002075195,
+          "threshold": 1.166082739830017,
+          "defect": true,
+          "margin": 3.4708696603775024,
+          "heatmap": "heatmaps/dent_004.png",
+          "score_ms": 114.1,
+          "heat_max": 4.519039154052734,
+          "heat_argmax_xy": [
+            211,
+            36
+          ]
+        },
+        {
+          "file": "dent_005.png",
+          "score": 5.082175254821777,
+          "threshold": 1.166082739830017,
+          "defect": true,
+          "margin": 3.9160925149917603,
+          "heatmap": "heatmaps/dent_005.png",
+          "score_ms": 106.6,
+          "heat_max": 4.918249130249023,
+          "heat_argmax_xy": [
+            45,
+            168
+          ]
+        },
+        {
+          "file": "dent_006.png",
+          "score": 5.0216169357299805,
+          "threshold": 1.166082739830017,
+          "defect": true,
+          "margin": 3.8555341958999634,
+          "heatmap": "heatmaps/dent_006.png",
+          "score_ms": 93.1,
+          "heat_max": 4.644909858703613,
+          "heat_argmax_xy": [
+            169,
+            167
+          ]
+        },
+        {
+          "file": "dent_007.png",
+          "score": 5.084980487823486,
+          "threshold": 1.166082739830017,
+          "defect": true,
+          "margin": 3.9188977479934692,
+          "heatmap": "heatmaps/dent_007.png",
+          "score_ms": 130.0,
+          "heat_max": 4.914992809295654,
+          "heat_argmax_xy": [
+            83,
+            118
+          ]
+        }
+      ]
+    }
+  },
+  "timing": {
+    "median_score_ms": 130.8526999782771,
+    "threads": 4
+  }
+}

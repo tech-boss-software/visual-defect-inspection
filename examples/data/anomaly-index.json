@@ -1,0 +1,1849 @@
+{
+ "seed": 5,
+ "categories": {
+  "plate": {
+   "train_good": [
+    {
+     "file": "good_000.png",
+     "label": 0
+    },
+    {
+     "file": "good_001.png",
+     "label": 0
+    },
+    {
+     "file": "good_002.png",
+     "label": 0
+    },
+    {
+     "file": "good_003.png",
+     "label": 0
+    },
+    {
+     "file": "good_004.png",
+     "label": 0
+    },
+    {
+     "file": "good_005.png",
+     "label": 0
+    },
+    {
+     "file": "good_006.png",
+     "label": 0
+    },
+    {
+     "file": "good_007.png",
+     "label": 0
+    },
+    {
+     "file": "good_008.png",
+     "label": 0
+    },
+    {
+     "file": "good_009.png",
+     "label": 0
+    },
+    {
+     "file": "good_010.png",
+     "label": 0
+    },
+    {
+     "file": "good_011.png",
+     "label": 0
+    },
+    {
+     "file": "good_012.png",
+     "label": 0
+    },
+    {
+     "file": "good_013.png",
+     "label": 0
+    },
+    {
+     "file": "good_014.png",
+     "label": 0
+    },
+    {
+     "file": "good_015.png",
+     "label": 0
+    },
+    {
+     "file": "good_016.png",
+     "label": 0
+    },
+    {
+     "file": "good_017.png",
+     "label": 0
+    },
+    {
+     "file": "good_018.png",
+     "label": 0
+    },
+    {
+     "file": "good_019.png",
+     "label": 0
+    },
+    {
+     "file": "good_020.png",
+     "label": 0
+    },
+    {
+     "file": "good_021.png",
+     "label": 0
+    },
+    {
+     "file": "good_022.png",
+     "label": 0
+    },
+    {
+     "file": "good_023.png",
+     "label": 0
+    },
+    {
+     "file": "good_024.png",
+     "label": 0
+    },
+    {
+     "file": "good_025.png",
+     "label": 0
+    },
+    {
+     "file": "good_026.png",
+     "label": 0
+    },
+    {
+     "file": "good_027.png",
+     "label": 0
+    },
+    {
+     "file": "good_028.png",
+     "label": 0
+    },
+    {
+     "file": "good_029.png",
+     "label": 0
+    },
+    {
+     "file": "good_030.png",
+     "label": 0
+    },
+    {
+     "file": "good_031.png",
+     "label": 0
+    },
+    {
+     "file": "good_032.png",
+     "label": 0
+    },
+    {
+     "file": "good_033.png",
+     "label": 0
+    },
+    {
+     "file": "good_034.png",
+     "label": 0
+    },
+    {
+     "file": "good_035.png",
+     "label": 0
+    },
+    {
+     "file": "good_036.png",
+     "label": 0
+    },
+    {
+     "file": "good_037.png",
+     "label": 0
+    },
+    {
+     "file": "good_038.png",
+     "label": 0
+    },
+    {
+     "file": "good_039.png",
+     "label": 0
+    },
+    {
+     "file": "good_040.png",
+     "label": 0
+    },
+    {
+     "file": "good_041.png",
+     "label": 0
+    },
+    {
+     "file": "good_042.png",
+     "label": 0
+    },
+    {
+     "file": "good_043.png",
+     "label": 0
+    },
+    {
+     "file": "good_044.png",
+     "label": 0
+    },
+    {
+     "file": "good_045.png",
+     "label": 0
+    },
+    {
+     "file": "good_046.png",
+     "label": 0
+    },
+    {
+     "file": "good_047.png",
+     "label": 0
+    },
+    {
+     "file": "good_048.png",
+     "label": 0
+    },
+    {
+     "file": "good_049.png",
+     "label": 0
+    },
+    {
+     "file": "good_050.png",
+     "label": 0
+    },
+    {
+     "file": "good_051.png",
+     "label": 0
+    },
+    {
+     "file": "good_052.png",
+     "label": 0
+    },
+    {
+     "file": "good_053.png",
+     "label": 0
+    },
+    {
+     "file": "good_054.png",
+     "label": 0
+    },
+    {
+     "file": "good_055.png",
+     "label": 0
+    },
+    {
+     "file": "good_056.png",
+     "label": 0
+    },
+    {
+     "file": "good_057.png",
+     "label": 0
+    },
+    {
+     "file": "good_058.png",
+     "label": 0
+    },
+    {
+     "file": "good_059.png",
+     "label": 0
+    }
+   ],
+   "calibration_good": [
+    {
+     "file": "good_000.png",
+     "label": 0
+    },
+    {
+     "file": "good_001.png",
+     "label": 0
+    },
+    {
+     "file": "good_002.png",
+     "label": 0
+    },
+    {
+     "file": "good_003.png",
+     "label": 0
+    },
+    {
+     "file": "good_004.png",
+     "label": 0
+    },
+    {
+     "file": "good_005.png",
+     "label": 0
+    },
+    {
+     "file": "good_006.png",
+     "label": 0
+    },
+    {
+     "file": "good_007.png",
+     "label": 0
+    },
+    {
+     "file": "good_008.png",
+     "label": 0
+    },
+    {
+     "file": "good_009.png",
+     "label": 0
+    },
+    {
+     "file": "good_010.png",
+     "label": 0
+    },
+    {
+     "file": "good_011.png",
+     "label": 0
+    },
+    {
+     "file": "good_012.png",
+     "label": 0
+    },
+    {
+     "file": "good_013.png",
+     "label": 0
+    },
+    {
+     "file": "good_014.png",
+     "label": 0
+    },
+    {
+     "file": "good_015.png",
+     "label": 0
+    },
+    {
+     "file": "good_016.png",
+     "label": 0
+    },
+    {
+     "file": "good_017.png",
+     "label": 0
+    },
+    {
+     "file": "good_018.png",
+     "label": 0
+    },
+    {
+     "file": "good_019.png",
+     "label": 0
+    }
+   ],
+   "test": [
+    {
+     "file": "good_000.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_001.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_002.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_003.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_004.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_005.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_006.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_007.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_008.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_009.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_010.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_011.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_012.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_013.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_014.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_015.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_016.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_017.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_018.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_019.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "scratch_000.png",
+     "label": 1,
+     "defect": "scratch",
+     "mask": "scratch_000_mask.png",
+     "mask_pixels": 179
+    },
+    {
+     "file": "scratch_001.png",
+     "label": 1,
+     "defect": "scratch",
+     "mask": "scratch_001_mask.png",
+     "mask_pixels": 235
+    },
+    {
+     "file": "scratch_002.png",
+     "label": 1,
+     "defect": "scratch",
+     "mask": "scratch_002_mask.png",
+     "mask_pixels": 224
+    },
+    {
+     "file": "scratch_003.png",
+     "label": 1,
+     "defect": "scratch",
+     "mask": "scratch_003_mask.png",
+     "mask_pixels": 164
+    },
+    {
+     "file": "scratch_004.png",
+     "label": 1,
+     "defect": "scratch",
+     "mask": "scratch_004_mask.png",
+     "mask_pixels": 171
+    },
+    {
+     "file": "scratch_005.png",
+     "label": 1,
+     "defect": "scratch",
+     "mask": "scratch_005_mask.png",
+     "mask_pixels": 171
+    },
+    {
+     "file": "scratch_006.png",
+     "label": 1,
+     "defect": "scratch",
+     "mask": "scratch_006_mask.png",
+     "mask_pixels": 154
+    },
+    {
+     "file": "scratch_007.png",
+     "label": 1,
+     "defect": "scratch",
+     "mask": "scratch_007_mask.png",
+     "mask_pixels": 411
+    },
+    {
+     "file": "dent_000.png",
+     "label": 1,
+     "defect": "dent",
+     "mask": "dent_000_mask.png",
+     "mask_pixels": 489
+    },
+    {
+     "file": "dent_001.png",
+     "label": 1,
+     "defect": "dent",
+     "mask": "dent_001_mask.png",
+     "mask_pixels": 554
+    },
+    {
+     "file": "dent_002.png",
+     "label": 1,
+     "defect": "dent",
+     "mask": "dent_002_mask.png",
+     "mask_pixels": 872
+    },
+    {
+     "file": "dent_003.png",
+     "label": 1,
+     "defect": "dent",
+     "mask": "dent_003_mask.png",
+     "mask_pixels": 926
+    },
+    {
+     "file": "dent_004.png",
+     "label": 1,
+     "defect": "dent",
+     "mask": "dent_004_mask.png",
+     "mask_pixels": 302
+    },
+    {
+     "file": "dent_005.png",
+     "label": 1,
+     "defect": "dent",
+     "mask": "dent_005_mask.png",
+     "mask_pixels": 741
+    },
+    {
+     "file": "dent_006.png",
+     "label": 1,
+     "defect": "dent",
+     "mask": "dent_006_mask.png",
+     "mask_pixels": 553
+    },
+    {
+     "file": "dent_007.png",
+     "label": 1,
+     "defect": "dent",
+     "mask": "dent_007_mask.png",
+     "mask_pixels": 639
+    },
+    {
+     "file": "stain_000.png",
+     "label": 1,
+     "defect": "stain",
+     "mask": "stain_000_mask.png",
+     "mask_pixels": 590
+    },
+    {
+     "file": "stain_001.png",
+     "label": 1,
+     "defect": "stain",
+     "mask": "stain_001_mask.png",
+     "mask_pixels": 700
+    },
+    {
+     "file": "stain_002.png",
+     "label": 1,
+     "defect": "stain",
+     "mask": "stain_002_mask.png",
+     "mask_pixels": 575
+    },
+    {
+     "file": "stain_003.png",
+     "label": 1,
+     "defect": "stain",
+     "mask": "stain_003_mask.png",
+     "mask_pixels": 439
+    },
+    {
+     "file": "stain_004.png",
+     "label": 1,
+     "defect": "stain",
+     "mask": "stain_004_mask.png",
+     "mask_pixels": 473
+    },
+    {
+     "file": "stain_005.png",
+     "label": 1,
+     "defect": "stain",
+     "mask": "stain_005_mask.png",
+     "mask_pixels": 678
+    },
+    {
+     "file": "stain_006.png",
+     "label": 1,
+     "defect": "stain",
+     "mask": "stain_006_mask.png",
+     "mask_pixels": 548
+    },
+    {
+     "file": "stain_007.png",
+     "label": 1,
+     "defect": "stain",
+     "mask": "stain_007_mask.png",
+     "mask_pixels": 293
+    },
+    {
+     "file": "missing_hole_000.png",
+     "label": 1,
+     "defect": "missing_hole",
+     "mask": "missing_hole_000_mask.png",
+     "mask_pixels": 755
+    },
+    {
+     "file": "missing_hole_001.png",
+     "label": 1,
+     "defect": "missing_hole",
+     "mask": "missing_hole_001_mask.png",
+     "mask_pixels": 755
+    },
+    {
+     "file": "missing_hole_002.png",
+     "label": 1,
+     "defect": "missing_hole",
+     "mask": "missing_hole_002_mask.png",
+     "mask_pixels": 756
+    },
+    {
+     "file": "missing_hole_003.png",
+     "label": 1,
+     "defect": "missing_hole",
+     "mask": "missing_hole_003_mask.png",
+     "mask_pixels": 756
+    },
+    {
+     "file": "missing_hole_004.png",
+     "label": 1,
+     "defect": "missing_hole",
+     "mask": "missing_hole_004_mask.png",
+     "mask_pixels": 757
+    },
+    {
+     "file": "missing_hole_005.png",
+     "label": 1,
+     "defect": "missing_hole",
+     "mask": "missing_hole_005_mask.png",
+     "mask_pixels": 753
+    },
+    {
+     "file": "missing_hole_006.png",
+     "label": 1,
+     "defect": "missing_hole",
+     "mask": "missing_hole_006_mask.png",
+     "mask_pixels": 756
+    },
+    {
+     "file": "missing_hole_007.png",
+     "label": 1,
+     "defect": "missing_hole",
+     "mask": "missing_hole_007_mask.png",
+     "mask_pixels": 754
+    }
+   ]
+  },
+  "cap": {
+   "train_good": [
+    {
+     "file": "good_000.png",
+     "label": 0
+    },
+    {
+     "file": "good_001.png",
+     "label": 0
+    },
+    {
+     "file": "good_002.png",
+     "label": 0
+    },
+    {
+     "file": "good_003.png",
+     "label": 0
+    },
+    {
+     "file": "good_004.png",
+     "label": 0
+    },
+    {
+     "file": "good_005.png",
+     "label": 0
+    },
+    {
+     "file": "good_006.png",
+     "label": 0
+    },
+    {
+     "file": "good_007.png",
+     "label": 0
+    },
+    {
+     "file": "good_008.png",
+     "label": 0
+    },
+    {
+     "file": "good_009.png",
+     "label": 0
+    },
+    {
+     "file": "good_010.png",
+     "label": 0
+    },
+    {
+     "file": "good_011.png",
+     "label": 0
+    },
+    {
+     "file": "good_012.png",
+     "label": 0
+    },
+    {
+     "file": "good_013.png",
+     "label": 0
+    },
+    {
+     "file": "good_014.png",
+     "label": 0
+    },
+    {
+     "file": "good_015.png",
+     "label": 0
+    },
+    {
+     "file": "good_016.png",
+     "label": 0
+    },
+    {
+     "file": "good_017.png",
+     "label": 0
+    },
+    {
+     "file": "good_018.png",
+     "label": 0
+    },
+    {
+     "file": "good_019.png",
+     "label": 0
+    },
+    {
+     "file": "good_020.png",
+     "label": 0
+    },
+    {
+     "file": "good_021.png",
+     "label": 0
+    },
+    {
+     "file": "good_022.png",
+     "label": 0
+    },
+    {
+     "file": "good_023.png",
+     "label": 0
+    },
+    {
+     "file": "good_024.png",
+     "label": 0
+    },
+    {
+     "file": "good_025.png",
+     "label": 0
+    },
+    {
+     "file": "good_026.png",
+     "label": 0
+    },
+    {
+     "file": "good_027.png",
+     "label": 0
+    },
+    {
+     "file": "good_028.png",
+     "label": 0
+    },
+    {
+     "file": "good_029.png",
+     "label": 0
+    },
+    {
+     "file": "good_030.png",
+     "label": 0
+    },
+    {
+     "file": "good_031.png",
+     "label": 0
+    },
+    {
+     "file": "good_032.png",
+     "label": 0
+    },
+    {
+     "file": "good_033.png",
+     "label": 0
+    },
+    {
+     "file": "good_034.png",
+     "label": 0
+    },
+    {
+     "file": "good_035.png",
+     "label": 0
+    },
+    {
+     "file": "good_036.png",
+     "label": 0
+    },
+    {
+     "file": "good_037.png",
+     "label": 0
+    },
+    {
+     "file": "good_038.png",
+     "label": 0
+    },
+    {
+     "file": "good_039.png",
+     "label": 0
+    },
+    {
+     "file": "good_040.png",
+     "label": 0
+    },
+    {
+     "file": "good_041.png",
+     "label": 0
+    },
+    {
+     "file": "good_042.png",
+     "label": 0
+    },
+    {
+     "file": "good_043.png",
+     "label": 0
+    },
+    {
+     "file": "good_044.png",
+     "label": 0
+    },
+    {
+     "file": "good_045.png",
+     "label": 0
+    },
+    {
+     "file": "good_046.png",
+     "label": 0
+    },
+    {
+     "file": "good_047.png",
+     "label": 0
+    },
+    {
+     "file": "good_048.png",
+     "label": 0
+    },
+    {
+     "file": "good_049.png",
+     "label": 0
+    },
+    {
+     "file": "good_050.png",
+     "label": 0
+    },
+    {
+     "file": "good_051.png",
+     "label": 0
+    },
+    {
+     "file": "good_052.png",
+     "label": 0
+    },
+    {
+     "file": "good_053.png",
+     "label": 0
+    },
+    {
+     "file": "good_054.png",
+     "label": 0
+    },
+    {
+     "file": "good_055.png",
+     "label": 0
+    },
+    {
+     "file": "good_056.png",
+     "label": 0
+    },
+    {
+     "file": "good_057.png",
+     "label": 0
+    },
+    {
+     "file": "good_058.png",
+     "label": 0
+    },
+    {
+     "file": "good_059.png",
+     "label": 0
+    }
+   ],
+   "calibration_good": [
+    {
+     "file": "good_000.png",
+     "label": 0
+    },
+    {
+     "file": "good_001.png",
+     "label": 0
+    },
+    {
+     "file": "good_002.png",
+     "label": 0
+    },
+    {
+     "file": "good_003.png",
+     "label": 0
+    },
+    {
+     "file": "good_004.png",
+     "label": 0
+    },
+    {
+     "file": "good_005.png",
+     "label": 0
+    },
+    {
+     "file": "good_006.png",
+     "label": 0
+    },
+    {
+     "file": "good_007.png",
+     "label": 0
+    },
+    {
+     "file": "good_008.png",
+     "label": 0
+    },
+    {
+     "file": "good_009.png",
+     "label": 0
+    },
+    {
+     "file": "good_010.png",
+     "label": 0
+    },
+    {
+     "file": "good_011.png",
+     "label": 0
+    },
+    {
+     "file": "good_012.png",
+     "label": 0
+    },
+    {
+     "file": "good_013.png",
+     "label": 0
+    },
+    {
+     "file": "good_014.png",
+     "label": 0
+    },
+    {
+     "file": "good_015.png",
+     "label": 0
+    },
+    {
+     "file": "good_016.png",
+     "label": 0
+    },
+    {
+     "file": "good_017.png",
+     "label": 0
+    },
+    {
+     "file": "good_018.png",
+     "label": 0
+    },
+    {
+     "file": "good_019.png",
+     "label": 0
+    }
+   ],
+   "test": [
+    {
+     "file": "good_000.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_001.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_002.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_003.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_004.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_005.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_006.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_007.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_008.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_009.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_010.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_011.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_012.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_013.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_014.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_015.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_016.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_017.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_018.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_019.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "scratch_000.png",
+     "label": 1,
+     "defect": "scratch",
+     "mask": "scratch_000_mask.png",
+     "mask_pixels": 247
+    },
+    {
+     "file": "scratch_001.png",
+     "label": 1,
+     "defect": "scratch",
+     "mask": "scratch_001_mask.png",
+     "mask_pixels": 240
+    },
+    {
+     "file": "scratch_002.png",
+     "label": 1,
+     "defect": "scratch",
+     "mask": "scratch_002_mask.png",
+     "mask_pixels": 97
+    },
+    {
+     "file": "scratch_003.png",
+     "label": 1,
+     "defect": "scratch",
+     "mask": "scratch_003_mask.png",
+     "mask_pixels": 145
+    },
+    {
+     "file": "scratch_004.png",
+     "label": 1,
+     "defect": "scratch",
+     "mask": "scratch_004_mask.png",
+     "mask_pixels": 176
+    },
+    {
+     "file": "scratch_005.png",
+     "label": 1,
+     "defect": "scratch",
+     "mask": "scratch_005_mask.png",
+     "mask_pixels": 46
+    },
+    {
+     "file": "scratch_006.png",
+     "label": 1,
+     "defect": "scratch",
+     "mask": "scratch_006_mask.png",
+     "mask_pixels": 144
+    },
+    {
+     "file": "scratch_007.png",
+     "label": 1,
+     "defect": "scratch",
+     "mask": "scratch_007_mask.png",
+     "mask_pixels": 172
+    },
+    {
+     "file": "chip_000.png",
+     "label": 1,
+     "defect": "chip",
+     "mask": "chip_000_mask.png",
+     "mask_pixels": 455
+    },
+    {
+     "file": "chip_001.png",
+     "label": 1,
+     "defect": "chip",
+     "mask": "chip_001_mask.png",
+     "mask_pixels": 354
+    },
+    {
+     "file": "chip_002.png",
+     "label": 1,
+     "defect": "chip",
+     "mask": "chip_002_mask.png",
+     "mask_pixels": 263
+    },
+    {
+     "file": "chip_003.png",
+     "label": 1,
+     "defect": "chip",
+     "mask": "chip_003_mask.png",
+     "mask_pixels": 462
+    },
+    {
+     "file": "chip_004.png",
+     "label": 1,
+     "defect": "chip",
+     "mask": "chip_004_mask.png",
+     "mask_pixels": 470
+    },
+    {
+     "file": "chip_005.png",
+     "label": 1,
+     "defect": "chip",
+     "mask": "chip_005_mask.png",
+     "mask_pixels": 256
+    },
+    {
+     "file": "chip_006.png",
+     "label": 1,
+     "defect": "chip",
+     "mask": "chip_006_mask.png",
+     "mask_pixels": 406
+    },
+    {
+     "file": "chip_007.png",
+     "label": 1,
+     "defect": "chip",
+     "mask": "chip_007_mask.png",
+     "mask_pixels": 333
+    },
+    {
+     "file": "stain_000.png",
+     "label": 1,
+     "defect": "stain",
+     "mask": "stain_000_mask.png",
+     "mask_pixels": 607
+    },
+    {
+     "file": "stain_001.png",
+     "label": 1,
+     "defect": "stain",
+     "mask": "stain_001_mask.png",
+     "mask_pixels": 205
+    },
+    {
+     "file": "stain_002.png",
+     "label": 1,
+     "defect": "stain",
+     "mask": "stain_002_mask.png",
+     "mask_pixels": 678
+    },
+    {
+     "file": "stain_003.png",
+     "label": 1,
+     "defect": "stain",
+     "mask": "stain_003_mask.png",
+     "mask_pixels": 76
+    },
+    {
+     "file": "stain_004.png",
+     "label": 1,
+     "defect": "stain",
+     "mask": "stain_004_mask.png",
+     "mask_pixels": 946
+    },
+    {
+     "file": "stain_005.png",
+     "label": 1,
+     "defect": "stain",
+     "mask": "stain_005_mask.png",
+     "mask_pixels": 649
+    },
+    {
+     "file": "stain_006.png",
+     "label": 1,
+     "defect": "stain",
+     "mask": "stain_006_mask.png",
+     "mask_pixels": 432
+    },
+    {
+     "file": "stain_007.png",
+     "label": 1,
+     "defect": "stain",
+     "mask": "stain_007_mask.png",
+     "mask_pixels": 384
+    }
+   ]
+  },
+  "tile": {
+   "train_good": [
+    {
+     "file": "good_000.png",
+     "label": 0
+    },
+    {
+     "file": "good_001.png",
+     "label": 0
+    },
+    {
+     "file": "good_002.png",
+     "label": 0
+    },
+    {
+     "file": "good_003.png",
+     "label": 0
+    },
+    {
+     "file": "good_004.png",
+     "label": 0
+    },
+    {
+     "file": "good_005.png",
+     "label": 0
+    },
+    {
+     "file": "good_006.png",
+     "label": 0
+    },
+    {
+     "file": "good_007.png",
+     "label": 0
+    },
+    {
+     "file": "good_008.png",
+     "label": 0
+    },
+    {
+     "file": "good_009.png",
+     "label": 0
+    },
+    {
+     "file": "good_010.png",
+     "label": 0
+    },
+    {
+     "file": "good_011.png",
+     "label": 0
+    },
+    {
+     "file": "good_012.png",
+     "label": 0
+    },
+    {
+     "file": "good_013.png",
+     "label": 0
+    },
+    {
+     "file": "good_014.png",
+     "label": 0
+    },
+    {
+     "file": "good_015.png",
+     "label": 0
+    },
+    {
+     "file": "good_016.png",
+     "label": 0
+    },
+    {
+     "file": "good_017.png",
+     "label": 0
+    },
+    {
+     "file": "good_018.png",
+     "label": 0
+    },
+    {
+     "file": "good_019.png",
+     "label": 0
+    },
+    {
+     "file": "good_020.png",
+     "label": 0
+    },
+    {
+     "file": "good_021.png",
+     "label": 0
+    },
+    {
+     "file": "good_022.png",
+     "label": 0
+    },
+    {
+     "file": "good_023.png",
+     "label": 0
+    },
+    {
+     "file": "good_024.png",
+     "label": 0
+    },
+    {
+     "file": "good_025.png",
+     "label": 0
+    },
+    {
+     "file": "good_026.png",
+     "label": 0
+    },
+    {
+     "file": "good_027.png",
+     "label": 0
+    },
+    {
+     "file": "good_028.png",
+     "label": 0
+    },
+    {
+     "file": "good_029.png",
+     "label": 0
+    },
+    {
+     "file": "good_030.png",
+     "label": 0
+    },
+    {
+     "file": "good_031.png",
+     "label": 0
+    },
+    {
+     "file": "good_032.png",
+     "label": 0
+    },
+    {
+     "file": "good_033.png",
+     "label": 0
+    },
+    {
+     "file": "good_034.png",
+     "label": 0
+    },
+    {
+     "file": "good_035.png",
+     "label": 0
+    },
+    {
+     "file": "good_036.png",
+     "label": 0
+    },
+    {
+     "file": "good_037.png",
+     "label": 0
+    },
+    {
+     "file": "good_038.png",
+     "label": 0
+    },
+    {
+     "file": "good_039.png",
+     "label": 0
+    },
+    {
+     "file": "good_040.png",
+     "label": 0
+    },
+    {
+     "file": "good_041.png",
+     "label": 0
+    },
+    {
+     "file": "good_042.png",
+     "label": 0
+    },
+    {
+     "file": "good_043.png",
+     "label": 0
+    },
+    {
+     "file": "good_044.png",
+     "label": 0
+    },
+    {
+     "file": "good_045.png",
+     "label": 0
+    },
+    {
+     "file": "good_046.png",
+     "label": 0
+    },
+    {
+     "file": "good_047.png",
+     "label": 0
+    },
+    {
+     "file": "good_048.png",
+     "label": 0
+    },
+    {
+     "file": "good_049.png",
+     "label": 0
+    },
+    {
+     "file": "good_050.png",
+     "label": 0
+    },
+    {
+     "file": "good_051.png",
+     "label": 0
+    },
+    {
+     "file": "good_052.png",
+     "label": 0
+    },
+    {
+     "file": "good_053.png",
+     "label": 0
+    },
+    {
+     "file": "good_054.png",
+     "label": 0
+    },
+    {
+     "file": "good_055.png",
+     "label": 0
+    },
+    {
+     "file": "good_056.png",
+     "label": 0
+    },
+    {
+     "file": "good_057.png",
+     "label": 0
+    },
+    {
+     "file": "good_058.png",
+     "label": 0
+    },
+    {
+     "file": "good_059.png",
+     "label": 0
+    }
+   ],
+   "calibration_good": [
+    {
+     "file": "good_000.png",
+     "label": 0
+    },
+    {
+     "file": "good_001.png",
+     "label": 0
+    },
+    {
+     "file": "good_002.png",
+     "label": 0
+    },
+    {
+     "file": "good_003.png",
+     "label": 0
+    },
+    {
+     "file": "good_004.png",
+     "label": 0
+    },
+    {
+     "file": "good_005.png",
+     "label": 0
+    },
+    {
+     "file": "good_006.png",
+     "label": 0
+    },
+    {
+     "file": "good_007.png",
+     "label": 0
+    },
+    {
+     "file": "good_008.png",
+     "label": 0
+    },
+    {
+     "file": "good_009.png",
+     "label": 0
+    },
+    {
+     "file": "good_010.png",
+     "label": 0
+    },
+    {
+     "file": "good_011.png",
+     "label": 0
+    },
+    {
+     "file": "good_012.png",
+     "label": 0
+    },
+    {
+     "file": "good_013.png",
+     "label": 0
+    },
+    {
+     "file": "good_014.png",
+     "label": 0
+    },
+    {
+     "file": "good_015.png",
+     "label": 0
+    },
+    {
+     "file": "good_016.png",
+     "label": 0
+    },
+    {
+     "file": "good_017.png",
+     "label": 0
+    },
+    {
+     "file": "good_018.png",
+     "label": 0
+    },
+    {
+     "file": "good_019.png",
+     "label": 0
+    }
+   ],
+   "test": [
+    {
+     "file": "good_000.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_001.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_002.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_003.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_004.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_005.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_006.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_007.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_008.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_009.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_010.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_011.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_012.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_013.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_014.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_015.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_016.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_017.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_018.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "good_019.png",
+     "label": 0,
+     "defect": null
+    },
+    {
+     "file": "crack_000.png",
+     "label": 1,
+     "defect": "crack",
+     "mask": "crack_000_mask.png",
+     "mask_pixels": 130
+    },
+    {
+     "file": "crack_001.png",
+     "label": 1,
+     "defect": "crack",
+     "mask": "crack_001_mask.png",
+     "mask_pixels": 288
+    },
+    {
+     "file": "crack_002.png",
+     "label": 1,
+     "defect": "crack",
+     "mask": "crack_002_mask.png",
+     "mask_pixels": 441
+    },
+    {
+     "file": "crack_003.png",
+     "label": 1,
+     "defect": "crack",
+     "mask": "crack_003_mask.png",
+     "mask_pixels": 679
+    },
+    {
+     "file": "crack_004.png",
+     "label": 1,
+     "defect": "crack",
+     "mask": "crack_004_mask.png",
+     "mask_pixels": 363
+    },
+    {
+     "file": "crack_005.png",
+     "label": 1,
+     "defect": "crack",
+     "mask": "crack_005_mask.png",
+     "mask_pixels": 223
+    },
+    {
+     "file": "crack_006.png",
+     "label": 1,
+     "defect": "crack",
+     "mask": "crack_006_mask.png",
+     "mask_pixels": 285
+    },
+    {
+     "file": "crack_007.png",
+     "label": 1,
+     "defect": "crack",
+     "mask": "crack_007_mask.png",
+     "mask_pixels": 547
+    },
+    {
+     "file": "stain_000.png",
+     "label": 1,
+     "defect": "stain",
+     "mask": "stain_000_mask.png",
+     "mask_pixels": 294
+    },
+    {
+     "file": "stain_001.png",
+     "label": 1,
+     "defect": "stain",
+     "mask": "stain_001_mask.png",
+     "mask_pixels": 294
+    },
+    {
+     "file": "stain_002.png",
+     "label": 1,
+     "defect": "stain",
+     "mask": "stain_002_mask.png",
+     "mask_pixels": 1052
+    },
+    {
+     "file": "stain_003.png",
+     "label": 1,
+     "defect": "stain",
+     "mask": "stain_003_mask.png",
+     "mask_pixels": 257
+    },
+    {
+     "file": "stain_004.png",
+     "label": 1,
+     "defect": "stain",
+     "mask": "stain_004_mask.png",
+     "mask_pixels": 1333
+    },
+    {
+     "file": "stain_005.png",
+     "label": 1,
+     "defect": "stain",
+     "mask": "stain_005_mask.png",
+     "mask_pixels": 474
+    },
+    {
+     "file": "stain_006.png",
+     "label": 1,
+     "defect": "stain",
+     "mask": "stain_006_mask.png",
+     "mask_pixels": 791
+    },
+    {
+     "file": "stain_007.png",
+     "label": 1,
+     "defect": "stain",
+     "mask": "stain_007_mask.png",
+     "mask_pixels": 498
+    },
+    {
+     "file": "dent_000.png",
+     "label": 1,
+     "defect": "dent",
+     "mask": "dent_000_mask.png",
+     "mask_pixels": 583
+    },
+    {
+     "file": "dent_001.png",
+     "label": 1,
+     "defect": "dent",
+     "mask": "dent_001_mask.png",
+     "mask_pixels": 810
+    },
+    {
+     "file": "dent_002.png",
+     "label": 1,
+     "defect": "dent",
+     "mask": "dent_002_mask.png",
+     "mask_pixels": 455
+    },
+    {
+     "file": "dent_003.png",
+     "label": 1,
+     "defect": "dent",
+     "mask": "dent_003_mask.png",
+     "mask_pixels": 621
+    },
+    {
+     "file": "dent_004.png",
+     "label": 1,
+     "defect": "dent",
+     "mask": "dent_004_mask.png",
+     "mask_pixels": 1166
+    },
+    {
+     "file": "dent_005.png",
+     "label": 1,
+     "defect": "dent",
+     "mask": "dent_005_mask.png",
+     "mask_pixels": 942
+    },
+    {
+     "file": "dent_006.png",
+     "label": 1,
+     "defect": "dent",
+     "mask": "dent_006_mask.png",
+     "mask_pixels": 391
+    },
+    {
+     "file": "dent_007.png",
+     "label": 1,
+     "defect": "dent",
+     "mask": "dent_007_mask.png",
+     "mask_pixels": 557
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,457 @@
+{
+  "model": "deeplabv3_mobilenet_v3_large",
+  "weights": "DeepLabV3_MobileNet_V3_Large_Weights.COCO_WITH_VOC_LABELS_V1",
+  "url": "https://download.pytorch.org/models/deeplabv3_mobilenet_v3_large-fc3c493d.pth",
+  "input_size": 256,
+  "config": {
+    "epochs": 6,
+    "batch_size": 4,
+    "lr": 0.0001,
+    "positive_weight": 8.0,
+    "seed": 0,
+    "augmentation": "random horizontal and vertical flips"
+  },
+  "train_images": 120,
+  "val_images": 30,
+  "test_images": 40,
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 0.7455324192841848,
+      "val_iou": 0.07224997923169126,
+      "seconds": 41.64222340006381
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.5374184230963389,
+      "val_iou": 0.14798902447830167,
+      "seconds": 38.70542200002819
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.3712209691603979,
+      "val_iou": 0.14140749909742636,
+      "seconds": 40.13822160009295
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.27994508693615594,
+      "val_iou": 0.16461489898989898,
+      "seconds": 36.211942200083286
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.2340774233142535,
+      "val_iou": 0.17572374355395953,
+      "seconds": 29.713119100080803
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.2058402751882871,
+      "val_iou": 0.16584602000869944,
+      "seconds": 33.199418199947104
+    }
+  ],
+  "threshold_sweep": [
+    {
+      "threshold": 0.1,
+      "iou": 0.009656949628895978,
+      "precision": 0.009656949628895978,
+      "recall": 1.0
+    },
+    {
+      "threshold": 0.15,
+      "iou": 0.013188345690340693,
+      "precision": 0.013188345690340693,
+      "recall": 1.0
+    },
+    {
+      "threshold": 0.2,
+      "iou": 0.0346607220891576,
+      "precision": 0.034664493143813944,
+      "recall": 0.9968711884180941
+    },
+    {
+      "threshold": 0.25,
+      "iou": 0.06355339235857493,
+      "precision": 0.0636048438060428,
+      "recall": 0.9874317229675983
+    },
+    {
+      "threshold": 0.3,
+      "iou": 0.1178743204704009,
+      "precision": 0.11848907082316514,
+      "recall": 0.9578405897014372
+    },
+    {
+      "threshold": 0.35,
+      "iou": 0.14608080140524182,
+      "precision": 0.1487426952364087,
+      "recall": 0.8908628095667391
+    },
+    {
+      "threshold": 0.4,
+      "iou": 0.16552773944849639,
+      "precision": 0.17260083131594572,
+      "recall": 0.8015591027204751
+    },
+    {
+      "threshold": 0.45,
+      "iou": 0.17567492960856843,
+      "precision": 0.19190929240233404,
+      "recall": 0.6749748104152304
+    },
+    {
+      "threshold": 0.5,
+      "iou": 0.17572374355395953,
+      "precision": 0.20557491289198607,
+      "recall": 0.5475420268335366
+    },
+    {
+      "threshold": 0.55,
+      "iou": 0.16537377312290377,
+      "precision": 0.21273723497180974,
+      "recall": 0.42620777430132045
+    },
+    {
+      "threshold": 0.6,
+      "iou": 0.15675521686489566,
+      "precision": 0.22106531855770198,
+      "recall": 0.3501617436495731
+    },
+    {
+      "threshold": 0.65,
+      "iou": 0.1497907949790795,
+      "precision": 0.23377006361376754,
+      "recall": 0.294267380813491
+    },
+    {
+      "threshold": 0.7,
+      "iou": 0.14403834631515877,
+      "precision": 0.24871967306399048,
+      "recall": 0.25497162857294375
+    },
+    {
+      "threshold": 0.75,
+      "iou": 0.13572300887876687,
+      "precision": 0.26440329218106995,
+      "recall": 0.21806225804740945
+    },
+    {
+      "threshold": 0.8,
+      "iou": 0.12213989976029636,
+      "precision": 0.27931893687707643,
+      "recall": 0.17834226016863763
+    },
+    {
+      "threshold": 0.85,
+      "iou": 0.09692623776336462,
+      "precision": 0.2873865265169613,
+      "recall": 0.127591875696028
+    },
+    {
+      "threshold": 0.9,
+      "iou": 0.0625994453789153,
+      "precision": 0.3048483506752269,
+      "recall": 0.07302328047939757
+    }
+  ],
+  "threshold": 0.5,
+  "best_epoch": 5,
+  "sweep_svg": "<svg xmlns='http://www.w3.org/2000/svg' width='420' height='220' viewBox='0 0 420 220' style='background:#fff;border:1px solid #e2e8f0'><line x1='40' y1='190.0' x2='400' y2='190.0' stroke='#e2e8f0'/><text x='4' y='194.0' font-size='10' fill='#64748b'>0.00</text><line x1='40' y1='147.5' x2='400' y2='147.5' stroke='#e2e8f0'/><text x='4' y='151.5' font-size='10' fill='#64748b'>0.25</text><line x1='40' y1='105.0' x2='400' y2='105.0' stroke='#e2e8f0'/><text x='4' y='109.0' font-size='10' fill='#64748b'>0.50</text><line x1='40' y1='62.5' x2='400' y2='62.5' stroke='#e2e8f0'/><text x='4' y='66.5' font-size='10' fill='#64748b'>0.75</text><line x1='40' y1='20.0' x2='400' y2='20.0' stroke='#e2e8f0'/><text x='4' y='24.0' font-size='10' fill='#64748b'>1.00</text><polyline points='76.0,188.4 94.0,187.8 112.0,184.1 130.0,179.2 148.0,170.0 166.0,165.2 184.0,161.9 202.0,160.1 220.0,160.1 238.0,161.9 256.0,163.4 274.0,164.5 292.0,165.5 310.0,166.9 328.0,169.2 346.0,173.5 364.0,179.4' fill='none' stroke='#2563eb' stroke-width='2'/><circle cx='220.0' cy='160.1' r='5' fill='#dc2626'/><text x='190.0' y='214' font-size='11' fill='#64748b'>probability threshold</text><text x='44' y='14' font-size='11' fill='#64748b'>validation IoU</text></svg>",
+  "test": {
+    "images": 40,
+    "threshold": 0.5,
+    "dataset_iou": 0.1779647400785826,
+    "precision": 0.21348846174063885,
+    "recall": 0.5167967424499491,
+    "mean_iou_crack_images": 0.15535711369436947,
+    "median_iou_crack_images": 0.16683383483784686,
+    "clean_images": 13,
+    "clean_false_positive_images": 0,
+    "clean_false_pixels_mean": 0.0,
+    "median_inference_ms": 116.12670007161796,
+    "per_image": [
+      {
+        "file": "crack_000.png",
+        "crack": true,
+        "iou": 0.22659297789336802,
+        "predicted_pixels": 2318,
+        "truth_pixels": 1455
+      },
+      {
+        "file": "crack_001.png",
+        "crack": true,
+        "iou": 0.1852379595326304,
+        "predicted_pixels": 3509,
+        "truth_pixels": 650
+      },
+      {
+        "file": "crack_002.png",
+        "crack": true,
+        "iou": 0.21784593935169047,
+        "predicted_pixels": 1696,
+        "truth_pixels": 1798
+      },
+      {
+        "file": "clean_003.png",
+        "crack": false,
+        "iou": null,
+        "predicted_pixels": 0,
+        "truth_pixels": 0
+      },
+      {
+        "file": "clean_004.png",
+        "crack": false,
+        "iou": null,
+        "predicted_pixels": 0,
+        "truth_pixels": 0
+      },
+      {
+        "file": "crack_005.png",
+        "crack": true,
+        "iou": 0.2328767123287671,
+        "predicted_pixels": 2658,
+        "truth_pixels": 762
+      },
+      {
+        "file": "clean_006.png",
+        "crack": false,
+        "iou": null,
+        "predicted_pixels": 0,
+        "truth_pixels": 0
+      },
+      {
+        "file": "crack_007.png",
+        "crack": true,
+        "iou": 0.21298472385428907,
+        "predicted_pixels": 2870,
+        "truth_pixels": 1259
+      },
+      {
+        "file": "crack_008.png",
+        "crack": true,
+        "iou": 0.1292147052425495,
+        "predicted_pixels": 4167,
+        "truth_pixels": 1024
+      },
+      {
+        "file": "crack_009.png",
+        "crack": true,
+        "iou": 0.15482573726541554,
+        "predicted_pixels": 2283,
+        "truth_pixels": 1163
+      },
+      {
+        "file": "clean_010.png",
+        "crack": false,
+        "iou": null,
+        "predicted_pixels": 0,
+        "truth_pixels": 0
+      },
+      {
+        "file": "crack_011.png",
+        "crack": true,
+        "iou": 0.1186122831692452,
+        "predicted_pixels": 1937,
+        "truth_pixels": 449
+      },
+      {
+        "file": "crack_012.png",
+        "crack": true,
+        "iou": 0.09412711182622686,
+        "predicted_pixels": 828,
+        "truth_pixels": 532
+      },
+      {
+        "file": "clean_013.png",
+        "crack": false,
+        "iou": null,
+        "predicted_pixels": 0,
+        "truth_pixels": 0
+      },
+      {
+        "file": "clean_014.png",
+        "crack": false,
+        "iou": null,
+        "predicted_pixels": 0,
+        "truth_pixels": 0
+      },
+      {
+        "file": "crack_015.png",
+        "crack": true,
+        "iou": 0.16683383483784686,
+        "predicted_pixels": 2980,
+        "truth_pixels": 510
+      },
+      {
+        "file": "crack_016.png",
+        "crack": true,
+        "iou": 0.18963127252564457,
+        "predicted_pixels": 3128,
+        "truth_pixels": 1163
+      },
+      {
+        "file": "clean_017.png",
+        "crack": false,
+        "iou": null,
+        "predicted_pixels": 0,
+        "truth_pixels": 0
+      },
+      {
+        "file": "crack_018.png",
+        "crack": true,
+        "iou": 0.18705715635333017,
+        "predicted_pixels": 3675,
+        "truth_pixels": 1351
+      },
+      {
+        "file": "crack_019.png",
+        "crack": true,
+        "iou": 0.2674319727891156,
+        "predicted_pixels": 2265,
+        "truth_pixels": 716
+      },
+      {
+        "file": "crack_020.png",
+        "crack": true,
+        "iou": 0.0,
+        "predicted_pixels": 0,
+        "truth_pixels": 154
+      },
+      {
+        "file": "crack_021.png",
+        "crack": true,
+        "iou": 0.0,
+        "predicted_pixels": 0,
+        "truth_pixels": 48
+      },
+      {
+        "file": "clean_022.png",
+        "crack": false,
+        "iou": null,
+        "predicted_pixels": 0,
+        "truth_pixels": 0
+      },
+      {
+        "file": "crack_023.png",
+        "crack": true,
+        "iou": 0.07659574468085106,
+        "predicted_pixels": 565,
+        "truth_pixels": 700
+      },
+      {
+        "file": "crack_024.png",
+        "crack": true,
+        "iou": 0.19318712085860942,
+        "predicted_pixels": 1732,
+        "truth_pixels": 825
+      },
+      {
+        "file": "crack_025.png",
+        "crack": true,
+        "iou": 0.05371900826446281,
+        "predicted_pixels": 1168,
+        "truth_pixels": 1382
+      },
+      {
+        "file": "clean_026.png",
+        "crack": false,
+        "iou": null,
+        "predicted_pixels": 0,
+        "truth_pixels": 0
+      },
+      {
+        "file": "crack_027.png",
+        "crack": true,
+        "iou": 0.0,
+        "predicted_pixels": 0,
+        "truth_pixels": 64
+      },
+      {
+        "file": "clean_028.png",
+        "crack": false,
+        "iou": null,
+        "predicted_pixels": 0,
+        "truth_pixels": 0
+      },
+      {
+        "file": "crack_029.png",
+        "crack": true,
+        "iou": 0.15619861887536995,
+        "predicted_pixels": 3009,
+        "truth_pixels": 507
+      },
+      {
+        "file": "crack_030.png",
+        "crack": true,
+        "iou": 0.14732142857142858,
+        "predicted_pixels": 355,
+        "truth_pixels": 416
+      },
+      {
+        "file": "crack_031.png",
+        "crack": true,
+        "iou": 0.11962323390894819,
+        "predicted_pixels": 2648,
+        "truth_pixels": 918
+      },
+      {
+        "file": "crack_032.png",
+        "crack": true,
+        "iou": 0.2113914373088685,
+        "predicted_pixels": 4933,
+        "truth_pixels": 1405
+      },
+      {
+        "file": "clean_033.png",
+        "crack": false,
+        "iou": null,
+        "predicted_pixels": 0,
+        "truth_pixels": 0
+      },
+      {
+        "file": "crack_034.png",
+        "crack": true,
+        "iou": 0.16136631330977622,
+        "predicted_pixels": 1614,
+        "truth_pixels": 1344
+      },
+      {
+        "file": "clean_035.png",
+        "crack": false,
+        "iou": null,
+        "predicted_pixels": 0,
+        "truth_pixels": 0
+      },
+      {
+        "file": "crack_036.png",
+        "crack": true,
+        "iou": 0.2210751156995372,
+        "predicted_pixels": 1975,
+        "truth_pixels": 1455
+      },
+      {
+        "file": "clean_037.png",
+        "crack": false,
+        "iou": null,
+        "predicted_pixels": 0,
+        "truth_pixels": 0
+      },
+      {
+        "file": "crack_038.png",
+        "crack": true,
+        "iou": 0.28559533721898417,
+        "predicted_pixels": 898,
+        "truth_pixels": 646
+      },
+      {
+        "file": "crack_039.png",
+        "crack": true,
+        "iou": 0.18529632408102026,
+        "predicted_pixels": 3860,
+        "truth_pixels": 880
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+services:
+  demo:
+    build: .
+    ports:
+      - "8766:8766"
+    volumes:
+      - ./data:/data:ro
+    command: ["serve.py", "--bank", "/data/bank", "--host", "0.0.0.0", "--port", "8766"]
+  score:
+    build: .
+    volumes:
+      - ./data:/data:ro
+      - ./output:/output
+    command: ["inspect_anomaly.py", "score", "--bank", "/data/bank", "--input", "/data/images", "--output", "/output"]

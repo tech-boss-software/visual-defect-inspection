@@ -1,0 +1,1151 @@
+{
+ "seed": 9,
+ "splits": {
+  "train": [
+   {
+    "file": "crack_000.png",
+    "mask": "crack_000_mask.png",
+    "crack": true,
+    "mask_pixels": 665
+   },
+   {
+    "file": "clean_001.png",
+    "mask": "clean_001_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "clean_002.png",
+    "mask": "clean_002_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "clean_003.png",
+    "mask": "clean_003_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "crack_004.png",
+    "mask": "crack_004_mask.png",
+    "crack": true,
+    "mask_pixels": 560
+   },
+   {
+    "file": "crack_005.png",
+    "mask": "crack_005_mask.png",
+    "crack": true,
+    "mask_pixels": 876
+   },
+   {
+    "file": "clean_006.png",
+    "mask": "clean_006_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "clean_007.png",
+    "mask": "clean_007_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "crack_008.png",
+    "mask": "crack_008_mask.png",
+    "crack": true,
+    "mask_pixels": 1003
+   },
+   {
+    "file": "crack_009.png",
+    "mask": "crack_009_mask.png",
+    "crack": true,
+    "mask_pixels": 87
+   },
+   {
+    "file": "clean_010.png",
+    "mask": "clean_010_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "crack_011.png",
+    "mask": "crack_011_mask.png",
+    "crack": true,
+    "mask_pixels": 1070
+   },
+   {
+    "file": "crack_012.png",
+    "mask": "crack_012_mask.png",
+    "crack": true,
+    "mask_pixels": 1159
+   },
+   {
+    "file": "crack_013.png",
+    "mask": "crack_013_mask.png",
+    "crack": true,
+    "mask_pixels": 732
+   },
+   {
+    "file": "crack_014.png",
+    "mask": "crack_014_mask.png",
+    "crack": true,
+    "mask_pixels": 1007
+   },
+   {
+    "file": "clean_015.png",
+    "mask": "clean_015_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "crack_016.png",
+    "mask": "crack_016_mask.png",
+    "crack": true,
+    "mask_pixels": 696
+   },
+   {
+    "file": "crack_017.png",
+    "mask": "crack_017_mask.png",
+    "crack": true,
+    "mask_pixels": 1290
+   },
+   {
+    "file": "crack_018.png",
+    "mask": "crack_018_mask.png",
+    "crack": true,
+    "mask_pixels": 751
+   },
+   {
+    "file": "crack_019.png",
+    "mask": "crack_019_mask.png",
+    "crack": true,
+    "mask_pixels": 1359
+   },
+   {
+    "file": "clean_020.png",
+    "mask": "clean_020_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "clean_021.png",
+    "mask": "clean_021_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "crack_022.png",
+    "mask": "crack_022_mask.png",
+    "crack": true,
+    "mask_pixels": 983
+   },
+   {
+    "file": "crack_023.png",
+    "mask": "crack_023_mask.png",
+    "crack": true,
+    "mask_pixels": 287
+   },
+   {
+    "file": "crack_024.png",
+    "mask": "crack_024_mask.png",
+    "crack": true,
+    "mask_pixels": 1557
+   },
+   {
+    "file": "crack_025.png",
+    "mask": "crack_025_mask.png",
+    "crack": true,
+    "mask_pixels": 1113
+   },
+   {
+    "file": "crack_026.png",
+    "mask": "crack_026_mask.png",
+    "crack": true,
+    "mask_pixels": 781
+   },
+   {
+    "file": "crack_027.png",
+    "mask": "crack_027_mask.png",
+    "crack": true,
+    "mask_pixels": 672
+   },
+   {
+    "file": "clean_028.png",
+    "mask": "clean_028_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "clean_029.png",
+    "mask": "clean_029_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "clean_030.png",
+    "mask": "clean_030_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "clean_031.png",
+    "mask": "clean_031_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "crack_032.png",
+    "mask": "crack_032_mask.png",
+    "crack": true,
+    "mask_pixels": 170
+   },
+   {
+    "file": "crack_033.png",
+    "mask": "crack_033_mask.png",
+    "crack": true,
+    "mask_pixels": 482
+   },
+   {
+    "file": "crack_034.png",
+    "mask": "crack_034_mask.png",
+    "crack": true,
+    "mask_pixels": 982
+   },
+   {
+    "file": "crack_035.png",
+    "mask": "crack_035_mask.png",
+    "crack": true,
+    "mask_pixels": 716
+   },
+   {
+    "file": "crack_036.png",
+    "mask": "crack_036_mask.png",
+    "crack": true,
+    "mask_pixels": 638
+   },
+   {
+    "file": "crack_037.png",
+    "mask": "crack_037_mask.png",
+    "crack": true,
+    "mask_pixels": 414
+   },
+   {
+    "file": "crack_038.png",
+    "mask": "crack_038_mask.png",
+    "crack": true,
+    "mask_pixels": 1303
+   },
+   {
+    "file": "crack_039.png",
+    "mask": "crack_039_mask.png",
+    "crack": true,
+    "mask_pixels": 609
+   },
+   {
+    "file": "crack_040.png",
+    "mask": "crack_040_mask.png",
+    "crack": true,
+    "mask_pixels": 1228
+   },
+   {
+    "file": "crack_041.png",
+    "mask": "crack_041_mask.png",
+    "crack": true,
+    "mask_pixels": 510
+   },
+   {
+    "file": "clean_042.png",
+    "mask": "clean_042_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "clean_043.png",
+    "mask": "clean_043_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "clean_044.png",
+    "mask": "clean_044_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "crack_045.png",
+    "mask": "crack_045_mask.png",
+    "crack": true,
+    "mask_pixels": 1151
+   },
+   {
+    "file": "crack_046.png",
+    "mask": "crack_046_mask.png",
+    "crack": true,
+    "mask_pixels": 1189
+   },
+   {
+    "file": "crack_047.png",
+    "mask": "crack_047_mask.png",
+    "crack": true,
+    "mask_pixels": 407
+   },
+   {
+    "file": "crack_048.png",
+    "mask": "crack_048_mask.png",
+    "crack": true,
+    "mask_pixels": 472
+   },
+   {
+    "file": "crack_049.png",
+    "mask": "crack_049_mask.png",
+    "crack": true,
+    "mask_pixels": 764
+   },
+   {
+    "file": "crack_050.png",
+    "mask": "crack_050_mask.png",
+    "crack": true,
+    "mask_pixels": 975
+   },
+   {
+    "file": "clean_051.png",
+    "mask": "clean_051_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "crack_052.png",
+    "mask": "crack_052_mask.png",
+    "crack": true,
+    "mask_pixels": 631
+   },
+   {
+    "file": "crack_053.png",
+    "mask": "crack_053_mask.png",
+    "crack": true,
+    "mask_pixels": 182
+   },
+   {
+    "file": "crack_054.png",
+    "mask": "crack_054_mask.png",
+    "crack": true,
+    "mask_pixels": 1191
+   },
+   {
+    "file": "crack_055.png",
+    "mask": "crack_055_mask.png",
+    "crack": true,
+    "mask_pixels": 206
+   },
+   {
+    "file": "crack_056.png",
+    "mask": "crack_056_mask.png",
+    "crack": true,
+    "mask_pixels": 709
+   },
+   {
+    "file": "crack_057.png",
+    "mask": "crack_057_mask.png",
+    "crack": true,
+    "mask_pixels": 653
+   },
+   {
+    "file": "crack_058.png",
+    "mask": "crack_058_mask.png",
+    "crack": true,
+    "mask_pixels": 541
+   },
+   {
+    "file": "crack_059.png",
+    "mask": "crack_059_mask.png",
+    "crack": true,
+    "mask_pixels": 431
+   },
+   {
+    "file": "crack_060.png",
+    "mask": "crack_060_mask.png",
+    "crack": true,
+    "mask_pixels": 1423
+   },
+   {
+    "file": "crack_061.png",
+    "mask": "crack_061_mask.png",
+    "crack": true,
+    "mask_pixels": 873
+   },
+   {
+    "file": "crack_062.png",
+    "mask": "crack_062_mask.png",
+    "crack": true,
+    "mask_pixels": 1098
+   },
+   {
+    "file": "clean_063.png",
+    "mask": "clean_063_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "crack_064.png",
+    "mask": "crack_064_mask.png",
+    "crack": true,
+    "mask_pixels": 59
+   },
+   {
+    "file": "clean_065.png",
+    "mask": "clean_065_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "crack_066.png",
+    "mask": "crack_066_mask.png",
+    "crack": true,
+    "mask_pixels": 370
+   },
+   {
+    "file": "crack_067.png",
+    "mask": "crack_067_mask.png",
+    "crack": true,
+    "mask_pixels": 1003
+   },
+   {
+    "file": "crack_068.png",
+    "mask": "crack_068_mask.png",
+    "crack": true,
+    "mask_pixels": 113
+   },
+   {
+    "file": "crack_069.png",
+    "mask": "crack_069_mask.png",
+    "crack": true,
+    "mask_pixels": 948
+   },
+   {
+    "file": "crack_070.png",
+    "mask": "crack_070_mask.png",
+    "crack": true,
+    "mask_pixels": 389
+   },
+   {
+    "file": "crack_071.png",
+    "mask": "crack_071_mask.png",
+    "crack": true,
+    "mask_pixels": 167
+   },
+   {
+    "file": "clean_072.png",
+    "mask": "clean_072_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "crack_073.png",
+    "mask": "crack_073_mask.png",
+    "crack": true,
+    "mask_pixels": 202
+   },
+   {
+    "file": "crack_074.png",
+    "mask": "crack_074_mask.png",
+    "crack": true,
+    "mask_pixels": 235
+   },
+   {
+    "file": "clean_075.png",
+    "mask": "clean_075_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "crack_076.png",
+    "mask": "crack_076_mask.png",
+    "crack": true,
+    "mask_pixels": 99
+   },
+   {
+    "file": "clean_077.png",
+    "mask": "clean_077_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "crack_078.png",
+    "mask": "crack_078_mask.png",
+    "crack": true,
+    "mask_pixels": 1643
+   },
+   {
+    "file": "crack_079.png",
+    "mask": "crack_079_mask.png",
+    "crack": true,
+    "mask_pixels": 289
+   },
+   {
+    "file": "crack_080.png",
+    "mask": "crack_080_mask.png",
+    "crack": true,
+    "mask_pixels": 490
+   },
+   {
+    "file": "crack_081.png",
+    "mask": "crack_081_mask.png",
+    "crack": true,
+    "mask_pixels": 394
+   },
+   {
+    "file": "crack_082.png",
+    "mask": "crack_082_mask.png",
+    "crack": true,
+    "mask_pixels": 92
+   },
+   {
+    "file": "clean_083.png",
+    "mask": "clean_083_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "crack_084.png",
+    "mask": "crack_084_mask.png",
+    "crack": true,
+    "mask_pixels": 617
+   },
+   {
+    "file": "crack_085.png",
+    "mask": "crack_085_mask.png",
+    "crack": true,
+    "mask_pixels": 1416
+   },
+   {
+    "file": "crack_086.png",
+    "mask": "crack_086_mask.png",
+    "crack": true,
+    "mask_pixels": 1024
+   },
+   {
+    "file": "crack_087.png",
+    "mask": "crack_087_mask.png",
+    "crack": true,
+    "mask_pixels": 583
+   },
+   {
+    "file": "crack_088.png",
+    "mask": "crack_088_mask.png",
+    "crack": true,
+    "mask_pixels": 126
+   },
+   {
+    "file": "crack_089.png",
+    "mask": "crack_089_mask.png",
+    "crack": true,
+    "mask_pixels": 646
+   },
+   {
+    "file": "crack_090.png",
+    "mask": "crack_090_mask.png",
+    "crack": true,
+    "mask_pixels": 517
+   },
+   {
+    "file": "crack_091.png",
+    "mask": "crack_091_mask.png",
+    "crack": true,
+    "mask_pixels": 1164
+   },
+   {
+    "file": "crack_092.png",
+    "mask": "crack_092_mask.png",
+    "crack": true,
+    "mask_pixels": 908
+   },
+   {
+    "file": "crack_093.png",
+    "mask": "crack_093_mask.png",
+    "crack": true,
+    "mask_pixels": 560
+   },
+   {
+    "file": "crack_094.png",
+    "mask": "crack_094_mask.png",
+    "crack": true,
+    "mask_pixels": 1532
+   },
+   {
+    "file": "crack_095.png",
+    "mask": "crack_095_mask.png",
+    "crack": true,
+    "mask_pixels": 437
+   },
+   {
+    "file": "crack_096.png",
+    "mask": "crack_096_mask.png",
+    "crack": true,
+    "mask_pixels": 986
+   },
+   {
+    "file": "clean_097.png",
+    "mask": "clean_097_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "crack_098.png",
+    "mask": "crack_098_mask.png",
+    "crack": true,
+    "mask_pixels": 1358
+   },
+   {
+    "file": "crack_099.png",
+    "mask": "crack_099_mask.png",
+    "crack": true,
+    "mask_pixels": 1536
+   },
+   {
+    "file": "crack_100.png",
+    "mask": "crack_100_mask.png",
+    "crack": true,
+    "mask_pixels": 834
+   },
+   {
+    "file": "crack_101.png",
+    "mask": "crack_101_mask.png",
+    "crack": true,
+    "mask_pixels": 326
+   },
+   {
+    "file": "crack_102.png",
+    "mask": "crack_102_mask.png",
+    "crack": true,
+    "mask_pixels": 308
+   },
+   {
+    "file": "crack_103.png",
+    "mask": "crack_103_mask.png",
+    "crack": true,
+    "mask_pixels": 583
+   },
+   {
+    "file": "crack_104.png",
+    "mask": "crack_104_mask.png",
+    "crack": true,
+    "mask_pixels": 114
+   },
+   {
+    "file": "crack_105.png",
+    "mask": "crack_105_mask.png",
+    "crack": true,
+    "mask_pixels": 1064
+   },
+   {
+    "file": "crack_106.png",
+    "mask": "crack_106_mask.png",
+    "crack": true,
+    "mask_pixels": 1766
+   },
+   {
+    "file": "clean_107.png",
+    "mask": "clean_107_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "crack_108.png",
+    "mask": "crack_108_mask.png",
+    "crack": true,
+    "mask_pixels": 1053
+   },
+   {
+    "file": "crack_109.png",
+    "mask": "crack_109_mask.png",
+    "crack": true,
+    "mask_pixels": 1068
+   },
+   {
+    "file": "clean_110.png",
+    "mask": "clean_110_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "clean_111.png",
+    "mask": "clean_111_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "crack_112.png",
+    "mask": "crack_112_mask.png",
+    "crack": true,
+    "mask_pixels": 470
+   },
+   {
+    "file": "clean_113.png",
+    "mask": "clean_113_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "crack_114.png",
+    "mask": "crack_114_mask.png",
+    "crack": true,
+    "mask_pixels": 1101
+   },
+   {
+    "file": "crack_115.png",
+    "mask": "crack_115_mask.png",
+    "crack": true,
+    "mask_pixels": 723
+   },
+   {
+    "file": "clean_116.png",
+    "mask": "clean_116_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "clean_117.png",
+    "mask": "clean_117_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "crack_118.png",
+    "mask": "crack_118_mask.png",
+    "crack": true,
+    "mask_pixels": 881
+   },
+   {
+    "file": "crack_119.png",
+    "mask": "crack_119_mask.png",
+    "crack": true,
+    "mask_pixels": 1342
+   }
+  ],
+  "val": [
+   {
+    "file": "crack_000.png",
+    "mask": "crack_000_mask.png",
+    "crack": true,
+    "mask_pixels": 1120
+   },
+   {
+    "file": "crack_001.png",
+    "mask": "crack_001_mask.png",
+    "crack": true,
+    "mask_pixels": 592
+   },
+   {
+    "file": "crack_002.png",
+    "mask": "crack_002_mask.png",
+    "crack": true,
+    "mask_pixels": 1023
+   },
+   {
+    "file": "clean_003.png",
+    "mask": "clean_003_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "clean_004.png",
+    "mask": "clean_004_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "crack_005.png",
+    "mask": "crack_005_mask.png",
+    "crack": true,
+    "mask_pixels": 945
+   },
+   {
+    "file": "crack_006.png",
+    "mask": "crack_006_mask.png",
+    "crack": true,
+    "mask_pixels": 1189
+   },
+   {
+    "file": "crack_007.png",
+    "mask": "crack_007_mask.png",
+    "crack": true,
+    "mask_pixels": 1082
+   },
+   {
+    "file": "crack_008.png",
+    "mask": "crack_008_mask.png",
+    "crack": true,
+    "mask_pixels": 957
+   },
+   {
+    "file": "crack_009.png",
+    "mask": "crack_009_mask.png",
+    "crack": true,
+    "mask_pixels": 450
+   },
+   {
+    "file": "crack_010.png",
+    "mask": "crack_010_mask.png",
+    "crack": true,
+    "mask_pixels": 1197
+   },
+   {
+    "file": "crack_011.png",
+    "mask": "crack_011_mask.png",
+    "crack": true,
+    "mask_pixels": 1721
+   },
+   {
+    "file": "clean_012.png",
+    "mask": "clean_012_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "clean_013.png",
+    "mask": "clean_013_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "clean_014.png",
+    "mask": "clean_014_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "crack_015.png",
+    "mask": "crack_015_mask.png",
+    "crack": true,
+    "mask_pixels": 1371
+   },
+   {
+    "file": "crack_016.png",
+    "mask": "crack_016_mask.png",
+    "crack": true,
+    "mask_pixels": 280
+   },
+   {
+    "file": "crack_017.png",
+    "mask": "crack_017_mask.png",
+    "crack": true,
+    "mask_pixels": 128
+   },
+   {
+    "file": "crack_018.png",
+    "mask": "crack_018_mask.png",
+    "crack": true,
+    "mask_pixels": 976
+   },
+   {
+    "file": "crack_019.png",
+    "mask": "crack_019_mask.png",
+    "crack": true,
+    "mask_pixels": 128
+   },
+   {
+    "file": "clean_020.png",
+    "mask": "clean_020_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "clean_021.png",
+    "mask": "clean_021_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "crack_022.png",
+    "mask": "crack_022_mask.png",
+    "crack": true,
+    "mask_pixels": 1615
+   },
+   {
+    "file": "clean_023.png",
+    "mask": "clean_023_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "crack_024.png",
+    "mask": "crack_024_mask.png",
+    "crack": true,
+    "mask_pixels": 870
+   },
+   {
+    "file": "crack_025.png",
+    "mask": "crack_025_mask.png",
+    "crack": true,
+    "mask_pixels": 879
+   },
+   {
+    "file": "clean_026.png",
+    "mask": "clean_026_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "crack_027.png",
+    "mask": "crack_027_mask.png",
+    "crack": true,
+    "mask_pixels": 385
+   },
+   {
+    "file": "crack_028.png",
+    "mask": "crack_028_mask.png",
+    "crack": true,
+    "mask_pixels": 657
+   },
+   {
+    "file": "crack_029.png",
+    "mask": "crack_029_mask.png",
+    "crack": true,
+    "mask_pixels": 1292
+   }
+  ],
+  "test": [
+   {
+    "file": "crack_000.png",
+    "mask": "crack_000_mask.png",
+    "crack": true,
+    "mask_pixels": 1455
+   },
+   {
+    "file": "crack_001.png",
+    "mask": "crack_001_mask.png",
+    "crack": true,
+    "mask_pixels": 650
+   },
+   {
+    "file": "crack_002.png",
+    "mask": "crack_002_mask.png",
+    "crack": true,
+    "mask_pixels": 1798
+   },
+   {
+    "file": "clean_003.png",
+    "mask": "clean_003_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "clean_004.png",
+    "mask": "clean_004_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "crack_005.png",
+    "mask": "crack_005_mask.png",
+    "crack": true,
+    "mask_pixels": 762
+   },
+   {
+    "file": "clean_006.png",
+    "mask": "clean_006_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "crack_007.png",
+    "mask": "crack_007_mask.png",
+    "crack": true,
+    "mask_pixels": 1259
+   },
+   {
+    "file": "crack_008.png",
+    "mask": "crack_008_mask.png",
+    "crack": true,
+    "mask_pixels": 1024
+   },
+   {
+    "file": "crack_009.png",
+    "mask": "crack_009_mask.png",
+    "crack": true,
+    "mask_pixels": 1163
+   },
+   {
+    "file": "clean_010.png",
+    "mask": "clean_010_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "crack_011.png",
+    "mask": "crack_011_mask.png",
+    "crack": true,
+    "mask_pixels": 449
+   },
+   {
+    "file": "crack_012.png",
+    "mask": "crack_012_mask.png",
+    "crack": true,
+    "mask_pixels": 532
+   },
+   {
+    "file": "clean_013.png",
+    "mask": "clean_013_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "clean_014.png",
+    "mask": "clean_014_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "crack_015.png",
+    "mask": "crack_015_mask.png",
+    "crack": true,
+    "mask_pixels": 510
+   },
+   {
+    "file": "crack_016.png",
+    "mask": "crack_016_mask.png",
+    "crack": true,
+    "mask_pixels": 1163
+   },
+   {
+    "file": "clean_017.png",
+    "mask": "clean_017_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "crack_018.png",
+    "mask": "crack_018_mask.png",
+    "crack": true,
+    "mask_pixels": 1351
+   },
+   {
+    "file": "crack_019.png",
+    "mask": "crack_019_mask.png",
+    "crack": true,
+    "mask_pixels": 716
+   },
+   {
+    "file": "crack_020.png",
+    "mask": "crack_020_mask.png",
+    "crack": true,
+    "mask_pixels": 154
+   },
+   {
+    "file": "crack_021.png",
+    "mask": "crack_021_mask.png",
+    "crack": true,
+    "mask_pixels": 48
+   },
+   {
+    "file": "clean_022.png",
+    "mask": "clean_022_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "crack_023.png",
+    "mask": "crack_023_mask.png",
+    "crack": true,
+    "mask_pixels": 700
+   },
+   {
+    "file": "crack_024.png",
+    "mask": "crack_024_mask.png",
+    "crack": true,
+    "mask_pixels": 825
+   },
+   {
+    "file": "crack_025.png",
+    "mask": "crack_025_mask.png",
+    "crack": true,
+    "mask_pixels": 1382
+   },
+   {
+    "file": "clean_026.png",
+    "mask": "clean_026_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "crack_027.png",
+    "mask": "crack_027_mask.png",
+    "crack": true,
+    "mask_pixels": 64
+   },
+   {
+    "file": "clean_028.png",
+    "mask": "clean_028_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "crack_029.png",
+    "mask": "crack_029_mask.png",
+    "crack": true,
+    "mask_pixels": 507
+   },
+   {
+    "file": "crack_030.png",
+    "mask": "crack_030_mask.png",
+    "crack": true,
+    "mask_pixels": 416
+   },
+   {
+    "file": "crack_031.png",
+    "mask": "crack_031_mask.png",
+    "crack": true,
+    "mask_pixels": 918
+   },
+   {
+    "file": "crack_032.png",
+    "mask": "crack_032_mask.png",
+    "crack": true,
+    "mask_pixels": 1405
+   },
+   {
+    "file": "clean_033.png",
+    "mask": "clean_033_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "crack_034.png",
+    "mask": "crack_034_mask.png",
+    "crack": true,
+    "mask_pixels": 1344
+   },
+   {
+    "file": "clean_035.png",
+    "mask": "clean_035_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "crack_036.png",
+    "mask": "crack_036_mask.png",
+    "crack": true,
+    "mask_pixels": 1455
+   },
+   {
+    "file": "clean_037.png",
+    "mask": "clean_037_mask.png",
+    "crack": false,
+    "mask_pixels": 0
+   },
+   {
+    "file": "crack_038.png",
+    "mask": "crack_038_mask.png",
+    "crack": true,
+    "mask_pixels": 646
+   },
+   {
+    "file": "crack_039.png",
+    "mask": "crack_039_mask.png",
+    "crack": true,
+    "mask_pixels": 880
+   }
+  ]
+ }
+}

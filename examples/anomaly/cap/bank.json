@@ -1,0 +1,45 @@
+{
+  "grid_shape": [
+    28,
+    28
+  ],
+  "feature_info": {
+    "backbone": "resnet18",
+    "weights": "ResNet18_Weights.IMAGENET1K_V1",
+    "url": "https://download.pytorch.org/models/resnet18-f37072fd.pth",
+    "checkpoint_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+    "layers": [
+      "layer2",
+      "layer3"
+    ],
+    "input_size": 224,
+    "grid_shape": [
+      28,
+      28
+    ],
+    "dim": 384,
+    "local_pool": "3x3 average",
+    "torchvision": "0.29.2+cpu",
+    "torch": "2.15.0+cpu"
+  },
+  "coreset": {
+    "patches_seen": 47040,
+    "kept": 4704,
+    "fraction": 0.1,
+    "seed": 0,
+    "images": 60,
+    "fit_seconds": 100.5
+  },
+  "threshold": 1.2287594079971313,
+  "calibration": {
+    "good_images": 20,
+    "target_false_alarm": 0.05,
+    "threshold": 1.2287594079971313,
+    "good_score_median": 1.1044301390647888,
+    "good_score_max": 1.2603498697280884
+  },
+  "bank_shape": [
+    4704,
+    384
+  ]
+}
