@@ -13,6 +13,10 @@ Each image gets its own texture noise, lighting gradient, sensor noise and somet
 
 Anomaly dataset (`--anomaly`, seed 5), per category: 60 good images for the fit, 20 held-out good images for calibration, a test split of 20 good images plus 8 images per defect type (32 defective for plate, 24 for cap and tile). Crack dataset (`--cracks`, seed 9): 120 training, 30 validation and 40 test images with masks.
 
+## Real concrete photographs
+
+Concrete Crack Images for Classification (Çağlar Fırat Özgenel, Mendeley Data, DOI 10.17632/5y9wdsg2zt.2, CC BY 4.0): 40,000 227 x 227 RGB crops of METU campus concrete surfaces, 20,000 with cracks and 20,000 without. Downloaded on 14 November 2026 as `Concrete Crack Images for Classification.rar` (241 MB) and opened with the Windows bsdtar; a random subset (seed 0) of 1,200 crack-free and 400 cracked images was extracted and `import_folders.py` arranged 300 / 100 / 100 crack-free and 400 cracked images into the benchmark layout (`examples/anomaly-real/concrete_index.json` lists every file).
+
 ## Models
 
 - Anomaly mode: TorchVision `resnet18` with `ResNet18_Weights.IMAGENET1K_V1`, frozen; its SHA-256 is recorded in `report.json` under `features`. Nothing is trained; the memory bank is built from the good images' patch features (10% coreset).
@@ -31,5 +35,6 @@ python inspect_cracks.py --cache-dir 'D:\Tech Boss\cv-cache' --threads 4 train -
 - `examples/anomaly/`: `dashboard.html`, `report.json` (features, per-category calibration, AUROC, per-defect recall, every test record with its score), `<category>/bank.json` (bank metadata; the `.npy` banks are not committed) and `<category>/heatmaps/` panels for every test image.
 - `examples/cracks/`: `dashboard.html`, `training_log.json` (epochs, threshold sweep, test metrics per image) and `test/` panels for the worst and best test images.
 - `examples/data/`: a few input images with their masks from each category.
+- `examples/anomaly-real/`: the concrete run: `dashboard.html`, `report.json` (every test score), the bank metadata and the heatmap panels the dashboard shows (misses, false alarms, sample hits).
 
 Timings are from this one machine and run and are not a hardware benchmark.

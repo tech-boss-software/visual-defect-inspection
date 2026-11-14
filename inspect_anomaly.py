@@ -119,8 +119,9 @@ def benchmark(args):
         labels = [e["label"] for e in test_entries]
         scores = [r["score"] for r in results]
         at_threshold = threshold_metrics(scores, labels, bank.threshold)
-        defect_maps = [r["heat"] for r, e in zip(results, test_entries) if e["label"] == 1]
-        defect_masks = [masks[e["file"]] for e in test_entries if e["label"] == 1]
+        # Pixel AUROC needs masks; datasets with image-level labels only (real photos) skip it.
+        defect_maps = [r["heat"] for r, e in zip(results, test_entries) if e["label"] == 1 and e["file"] in masks]
+        defect_masks = [masks[e["file"]] for e in test_entries if e["label"] == 1 and e["file"] in masks]
         good_maps = [r["heat"] for r, e in zip(results, test_entries) if e["label"] == 0]
         px_auroc = pixel_auroc(defect_maps + good_maps, defect_masks + [np.zeros_like(m, bool) for m in good_maps]) if defect_masks else None
         per_defect = {}

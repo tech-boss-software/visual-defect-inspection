@@ -1,0 +1,5016 @@
+{
+ "seed": 0,
+ "categories": {
+  "concrete": {
+   "train_good": [
+    {
+     "file": "good_08321.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\08321.jpg"
+    },
+    {
+     "file": "good_18687.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\18687.jpg"
+    },
+    {
+     "file": "good_17793.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\17793.jpg"
+    },
+    {
+     "file": "good_05370.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\05370.jpg"
+    },
+    {
+     "file": "good_15621.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\15621.jpg"
+    },
+    {
+     "file": "good_03397.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\03397.jpg"
+    },
+    {
+     "file": "good_06533.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\06533.jpg"
+    },
+    {
+     "file": "good_09711.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\09711.jpg"
+    },
+    {
+     "file": "good_11684.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\11684.jpg"
+    },
+    {
+     "file": "good_15018.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\15018.jpg"
+    },
+    {
+     "file": "good_01311.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\01311.jpg"
+    },
+    {
+     "file": "good_12573.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\12573.jpg"
+    },
+    {
+     "file": "good_14569.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\14569.jpg"
+    },
+    {
+     "file": "good_11360.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\11360.jpg"
+    },
+    {
+     "file": "good_12671.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\12671.jpg"
+    },
+    {
+     "file": "good_09610.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\09610.jpg"
+    },
+    {
+     "file": "good_09002.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\09002.jpg"
+    },
+    {
+     "file": "good_19870.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\19870.jpg"
+    },
+    {
+     "file": "good_03875.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\03875.jpg"
+    },
+    {
+     "file": "good_09577.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\09577.jpg"
+    },
+    {
+     "file": "good_04601.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\04601.jpg"
+    },
+    {
+     "file": "good_13282.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\13282.jpg"
+    },
+    {
+     "file": "good_11594.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\11594.jpg"
+    },
+    {
+     "file": "good_10837.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\10837.jpg"
+    },
+    {
+     "file": "good_19934.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\19934.jpg"
+    },
+    {
+     "file": "good_05158.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\05158.jpg"
+    },
+    {
+     "file": "good_04696.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\04696.jpg"
+    },
+    {
+     "file": "good_15472.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\15472.jpg"
+    },
+    {
+     "file": "good_02554.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\02554.jpg"
+    },
+    {
+     "file": "good_08408.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\08408.jpg"
+    },
+    {
+     "file": "good_01377.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\01377.jpg"
+    },
+    {
+     "file": "good_03718.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\03718.jpg"
+    },
+    {
+     "file": "good_06266.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\06266.jpg"
+    },
+    {
+     "file": "good_13301.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\13301.jpg"
+    },
+    {
+     "file": "good_14549.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\14549.jpg"
+    },
+    {
+     "file": "good_09893.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\09893.jpg"
+    },
+    {
+     "file": "good_03991.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\03991.jpg"
+    },
+    {
+     "file": "good_04268.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\04268.jpg"
+    },
+    {
+     "file": "good_06078.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\06078.jpg"
+    },
+    {
+     "file": "good_07964.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\07964.jpg"
+    },
+    {
+     "file": "good_03429.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\03429.jpg"
+    },
+    {
+     "file": "good_12993.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\12993.jpg"
+    },
+    {
+     "file": "good_12946.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\12946.jpg"
+    },
+    {
+     "file": "good_00306.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\00306.jpg"
+    },
+    {
+     "file": "good_15098.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\15098.jpg"
+    },
+    {
+     "file": "good_16666.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\16666.jpg"
+    },
+    {
+     "file": "good_15587.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\15587.jpg"
+    },
+    {
+     "file": "good_10987.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\10987.jpg"
+    },
+    {
+     "file": "good_13830.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\13830.jpg"
+    },
+    {
+     "file": "good_08600.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\08600.jpg"
+    },
+    {
+     "file": "good_04405.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\04405.jpg"
+    },
+    {
+     "file": "good_13269.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\13269.jpg"
+    },
+    {
+     "file": "good_11560.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\11560.jpg"
+    },
+    {
+     "file": "good_00805.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\00805.jpg"
+    },
+    {
+     "file": "good_19059.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\19059.jpg"
+    },
+    {
+     "file": "good_02648.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\02648.jpg"
+    },
+    {
+     "file": "good_01516.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\01516.jpg"
+    },
+    {
+     "file": "good_07302.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\07302.jpg"
+    },
+    {
+     "file": "good_15452.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\15452.jpg"
+    },
+    {
+     "file": "good_13771.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\13771.jpg"
+    },
+    {
+     "file": "good_11579.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\11579.jpg"
+    },
+    {
+     "file": "good_07078.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\07078.jpg"
+    },
+    {
+     "file": "good_04037.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\04037.jpg"
+    },
+    {
+     "file": "good_05885.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\05885.jpg"
+    },
+    {
+     "file": "good_13400.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\13400.jpg"
+    },
+    {
+     "file": "good_19802.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\19802.jpg"
+    },
+    {
+     "file": "good_18254.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\18254.jpg"
+    },
+    {
+     "file": "good_16333.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\16333.jpg"
+    },
+    {
+     "file": "good_03241.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\03241.jpg"
+    },
+    {
+     "file": "good_16238.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\16238.jpg"
+    },
+    {
+     "file": "good_16609.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\16609.jpg"
+    },
+    {
+     "file": "good_08213.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\08213.jpg"
+    },
+    {
+     "file": "good_19207.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\19207.jpg"
+    },
+    {
+     "file": "good_06290.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\06290.jpg"
+    },
+    {
+     "file": "good_15585.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\15585.jpg"
+    },
+    {
+     "file": "good_07280.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\07280.jpg"
+    },
+    {
+     "file": "good_08893.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\08893.jpg"
+    },
+    {
+     "file": "good_04277.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\04277.jpg"
+    },
+    {
+     "file": "good_12715.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\12715.jpg"
+    },
+    {
+     "file": "good_06701.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\06701.jpg"
+    },
+    {
+     "file": "good_08493.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\08493.jpg"
+    },
+    {
+     "file": "good_01768.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\01768.jpg"
+    },
+    {
+     "file": "good_10015.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\10015.jpg"
+    },
+    {
+     "file": "good_13767.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\13767.jpg"
+    },
+    {
+     "file": "good_11008.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\11008.jpg"
+    },
+    {
+     "file": "good_13069.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\13069.jpg"
+    },
+    {
+     "file": "good_03807.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\03807.jpg"
+    },
+    {
+     "file": "good_07119.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\07119.jpg"
+    },
+    {
+     "file": "good_07523.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\07523.jpg"
+    },
+    {
+     "file": "good_07146.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\07146.jpg"
+    },
+    {
+     "file": "good_13692.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\13692.jpg"
+    },
+    {
+     "file": "good_00050.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\00050.jpg"
+    },
+    {
+     "file": "good_09911.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\09911.jpg"
+    },
+    {
+     "file": "good_14496.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\14496.jpg"
+    },
+    {
+     "file": "good_17350.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\17350.jpg"
+    },
+    {
+     "file": "good_18204.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\18204.jpg"
+    },
+    {
+     "file": "good_10926.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\10926.jpg"
+    },
+    {
+     "file": "good_01290.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\01290.jpg"
+    },
+    {
+     "file": "good_06901.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\06901.jpg"
+    },
+    {
+     "file": "good_05777.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\05777.jpg"
+    },
+    {
+     "file": "good_19239.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\19239.jpg"
+    },
+    {
+     "file": "good_10352.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\10352.jpg"
+    },
+    {
+     "file": "good_09445.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\09445.jpg"
+    },
+    {
+     "file": "good_01350.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\01350.jpg"
+    },
+    {
+     "file": "good_03871.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\03871.jpg"
+    },
+    {
+     "file": "good_13705.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\13705.jpg"
+    },
+    {
+     "file": "good_01868.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\01868.jpg"
+    },
+    {
+     "file": "good_08180.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\08180.jpg"
+    },
+    {
+     "file": "good_16974.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\16974.jpg"
+    },
+    {
+     "file": "good_16913.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\16913.jpg"
+    },
+    {
+     "file": "good_18863.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\18863.jpg"
+    },
+    {
+     "file": "good_19034.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\19034.jpg"
+    },
+    {
+     "file": "good_11072.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\11072.jpg"
+    },
+    {
+     "file": "good_11442.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\11442.jpg"
+    },
+    {
+     "file": "good_13890.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\13890.jpg"
+    },
+    {
+     "file": "good_19935.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\19935.jpg"
+    },
+    {
+     "file": "good_04949.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\04949.jpg"
+    },
+    {
+     "file": "good_02626.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\02626.jpg"
+    },
+    {
+     "file": "good_12192.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\12192.jpg"
+    },
+    {
+     "file": "good_02667.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\02667.jpg"
+    },
+    {
+     "file": "good_01387.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\01387.jpg"
+    },
+    {
+     "file": "good_13182.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\13182.jpg"
+    },
+    {
+     "file": "good_01332.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\01332.jpg"
+    },
+    {
+     "file": "good_15012.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\15012.jpg"
+    },
+    {
+     "file": "good_02087.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\02087.jpg"
+    },
+    {
+     "file": "good_01124.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\01124.jpg"
+    },
+    {
+     "file": "good_04918.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\04918.jpg"
+    },
+    {
+     "file": "good_04862.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\04862.jpg"
+    },
+    {
+     "file": "good_11743.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\11743.jpg"
+    },
+    {
+     "file": "good_06505.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\06505.jpg"
+    },
+    {
+     "file": "good_17679.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\17679.jpg"
+    },
+    {
+     "file": "good_19184.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\19184.jpg"
+    },
+    {
+     "file": "good_11551.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\11551.jpg"
+    },
+    {
+     "file": "good_16658.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\16658.jpg"
+    },
+    {
+     "file": "good_09589.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\09589.jpg"
+    },
+    {
+     "file": "good_19073.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\19073.jpg"
+    },
+    {
+     "file": "good_05126.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\05126.jpg"
+    },
+    {
+     "file": "good_17452.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\17452.jpg"
+    },
+    {
+     "file": "good_07655.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\07655.jpg"
+    },
+    {
+     "file": "good_14269.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\14269.jpg"
+    },
+    {
+     "file": "good_07059.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\07059.jpg"
+    },
+    {
+     "file": "good_14439.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\14439.jpg"
+    },
+    {
+     "file": "good_11479.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\11479.jpg"
+    },
+    {
+     "file": "good_17837.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\17837.jpg"
+    },
+    {
+     "file": "good_17288.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\17288.jpg"
+    },
+    {
+     "file": "good_14716.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\14716.jpg"
+    },
+    {
+     "file": "good_12100.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\12100.jpg"
+    },
+    {
+     "file": "good_16172.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\16172.jpg"
+    },
+    {
+     "file": "good_02675.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\02675.jpg"
+    },
+    {
+     "file": "good_10980.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\10980.jpg"
+    },
+    {
+     "file": "good_17207.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\17207.jpg"
+    },
+    {
+     "file": "good_06754.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\06754.jpg"
+    },
+    {
+     "file": "good_14477.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\14477.jpg"
+    },
+    {
+     "file": "good_02371.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\02371.jpg"
+    },
+    {
+     "file": "good_15940.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\15940.jpg"
+    },
+    {
+     "file": "good_00123.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\00123.jpg"
+    },
+    {
+     "file": "good_14494.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\14494.jpg"
+    },
+    {
+     "file": "good_11711.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\11711.jpg"
+    },
+    {
+     "file": "good_16782.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\16782.jpg"
+    },
+    {
+     "file": "good_15030.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\15030.jpg"
+    },
+    {
+     "file": "good_13603.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\13603.jpg"
+    },
+    {
+     "file": "good_17905.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\17905.jpg"
+    },
+    {
+     "file": "good_07096.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\07096.jpg"
+    },
+    {
+     "file": "good_08948.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\08948.jpg"
+    },
+    {
+     "file": "good_08373.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\08373.jpg"
+    },
+    {
+     "file": "good_02666.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\02666.jpg"
+    },
+    {
+     "file": "good_01896.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\01896.jpg"
+    },
+    {
+     "file": "good_02774.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\02774.jpg"
+    },
+    {
+     "file": "good_01384.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\01384.jpg"
+    },
+    {
+     "file": "good_03676.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\03676.jpg"
+    },
+    {
+     "file": "good_06424.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\06424.jpg"
+    },
+    {
+     "file": "good_09615.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\09615.jpg"
+    },
+    {
+     "file": "good_02630.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\02630.jpg"
+    },
+    {
+     "file": "good_14034.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\14034.jpg"
+    },
+    {
+     "file": "good_15489.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\15489.jpg"
+    },
+    {
+     "file": "good_04815.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\04815.jpg"
+    },
+    {
+     "file": "good_01313.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\01313.jpg"
+    },
+    {
+     "file": "good_13964.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\13964.jpg"
+    },
+    {
+     "file": "good_04516.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\04516.jpg"
+    },
+    {
+     "file": "good_06742.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\06742.jpg"
+    },
+    {
+     "file": "good_07052.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\07052.jpg"
+    },
+    {
+     "file": "good_10833.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\10833.jpg"
+    },
+    {
+     "file": "good_04372.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\04372.jpg"
+    },
+    {
+     "file": "good_08495.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\08495.jpg"
+    },
+    {
+     "file": "good_16144.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\16144.jpg"
+    },
+    {
+     "file": "good_11151.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\11151.jpg"
+    },
+    {
+     "file": "good_09133.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\09133.jpg"
+    },
+    {
+     "file": "good_17140.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\17140.jpg"
+    },
+    {
+     "file": "good_02064.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\02064.jpg"
+    },
+    {
+     "file": "good_12865.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\12865.jpg"
+    },
+    {
+     "file": "good_01256.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\01256.jpg"
+    },
+    {
+     "file": "good_13869.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\13869.jpg"
+    },
+    {
+     "file": "good_19820.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\19820.jpg"
+    },
+    {
+     "file": "good_14700.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\14700.jpg"
+    },
+    {
+     "file": "good_09178.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\09178.jpg"
+    },
+    {
+     "file": "good_05830.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\05830.jpg"
+    },
+    {
+     "file": "good_13462.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\13462.jpg"
+    },
+    {
+     "file": "good_11660.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\11660.jpg"
+    },
+    {
+     "file": "good_11358.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\11358.jpg"
+    },
+    {
+     "file": "good_08442.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\08442.jpg"
+    },
+    {
+     "file": "good_09399.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\09399.jpg"
+    },
+    {
+     "file": "good_10089.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\10089.jpg"
+    },
+    {
+     "file": "good_17352.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\17352.jpg"
+    },
+    {
+     "file": "good_05682.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\05682.jpg"
+    },
+    {
+     "file": "good_01533.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\01533.jpg"
+    },
+    {
+     "file": "good_08522.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\08522.jpg"
+    },
+    {
+     "file": "good_00234.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\00234.jpg"
+    },
+    {
+     "file": "good_00485.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\00485.jpg"
+    },
+    {
+     "file": "good_10917.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\10917.jpg"
+    },
+    {
+     "file": "good_14698.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\14698.jpg"
+    },
+    {
+     "file": "good_17715.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\17715.jpg"
+    },
+    {
+     "file": "good_06120.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\06120.jpg"
+    },
+    {
+     "file": "good_06891.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\06891.jpg"
+    },
+    {
+     "file": "good_19343.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\19343.jpg"
+    },
+    {
+     "file": "good_03751.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\03751.jpg"
+    },
+    {
+     "file": "good_12726.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\12726.jpg"
+    },
+    {
+     "file": "good_13505.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\13505.jpg"
+    },
+    {
+     "file": "good_09923.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\09923.jpg"
+    },
+    {
+     "file": "good_04419.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\04419.jpg"
+    },
+    {
+     "file": "good_07169.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\07169.jpg"
+    },
+    {
+     "file": "good_12606.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\12606.jpg"
+    },
+    {
+     "file": "good_13473.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\13473.jpg"
+    },
+    {
+     "file": "good_12335.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\12335.jpg"
+    },
+    {
+     "file": "good_17361.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\17361.jpg"
+    },
+    {
+     "file": "good_14507.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\14507.jpg"
+    },
+    {
+     "file": "good_19592.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\19592.jpg"
+    },
+    {
+     "file": "good_18479.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\18479.jpg"
+    },
+    {
+     "file": "good_08369.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\08369.jpg"
+    },
+    {
+     "file": "good_02093.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\02093.jpg"
+    },
+    {
+     "file": "good_02572.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\02572.jpg"
+    },
+    {
+     "file": "good_12420.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\12420.jpg"
+    },
+    {
+     "file": "good_13588.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\13588.jpg"
+    },
+    {
+     "file": "good_05616.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\05616.jpg"
+    },
+    {
+     "file": "good_13665.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\13665.jpg"
+    },
+    {
+     "file": "good_13990.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\13990.jpg"
+    },
+    {
+     "file": "good_16885.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\16885.jpg"
+    },
+    {
+     "file": "good_16979.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\16979.jpg"
+    },
+    {
+     "file": "good_01329.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\01329.jpg"
+    },
+    {
+     "file": "good_13819.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\13819.jpg"
+    },
+    {
+     "file": "good_08509.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\08509.jpg"
+    },
+    {
+     "file": "good_03000.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\03000.jpg"
+    },
+    {
+     "file": "good_04564.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\04564.jpg"
+    },
+    {
+     "file": "good_14639.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\14639.jpg"
+    },
+    {
+     "file": "good_06320.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\06320.jpg"
+    },
+    {
+     "file": "good_14290.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\14290.jpg"
+    },
+    {
+     "file": "good_02700.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\02700.jpg"
+    },
+    {
+     "file": "good_14680.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\14680.jpg"
+    },
+    {
+     "file": "good_03891.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\03891.jpg"
+    },
+    {
+     "file": "good_01191.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\01191.jpg"
+    },
+    {
+     "file": "good_05726.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\05726.jpg"
+    },
+    {
+     "file": "good_15309.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\15309.jpg"
+    },
+    {
+     "file": "good_16093.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\16093.jpg"
+    },
+    {
+     "file": "good_02637.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\02637.jpg"
+    },
+    {
+     "file": "good_16211.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\16211.jpg"
+    },
+    {
+     "file": "good_10681.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\10681.jpg"
+    },
+    {
+     "file": "good_08525.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\08525.jpg"
+    },
+    {
+     "file": "good_12082.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\12082.jpg"
+    },
+    {
+     "file": "good_18796.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\18796.jpg"
+    },
+    {
+     "file": "good_08462.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\08462.jpg"
+    },
+    {
+     "file": "good_01723.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\01723.jpg"
+    },
+    {
+     "file": "good_00236.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\00236.jpg"
+    },
+    {
+     "file": "good_03003.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\03003.jpg"
+    },
+    {
+     "file": "good_11704.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\11704.jpg"
+    },
+    {
+     "file": "good_10232.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\10232.jpg"
+    },
+    {
+     "file": "good_11581.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\11581.jpg"
+    },
+    {
+     "file": "good_12168.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\12168.jpg"
+    },
+    {
+     "file": "good_01582.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\01582.jpg"
+    },
+    {
+     "file": "good_07403.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\07403.jpg"
+    },
+    {
+     "file": "good_03923.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\03923.jpg"
+    },
+    {
+     "file": "good_15103.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\15103.jpg"
+    },
+    {
+     "file": "good_11771.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\11771.jpg"
+    },
+    {
+     "file": "good_02670.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\02670.jpg"
+    },
+    {
+     "file": "good_08339.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\08339.jpg"
+    },
+    {
+     "file": "good_09539.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\09539.jpg"
+    },
+    {
+     "file": "good_01483.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\01483.jpg"
+    },
+    {
+     "file": "good_01081.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\01081.jpg"
+    },
+    {
+     "file": "good_10358.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\10358.jpg"
+    },
+    {
+     "file": "good_15366.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\15366.jpg"
+    },
+    {
+     "file": "good_04344.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\04344.jpg"
+    },
+    {
+     "file": "good_10614.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\10614.jpg"
+    },
+    {
+     "file": "good_16841.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\16841.jpg"
+    },
+    {
+     "file": "good_04504.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\04504.jpg"
+    },
+    {
+     "file": "good_14712.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\14712.jpg"
+    },
+    {
+     "file": "good_05061.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\05061.jpg"
+    },
+    {
+     "file": "good_12651.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\12651.jpg"
+    },
+    {
+     "file": "good_17787.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\17787.jpg"
+    },
+    {
+     "file": "good_19724.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\19724.jpg"
+    },
+    {
+     "file": "good_09542.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\09542.jpg"
+    },
+    {
+     "file": "good_12743.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\12743.jpg"
+    },
+    {
+     "file": "good_11570.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\11570.jpg"
+    },
+    {
+     "file": "good_01380.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\01380.jpg"
+    },
+    {
+     "file": "good_17426.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\17426.jpg"
+    },
+    {
+     "file": "good_06820.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\06820.jpg"
+    },
+    {
+     "file": "good_09493.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\09493.jpg"
+    },
+    {
+     "file": "good_15022.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\15022.jpg"
+    },
+    {
+     "file": "good_11373.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\11373.jpg"
+    },
+    {
+     "file": "good_16254.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\16254.jpg"
+    },
+    {
+     "file": "good_00916.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\00916.jpg"
+    },
+    {
+     "file": "good_00292.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\00292.jpg"
+    },
+    {
+     "file": "good_02771.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\02771.jpg"
+    }
+   ],
+   "calibration_good": [
+    {
+     "file": "good_06619.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\06619.jpg"
+    },
+    {
+     "file": "good_07717.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\07717.jpg"
+    },
+    {
+     "file": "good_16121.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\16121.jpg"
+    },
+    {
+     "file": "good_09266.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\09266.jpg"
+    },
+    {
+     "file": "good_18632.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\18632.jpg"
+    },
+    {
+     "file": "good_00038.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\00038.jpg"
+    },
+    {
+     "file": "good_03057.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\03057.jpg"
+    },
+    {
+     "file": "good_18662.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\18662.jpg"
+    },
+    {
+     "file": "good_18370.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\18370.jpg"
+    },
+    {
+     "file": "good_00127.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\00127.jpg"
+    },
+    {
+     "file": "good_01542.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\01542.jpg"
+    },
+    {
+     "file": "good_00319.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\00319.jpg"
+    },
+    {
+     "file": "good_17570.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\17570.jpg"
+    },
+    {
+     "file": "good_01163.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\01163.jpg"
+    },
+    {
+     "file": "good_05043.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\05043.jpg"
+    },
+    {
+     "file": "good_17627.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\17627.jpg"
+    },
+    {
+     "file": "good_09032.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\09032.jpg"
+    },
+    {
+     "file": "good_03933.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\03933.jpg"
+    },
+    {
+     "file": "good_02503.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\02503.jpg"
+    },
+    {
+     "file": "good_03984.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\03984.jpg"
+    },
+    {
+     "file": "good_03897.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\03897.jpg"
+    },
+    {
+     "file": "good_10488.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\10488.jpg"
+    },
+    {
+     "file": "good_06609.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\06609.jpg"
+    },
+    {
+     "file": "good_17099.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\17099.jpg"
+    },
+    {
+     "file": "good_03803.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\03803.jpg"
+    },
+    {
+     "file": "good_16513.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\16513.jpg"
+    },
+    {
+     "file": "good_17939.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\17939.jpg"
+    },
+    {
+     "file": "good_10116.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\10116.jpg"
+    },
+    {
+     "file": "good_14859.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\14859.jpg"
+    },
+    {
+     "file": "good_01153.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\01153.jpg"
+    },
+    {
+     "file": "good_19992.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\19992.jpg"
+    },
+    {
+     "file": "good_07658.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\07658.jpg"
+    },
+    {
+     "file": "good_03214.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\03214.jpg"
+    },
+    {
+     "file": "good_09658.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\09658.jpg"
+    },
+    {
+     "file": "good_10836.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\10836.jpg"
+    },
+    {
+     "file": "good_10567.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\10567.jpg"
+    },
+    {
+     "file": "good_09143.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\09143.jpg"
+    },
+    {
+     "file": "good_01145.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\01145.jpg"
+    },
+    {
+     "file": "good_13167.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\13167.jpg"
+    },
+    {
+     "file": "good_04530.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\04530.jpg"
+    },
+    {
+     "file": "good_09712.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\09712.jpg"
+    },
+    {
+     "file": "good_12736.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\12736.jpg"
+    },
+    {
+     "file": "good_09593.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\09593.jpg"
+    },
+    {
+     "file": "good_02123.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\02123.jpg"
+    },
+    {
+     "file": "good_11595.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\11595.jpg"
+    },
+    {
+     "file": "good_11583.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\11583.jpg"
+    },
+    {
+     "file": "good_17188.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\17188.jpg"
+    },
+    {
+     "file": "good_14359.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\14359.jpg"
+    },
+    {
+     "file": "good_00838.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\00838.jpg"
+    },
+    {
+     "file": "good_04255.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\04255.jpg"
+    },
+    {
+     "file": "good_09434.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\09434.jpg"
+    },
+    {
+     "file": "good_04956.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\04956.jpg"
+    },
+    {
+     "file": "good_09514.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\09514.jpg"
+    },
+    {
+     "file": "good_10473.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\10473.jpg"
+    },
+    {
+     "file": "good_01102.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\01102.jpg"
+    },
+    {
+     "file": "good_18510.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\18510.jpg"
+    },
+    {
+     "file": "good_10361.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\10361.jpg"
+    },
+    {
+     "file": "good_02232.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\02232.jpg"
+    },
+    {
+     "file": "good_15759.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\15759.jpg"
+    },
+    {
+     "file": "good_11046.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\11046.jpg"
+    },
+    {
+     "file": "good_10328.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\10328.jpg"
+    },
+    {
+     "file": "good_07596.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\07596.jpg"
+    },
+    {
+     "file": "good_04249.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\04249.jpg"
+    },
+    {
+     "file": "good_00945.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\00945.jpg"
+    },
+    {
+     "file": "good_19540.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\19540.jpg"
+    },
+    {
+     "file": "good_04266.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\04266.jpg"
+    },
+    {
+     "file": "good_02359.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\02359.jpg"
+    },
+    {
+     "file": "good_02041.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\02041.jpg"
+    },
+    {
+     "file": "good_19177.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\19177.jpg"
+    },
+    {
+     "file": "good_00255.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\00255.jpg"
+    },
+    {
+     "file": "good_17973.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\17973.jpg"
+    },
+    {
+     "file": "good_04680.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\04680.jpg"
+    },
+    {
+     "file": "good_12703.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\12703.jpg"
+    },
+    {
+     "file": "good_05320.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\05320.jpg"
+    },
+    {
+     "file": "good_13605.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\13605.jpg"
+    },
+    {
+     "file": "good_16012.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\16012.jpg"
+    },
+    {
+     "file": "good_02001.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\02001.jpg"
+    },
+    {
+     "file": "good_00829.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\00829.jpg"
+    },
+    {
+     "file": "good_10184.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\10184.jpg"
+    },
+    {
+     "file": "good_11915.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\11915.jpg"
+    },
+    {
+     "file": "good_05655.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\05655.jpg"
+    },
+    {
+     "file": "good_04613.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\04613.jpg"
+    },
+    {
+     "file": "good_04198.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\04198.jpg"
+    },
+    {
+     "file": "good_18772.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\18772.jpg"
+    },
+    {
+     "file": "good_02004.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\02004.jpg"
+    },
+    {
+     "file": "good_06694.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\06694.jpg"
+    },
+    {
+     "file": "good_15666.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\15666.jpg"
+    },
+    {
+     "file": "good_12026.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\12026.jpg"
+    },
+    {
+     "file": "good_16754.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\16754.jpg"
+    },
+    {
+     "file": "good_09878.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\09878.jpg"
+    },
+    {
+     "file": "good_00112.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\00112.jpg"
+    },
+    {
+     "file": "good_06791.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\06791.jpg"
+    },
+    {
+     "file": "good_17459.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\17459.jpg"
+    },
+    {
+     "file": "good_17487.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\17487.jpg"
+    },
+    {
+     "file": "good_06161.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\06161.jpg"
+    },
+    {
+     "file": "good_04334.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\04334.jpg"
+    },
+    {
+     "file": "good_17313.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\17313.jpg"
+    },
+    {
+     "file": "good_18088.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\18088.jpg"
+    },
+    {
+     "file": "good_17834.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\17834.jpg"
+    },
+    {
+     "file": "good_05343.jpg",
+     "label": 0,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\05343.jpg"
+    }
+   ],
+   "test": [
+    {
+     "file": "good_15931.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\15931.jpg"
+    },
+    {
+     "file": "good_07215.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\07215.jpg"
+    },
+    {
+     "file": "good_18695.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\18695.jpg"
+    },
+    {
+     "file": "good_10288.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\10288.jpg"
+    },
+    {
+     "file": "good_03354.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\03354.jpg"
+    },
+    {
+     "file": "good_18504.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\18504.jpg"
+    },
+    {
+     "file": "good_04851.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\04851.jpg"
+    },
+    {
+     "file": "good_04337.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\04337.jpg"
+    },
+    {
+     "file": "good_16334.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\16334.jpg"
+    },
+    {
+     "file": "good_14262.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\14262.jpg"
+    },
+    {
+     "file": "good_06997.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\06997.jpg"
+    },
+    {
+     "file": "good_00906.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\00906.jpg"
+    },
+    {
+     "file": "good_09874.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\09874.jpg"
+    },
+    {
+     "file": "good_13232.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\13232.jpg"
+    },
+    {
+     "file": "good_08843.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\08843.jpg"
+    },
+    {
+     "file": "good_19905.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\19905.jpg"
+    },
+    {
+     "file": "good_04897.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\04897.jpg"
+    },
+    {
+     "file": "good_03607.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\03607.jpg"
+    },
+    {
+     "file": "good_05552.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\05552.jpg"
+    },
+    {
+     "file": "good_10775.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\10775.jpg"
+    },
+    {
+     "file": "good_19220.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\19220.jpg"
+    },
+    {
+     "file": "good_19869.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\19869.jpg"
+    },
+    {
+     "file": "good_14017.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\14017.jpg"
+    },
+    {
+     "file": "good_03873.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\03873.jpg"
+    },
+    {
+     "file": "good_17705.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\17705.jpg"
+    },
+    {
+     "file": "good_09647.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\09647.jpg"
+    },
+    {
+     "file": "good_07526.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\07526.jpg"
+    },
+    {
+     "file": "good_08929.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\08929.jpg"
+    },
+    {
+     "file": "good_07631.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\07631.jpg"
+    },
+    {
+     "file": "good_10223.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\10223.jpg"
+    },
+    {
+     "file": "good_12525.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\12525.jpg"
+    },
+    {
+     "file": "good_02646.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\02646.jpg"
+    },
+    {
+     "file": "good_03683.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\03683.jpg"
+    },
+    {
+     "file": "good_14844.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\14844.jpg"
+    },
+    {
+     "file": "good_12820.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\12820.jpg"
+    },
+    {
+     "file": "good_14458.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\14458.jpg"
+    },
+    {
+     "file": "good_07819.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\07819.jpg"
+    },
+    {
+     "file": "good_10585.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\10585.jpg"
+    },
+    {
+     "file": "good_17986.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\17986.jpg"
+    },
+    {
+     "file": "good_03205.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\03205.jpg"
+    },
+    {
+     "file": "good_16204.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\16204.jpg"
+    },
+    {
+     "file": "good_07855.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\07855.jpg"
+    },
+    {
+     "file": "good_07211.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\07211.jpg"
+    },
+    {
+     "file": "good_10958.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\10958.jpg"
+    },
+    {
+     "file": "good_08518.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\08518.jpg"
+    },
+    {
+     "file": "good_19606.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\19606.jpg"
+    },
+    {
+     "file": "good_17379.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\17379.jpg"
+    },
+    {
+     "file": "good_00894.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\00894.jpg"
+    },
+    {
+     "file": "good_13850.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\13850.jpg"
+    },
+    {
+     "file": "good_00874.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\00874.jpg"
+    },
+    {
+     "file": "good_13391.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\13391.jpg"
+    },
+    {
+     "file": "good_15738.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\15738.jpg"
+    },
+    {
+     "file": "good_16844.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\16844.jpg"
+    },
+    {
+     "file": "good_03802.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\03802.jpg"
+    },
+    {
+     "file": "good_02294.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\02294.jpg"
+    },
+    {
+     "file": "good_08087.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\08087.jpg"
+    },
+    {
+     "file": "good_01463.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\01463.jpg"
+    },
+    {
+     "file": "good_12540.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\12540.jpg"
+    },
+    {
+     "file": "good_11150.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\11150.jpg"
+    },
+    {
+     "file": "good_05843.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\05843.jpg"
+    },
+    {
+     "file": "good_07739.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\07739.jpg"
+    },
+    {
+     "file": "good_00034.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\00034.jpg"
+    },
+    {
+     "file": "good_12948.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\12948.jpg"
+    },
+    {
+     "file": "good_17411.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\17411.jpg"
+    },
+    {
+     "file": "good_00408.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\00408.jpg"
+    },
+    {
+     "file": "good_04235.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\04235.jpg"
+    },
+    {
+     "file": "good_07638.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\07638.jpg"
+    },
+    {
+     "file": "good_02835.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\02835.jpg"
+    },
+    {
+     "file": "good_15140.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\15140.jpg"
+    },
+    {
+     "file": "good_03561.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\03561.jpg"
+    },
+    {
+     "file": "good_09866.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\09866.jpg"
+    },
+    {
+     "file": "good_15307.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\15307.jpg"
+    },
+    {
+     "file": "good_02736.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\02736.jpg"
+    },
+    {
+     "file": "good_05040.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\05040.jpg"
+    },
+    {
+     "file": "good_11149.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\11149.jpg"
+    },
+    {
+     "file": "good_03344.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\03344.jpg"
+    },
+    {
+     "file": "good_04670.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\04670.jpg"
+    },
+    {
+     "file": "good_11060.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\11060.jpg"
+    },
+    {
+     "file": "good_07654.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\07654.jpg"
+    },
+    {
+     "file": "good_06028.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\06028.jpg"
+    },
+    {
+     "file": "good_08485.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\08485.jpg"
+    },
+    {
+     "file": "good_14657.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\14657.jpg"
+    },
+    {
+     "file": "good_13620.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\13620.jpg"
+    },
+    {
+     "file": "good_03326.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\03326.jpg"
+    },
+    {
+     "file": "good_07934.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\07934.jpg"
+    },
+    {
+     "file": "good_00508.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\00508.jpg"
+    },
+    {
+     "file": "good_05572.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\05572.jpg"
+    },
+    {
+     "file": "good_09750.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\09750.jpg"
+    },
+    {
+     "file": "good_03064.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\03064.jpg"
+    },
+    {
+     "file": "good_08931.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\08931.jpg"
+    },
+    {
+     "file": "good_11217.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\11217.jpg"
+    },
+    {
+     "file": "good_13056.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\13056.jpg"
+    },
+    {
+     "file": "good_18318.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\18318.jpg"
+    },
+    {
+     "file": "good_00302.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\00302.jpg"
+    },
+    {
+     "file": "good_05185.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\05185.jpg"
+    },
+    {
+     "file": "good_03307.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\03307.jpg"
+    },
+    {
+     "file": "good_02839.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\02839.jpg"
+    },
+    {
+     "file": "good_09492.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\09492.jpg"
+    },
+    {
+     "file": "good_01351.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\01351.jpg"
+    },
+    {
+     "file": "good_17818.jpg",
+     "label": 0,
+     "defect": null,
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Negative\\17818.jpg"
+    },
+    {
+     "file": "crack_02671.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\02671.jpg"
+    },
+    {
+     "file": "crack_00732.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00732.jpg"
+    },
+    {
+     "file": "crack_02701.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\02701.jpg"
+    },
+    {
+     "file": "crack_02646.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\02646.jpg"
+    },
+    {
+     "file": "crack_16539_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\16539_1.jpg"
+    },
+    {
+     "file": "crack_18870_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\18870_1.jpg"
+    },
+    {
+     "file": "crack_12573_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\12573_1.jpg"
+    },
+    {
+     "file": "crack_18057_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\18057_1.jpg"
+    },
+    {
+     "file": "crack_08359.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\08359.jpg"
+    },
+    {
+     "file": "crack_18652_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\18652_1.jpg"
+    },
+    {
+     "file": "crack_00911.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00911.jpg"
+    },
+    {
+     "file": "crack_13793_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\13793_1.jpg"
+    },
+    {
+     "file": "crack_05906.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\05906.jpg"
+    },
+    {
+     "file": "crack_13832_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\13832_1.jpg"
+    },
+    {
+     "file": "crack_02714.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\02714.jpg"
+    },
+    {
+     "file": "crack_04390.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\04390.jpg"
+    },
+    {
+     "file": "crack_17699_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\17699_1.jpg"
+    },
+    {
+     "file": "crack_00782.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00782.jpg"
+    },
+    {
+     "file": "crack_19908.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\19908.jpg"
+    },
+    {
+     "file": "crack_12142_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\12142_1.jpg"
+    },
+    {
+     "file": "crack_00448.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00448.jpg"
+    },
+    {
+     "file": "crack_11287_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\11287_1.jpg"
+    },
+    {
+     "file": "crack_19657.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\19657.jpg"
+    },
+    {
+     "file": "crack_03002.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\03002.jpg"
+    },
+    {
+     "file": "crack_00640.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00640.jpg"
+    },
+    {
+     "file": "crack_05510.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\05510.jpg"
+    },
+    {
+     "file": "crack_02728.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\02728.jpg"
+    },
+    {
+     "file": "crack_12492_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\12492_1.jpg"
+    },
+    {
+     "file": "crack_07407.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\07407.jpg"
+    },
+    {
+     "file": "crack_01840.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\01840.jpg"
+    },
+    {
+     "file": "crack_09701.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\09701.jpg"
+    },
+    {
+     "file": "crack_03667.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\03667.jpg"
+    },
+    {
+     "file": "crack_14349_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\14349_1.jpg"
+    },
+    {
+     "file": "crack_16458_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\16458_1.jpg"
+    },
+    {
+     "file": "crack_02348.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\02348.jpg"
+    },
+    {
+     "file": "crack_19797.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\19797.jpg"
+    },
+    {
+     "file": "crack_08050.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\08050.jpg"
+    },
+    {
+     "file": "crack_01252.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\01252.jpg"
+    },
+    {
+     "file": "crack_05921.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\05921.jpg"
+    },
+    {
+     "file": "crack_04397.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\04397.jpg"
+    },
+    {
+     "file": "crack_07314.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\07314.jpg"
+    },
+    {
+     "file": "crack_01259.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\01259.jpg"
+    },
+    {
+     "file": "crack_06880.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\06880.jpg"
+    },
+    {
+     "file": "crack_08594.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\08594.jpg"
+    },
+    {
+     "file": "crack_19676.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\19676.jpg"
+    },
+    {
+     "file": "crack_00832.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00832.jpg"
+    },
+    {
+     "file": "crack_07524.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\07524.jpg"
+    },
+    {
+     "file": "crack_01206.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\01206.jpg"
+    },
+    {
+     "file": "crack_05013.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\05013.jpg"
+    },
+    {
+     "file": "crack_07170.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\07170.jpg"
+    },
+    {
+     "file": "crack_19979.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\19979.jpg"
+    },
+    {
+     "file": "crack_01192.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\01192.jpg"
+    },
+    {
+     "file": "crack_16411_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\16411_1.jpg"
+    },
+    {
+     "file": "crack_18934_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\18934_1.jpg"
+    },
+    {
+     "file": "crack_06226.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\06226.jpg"
+    },
+    {
+     "file": "crack_15061_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\15061_1.jpg"
+    },
+    {
+     "file": "crack_08166.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\08166.jpg"
+    },
+    {
+     "file": "crack_11952_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\11952_1.jpg"
+    },
+    {
+     "file": "crack_03632.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\03632.jpg"
+    },
+    {
+     "file": "crack_01547.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\01547.jpg"
+    },
+    {
+     "file": "crack_08909.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\08909.jpg"
+    },
+    {
+     "file": "crack_00879.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00879.jpg"
+    },
+    {
+     "file": "crack_07229.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\07229.jpg"
+    },
+    {
+     "file": "crack_09040.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\09040.jpg"
+    },
+    {
+     "file": "crack_04461.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\04461.jpg"
+    },
+    {
+     "file": "crack_12774_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\12774_1.jpg"
+    },
+    {
+     "file": "crack_09941.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\09941.jpg"
+    },
+    {
+     "file": "crack_08363.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\08363.jpg"
+    },
+    {
+     "file": "crack_02551.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\02551.jpg"
+    },
+    {
+     "file": "crack_05211.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\05211.jpg"
+    },
+    {
+     "file": "crack_03137.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\03137.jpg"
+    },
+    {
+     "file": "crack_06170.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\06170.jpg"
+    },
+    {
+     "file": "crack_15891_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\15891_1.jpg"
+    },
+    {
+     "file": "crack_06549.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\06549.jpg"
+    },
+    {
+     "file": "crack_07608.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\07608.jpg"
+    },
+    {
+     "file": "crack_16661_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\16661_1.jpg"
+    },
+    {
+     "file": "crack_08495.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\08495.jpg"
+    },
+    {
+     "file": "crack_08270.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\08270.jpg"
+    },
+    {
+     "file": "crack_14145_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\14145_1.jpg"
+    },
+    {
+     "file": "crack_13248_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\13248_1.jpg"
+    },
+    {
+     "file": "crack_01144.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\01144.jpg"
+    },
+    {
+     "file": "crack_05558.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\05558.jpg"
+    },
+    {
+     "file": "crack_04105.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\04105.jpg"
+    },
+    {
+     "file": "crack_14384_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\14384_1.jpg"
+    },
+    {
+     "file": "crack_05141.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\05141.jpg"
+    },
+    {
+     "file": "crack_06050.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\06050.jpg"
+    },
+    {
+     "file": "crack_05056.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\05056.jpg"
+    },
+    {
+     "file": "crack_18167_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\18167_1.jpg"
+    },
+    {
+     "file": "crack_06852.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\06852.jpg"
+    },
+    {
+     "file": "crack_03164.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\03164.jpg"
+    },
+    {
+     "file": "crack_13547_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\13547_1.jpg"
+    },
+    {
+     "file": "crack_02394.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\02394.jpg"
+    },
+    {
+     "file": "crack_00447.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00447.jpg"
+    },
+    {
+     "file": "crack_12030_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\12030_1.jpg"
+    },
+    {
+     "file": "crack_00700.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00700.jpg"
+    },
+    {
+     "file": "crack_19846.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\19846.jpg"
+    },
+    {
+     "file": "crack_08281.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\08281.jpg"
+    },
+    {
+     "file": "crack_01006.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\01006.jpg"
+    },
+    {
+     "file": "crack_07386.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\07386.jpg"
+    },
+    {
+     "file": "crack_05525.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\05525.jpg"
+    },
+    {
+     "file": "crack_09496.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\09496.jpg"
+    },
+    {
+     "file": "crack_00122.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00122.jpg"
+    },
+    {
+     "file": "crack_07482.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\07482.jpg"
+    },
+    {
+     "file": "crack_16928_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\16928_1.jpg"
+    },
+    {
+     "file": "crack_05019.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\05019.jpg"
+    },
+    {
+     "file": "crack_01108.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\01108.jpg"
+    },
+    {
+     "file": "crack_17742_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\17742_1.jpg"
+    },
+    {
+     "file": "crack_03742.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\03742.jpg"
+    },
+    {
+     "file": "crack_00952.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00952.jpg"
+    },
+    {
+     "file": "crack_00859.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00859.jpg"
+    },
+    {
+     "file": "crack_05314.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\05314.jpg"
+    },
+    {
+     "file": "crack_11251_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\11251_1.jpg"
+    },
+    {
+     "file": "crack_05924.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\05924.jpg"
+    },
+    {
+     "file": "crack_08366.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\08366.jpg"
+    },
+    {
+     "file": "crack_09014.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\09014.jpg"
+    },
+    {
+     "file": "crack_12941_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\12941_1.jpg"
+    },
+    {
+     "file": "crack_08994.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\08994.jpg"
+    },
+    {
+     "file": "crack_01874.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\01874.jpg"
+    },
+    {
+     "file": "crack_05339.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\05339.jpg"
+    },
+    {
+     "file": "crack_11328_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\11328_1.jpg"
+    },
+    {
+     "file": "crack_08178.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\08178.jpg"
+    },
+    {
+     "file": "crack_02554.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\02554.jpg"
+    },
+    {
+     "file": "crack_05362.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\05362.jpg"
+    },
+    {
+     "file": "crack_14729_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\14729_1.jpg"
+    },
+    {
+     "file": "crack_02262.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\02262.jpg"
+    },
+    {
+     "file": "crack_07566.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\07566.jpg"
+    },
+    {
+     "file": "crack_02970.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\02970.jpg"
+    },
+    {
+     "file": "crack_12279_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\12279_1.jpg"
+    },
+    {
+     "file": "crack_05722.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\05722.jpg"
+    },
+    {
+     "file": "crack_04676.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\04676.jpg"
+    },
+    {
+     "file": "crack_01132.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\01132.jpg"
+    },
+    {
+     "file": "crack_07480.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\07480.jpg"
+    },
+    {
+     "file": "crack_16591_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\16591_1.jpg"
+    },
+    {
+     "file": "crack_19254_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\19254_1.jpg"
+    },
+    {
+     "file": "crack_11577_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\11577_1.jpg"
+    },
+    {
+     "file": "crack_08803.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\08803.jpg"
+    },
+    {
+     "file": "crack_18678_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\18678_1.jpg"
+    },
+    {
+     "file": "crack_17984_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\17984_1.jpg"
+    },
+    {
+     "file": "crack_02625.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\02625.jpg"
+    },
+    {
+     "file": "crack_06799.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\06799.jpg"
+    },
+    {
+     "file": "crack_01447.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\01447.jpg"
+    },
+    {
+     "file": "crack_17957_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\17957_1.jpg"
+    },
+    {
+     "file": "crack_03076.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\03076.jpg"
+    },
+    {
+     "file": "crack_06252.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\06252.jpg"
+    },
+    {
+     "file": "crack_17968_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\17968_1.jpg"
+    },
+    {
+     "file": "crack_03537.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\03537.jpg"
+    },
+    {
+     "file": "crack_00970.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00970.jpg"
+    },
+    {
+     "file": "crack_05984.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\05984.jpg"
+    },
+    {
+     "file": "crack_00705.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00705.jpg"
+    },
+    {
+     "file": "crack_07874.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\07874.jpg"
+    },
+    {
+     "file": "crack_18395_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\18395_1.jpg"
+    },
+    {
+     "file": "crack_01359.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\01359.jpg"
+    },
+    {
+     "file": "crack_03588.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\03588.jpg"
+    },
+    {
+     "file": "crack_11341_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\11341_1.jpg"
+    },
+    {
+     "file": "crack_14774_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\14774_1.jpg"
+    },
+    {
+     "file": "crack_03291.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\03291.jpg"
+    },
+    {
+     "file": "crack_01024.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\01024.jpg"
+    },
+    {
+     "file": "crack_15987_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\15987_1.jpg"
+    },
+    {
+     "file": "crack_09713.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\09713.jpg"
+    },
+    {
+     "file": "crack_04833.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\04833.jpg"
+    },
+    {
+     "file": "crack_01425.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\01425.jpg"
+    },
+    {
+     "file": "crack_10110_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\10110_1.jpg"
+    },
+    {
+     "file": "crack_04156.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\04156.jpg"
+    },
+    {
+     "file": "crack_13020_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\13020_1.jpg"
+    },
+    {
+     "file": "crack_18234_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\18234_1.jpg"
+    },
+    {
+     "file": "crack_07767.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\07767.jpg"
+    },
+    {
+     "file": "crack_01084.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\01084.jpg"
+    },
+    {
+     "file": "crack_07100.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\07100.jpg"
+    },
+    {
+     "file": "crack_14595_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\14595_1.jpg"
+    },
+    {
+     "file": "crack_05635.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\05635.jpg"
+    },
+    {
+     "file": "crack_08709.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\08709.jpg"
+    },
+    {
+     "file": "crack_01265.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\01265.jpg"
+    },
+    {
+     "file": "crack_05210.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\05210.jpg"
+    },
+    {
+     "file": "crack_05262.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\05262.jpg"
+    },
+    {
+     "file": "crack_03228.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\03228.jpg"
+    },
+    {
+     "file": "crack_04726.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\04726.jpg"
+    },
+    {
+     "file": "crack_00195.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00195.jpg"
+    },
+    {
+     "file": "crack_03687.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\03687.jpg"
+    },
+    {
+     "file": "crack_02637.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\02637.jpg"
+    },
+    {
+     "file": "crack_06607.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\06607.jpg"
+    },
+    {
+     "file": "crack_04800.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\04800.jpg"
+    },
+    {
+     "file": "crack_05670.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\05670.jpg"
+    },
+    {
+     "file": "crack_07758.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\07758.jpg"
+    },
+    {
+     "file": "crack_00917.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00917.jpg"
+    },
+    {
+     "file": "crack_19793.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\19793.jpg"
+    },
+    {
+     "file": "crack_16235_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\16235_1.jpg"
+    },
+    {
+     "file": "crack_08211.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\08211.jpg"
+    },
+    {
+     "file": "crack_08320.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\08320.jpg"
+    },
+    {
+     "file": "crack_10851_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\10851_1.jpg"
+    },
+    {
+     "file": "crack_07497.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\07497.jpg"
+    },
+    {
+     "file": "crack_07955.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\07955.jpg"
+    },
+    {
+     "file": "crack_02274.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\02274.jpg"
+    },
+    {
+     "file": "crack_04658.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\04658.jpg"
+    },
+    {
+     "file": "crack_10402_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\10402_1.jpg"
+    },
+    {
+     "file": "crack_04517.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\04517.jpg"
+    },
+    {
+     "file": "crack_01531.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\01531.jpg"
+    },
+    {
+     "file": "crack_07420.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\07420.jpg"
+    },
+    {
+     "file": "crack_12898_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\12898_1.jpg"
+    },
+    {
+     "file": "crack_03408.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\03408.jpg"
+    },
+    {
+     "file": "crack_00070.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00070.jpg"
+    },
+    {
+     "file": "crack_17683_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\17683_1.jpg"
+    },
+    {
+     "file": "crack_08656.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\08656.jpg"
+    },
+    {
+     "file": "crack_01597.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\01597.jpg"
+    },
+    {
+     "file": "crack_03496.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\03496.jpg"
+    },
+    {
+     "file": "crack_06162.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\06162.jpg"
+    },
+    {
+     "file": "crack_02834.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\02834.jpg"
+    },
+    {
+     "file": "crack_05090.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\05090.jpg"
+    },
+    {
+     "file": "crack_09408.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\09408.jpg"
+    },
+    {
+     "file": "crack_06538.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\06538.jpg"
+    },
+    {
+     "file": "crack_05251.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\05251.jpg"
+    },
+    {
+     "file": "crack_14181_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\14181_1.jpg"
+    },
+    {
+     "file": "crack_00745.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00745.jpg"
+    },
+    {
+     "file": "crack_09297.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\09297.jpg"
+    },
+    {
+     "file": "crack_14604_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\14604_1.jpg"
+    },
+    {
+     "file": "crack_05289.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\05289.jpg"
+    },
+    {
+     "file": "crack_08943.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\08943.jpg"
+    },
+    {
+     "file": "crack_00478.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00478.jpg"
+    },
+    {
+     "file": "crack_08306.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\08306.jpg"
+    },
+    {
+     "file": "crack_16716_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\16716_1.jpg"
+    },
+    {
+     "file": "crack_00988.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00988.jpg"
+    },
+    {
+     "file": "crack_07098.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\07098.jpg"
+    },
+    {
+     "file": "crack_01767.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\01767.jpg"
+    },
+    {
+     "file": "crack_03350.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\03350.jpg"
+    },
+    {
+     "file": "crack_04644.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\04644.jpg"
+    },
+    {
+     "file": "crack_09338.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\09338.jpg"
+    },
+    {
+     "file": "crack_01064.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\01064.jpg"
+    },
+    {
+     "file": "crack_19905.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\19905.jpg"
+    },
+    {
+     "file": "crack_06067.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\06067.jpg"
+    },
+    {
+     "file": "crack_01448.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\01448.jpg"
+    },
+    {
+     "file": "crack_16270_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\16270_1.jpg"
+    },
+    {
+     "file": "crack_08728.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\08728.jpg"
+    },
+    {
+     "file": "crack_16364_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\16364_1.jpg"
+    },
+    {
+     "file": "crack_05488.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\05488.jpg"
+    },
+    {
+     "file": "crack_07805.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\07805.jpg"
+    },
+    {
+     "file": "crack_03962.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\03962.jpg"
+    },
+    {
+     "file": "crack_05803.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\05803.jpg"
+    },
+    {
+     "file": "crack_00052.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00052.jpg"
+    },
+    {
+     "file": "crack_07949.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\07949.jpg"
+    },
+    {
+     "file": "crack_16247_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\16247_1.jpg"
+    },
+    {
+     "file": "crack_00825.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00825.jpg"
+    },
+    {
+     "file": "crack_03564.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\03564.jpg"
+    },
+    {
+     "file": "crack_17168_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\17168_1.jpg"
+    },
+    {
+     "file": "crack_04814.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\04814.jpg"
+    },
+    {
+     "file": "crack_00867.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00867.jpg"
+    },
+    {
+     "file": "crack_11692_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\11692_1.jpg"
+    },
+    {
+     "file": "crack_00001.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00001.jpg"
+    },
+    {
+     "file": "crack_00974.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00974.jpg"
+    },
+    {
+     "file": "crack_17849_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\17849_1.jpg"
+    },
+    {
+     "file": "crack_05086.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\05086.jpg"
+    },
+    {
+     "file": "crack_03156.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\03156.jpg"
+    },
+    {
+     "file": "crack_06336.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\06336.jpg"
+    },
+    {
+     "file": "crack_15013_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\15013_1.jpg"
+    },
+    {
+     "file": "crack_02278.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\02278.jpg"
+    },
+    {
+     "file": "crack_15765_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\15765_1.jpg"
+    },
+    {
+     "file": "crack_05231.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\05231.jpg"
+    },
+    {
+     "file": "crack_12890_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\12890_1.jpg"
+    },
+    {
+     "file": "crack_05807.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\05807.jpg"
+    },
+    {
+     "file": "crack_18048_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\18048_1.jpg"
+    },
+    {
+     "file": "crack_02138.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\02138.jpg"
+    },
+    {
+     "file": "crack_09513.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\09513.jpg"
+    },
+    {
+     "file": "crack_16836_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\16836_1.jpg"
+    },
+    {
+     "file": "crack_05432.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\05432.jpg"
+    },
+    {
+     "file": "crack_02101.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\02101.jpg"
+    },
+    {
+     "file": "crack_12440_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\12440_1.jpg"
+    },
+    {
+     "file": "crack_19371_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\19371_1.jpg"
+    },
+    {
+     "file": "crack_04100.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\04100.jpg"
+    },
+    {
+     "file": "crack_15379_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\15379_1.jpg"
+    },
+    {
+     "file": "crack_01321.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\01321.jpg"
+    },
+    {
+     "file": "crack_09227.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\09227.jpg"
+    },
+    {
+     "file": "crack_04236.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\04236.jpg"
+    },
+    {
+     "file": "crack_06243.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\06243.jpg"
+    },
+    {
+     "file": "crack_13577_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\13577_1.jpg"
+    },
+    {
+     "file": "crack_08824.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\08824.jpg"
+    },
+    {
+     "file": "crack_09054.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\09054.jpg"
+    },
+    {
+     "file": "crack_03277.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\03277.jpg"
+    },
+    {
+     "file": "crack_04879.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\04879.jpg"
+    },
+    {
+     "file": "crack_04331.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\04331.jpg"
+    },
+    {
+     "file": "crack_10902_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\10902_1.jpg"
+    },
+    {
+     "file": "crack_04532.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\04532.jpg"
+    },
+    {
+     "file": "crack_00302.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00302.jpg"
+    },
+    {
+     "file": "crack_00712.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00712.jpg"
+    },
+    {
+     "file": "crack_08461.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\08461.jpg"
+    },
+    {
+     "file": "crack_05583.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\05583.jpg"
+    },
+    {
+     "file": "crack_06645.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\06645.jpg"
+    },
+    {
+     "file": "crack_01363.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\01363.jpg"
+    },
+    {
+     "file": "crack_06413.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\06413.jpg"
+    },
+    {
+     "file": "crack_07823.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\07823.jpg"
+    },
+    {
+     "file": "crack_00586.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00586.jpg"
+    },
+    {
+     "file": "crack_04420.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\04420.jpg"
+    },
+    {
+     "file": "crack_09650.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\09650.jpg"
+    },
+    {
+     "file": "crack_16637_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\16637_1.jpg"
+    },
+    {
+     "file": "crack_00515.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00515.jpg"
+    },
+    {
+     "file": "crack_08126.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\08126.jpg"
+    },
+    {
+     "file": "crack_09540.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\09540.jpg"
+    },
+    {
+     "file": "crack_04840.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\04840.jpg"
+    },
+    {
+     "file": "crack_09121.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\09121.jpg"
+    },
+    {
+     "file": "crack_17290_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\17290_1.jpg"
+    },
+    {
+     "file": "crack_00185.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00185.jpg"
+    },
+    {
+     "file": "crack_06374.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\06374.jpg"
+    },
+    {
+     "file": "crack_08443.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\08443.jpg"
+    },
+    {
+     "file": "crack_04522.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\04522.jpg"
+    },
+    {
+     "file": "crack_05511.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\05511.jpg"
+    },
+    {
+     "file": "crack_06734.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\06734.jpg"
+    },
+    {
+     "file": "crack_19906.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\19906.jpg"
+    },
+    {
+     "file": "crack_19798.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\19798.jpg"
+    },
+    {
+     "file": "crack_08703.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\08703.jpg"
+    },
+    {
+     "file": "crack_03864.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\03864.jpg"
+    },
+    {
+     "file": "crack_19519.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\19519.jpg"
+    },
+    {
+     "file": "crack_19438.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\19438.jpg"
+    },
+    {
+     "file": "crack_05008.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\05008.jpg"
+    },
+    {
+     "file": "crack_17645_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\17645_1.jpg"
+    },
+    {
+     "file": "crack_01003.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\01003.jpg"
+    },
+    {
+     "file": "crack_08468.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\08468.jpg"
+    },
+    {
+     "file": "crack_00547.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00547.jpg"
+    },
+    {
+     "file": "crack_00442.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00442.jpg"
+    },
+    {
+     "file": "crack_06092.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\06092.jpg"
+    },
+    {
+     "file": "crack_05546.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\05546.jpg"
+    },
+    {
+     "file": "crack_04254.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\04254.jpg"
+    },
+    {
+     "file": "crack_00628.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00628.jpg"
+    },
+    {
+     "file": "crack_12887_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\12887_1.jpg"
+    },
+    {
+     "file": "crack_13254_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\13254_1.jpg"
+    },
+    {
+     "file": "crack_02033.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\02033.jpg"
+    },
+    {
+     "file": "crack_07867.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\07867.jpg"
+    },
+    {
+     "file": "crack_19152_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\19152_1.jpg"
+    },
+    {
+     "file": "crack_13580_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\13580_1.jpg"
+    },
+    {
+     "file": "crack_01158.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\01158.jpg"
+    },
+    {
+     "file": "crack_12667_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\12667_1.jpg"
+    },
+    {
+     "file": "crack_07374.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\07374.jpg"
+    },
+    {
+     "file": "crack_15475_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\15475_1.jpg"
+    },
+    {
+     "file": "crack_14844_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\14844_1.jpg"
+    },
+    {
+     "file": "crack_10224_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\10224_1.jpg"
+    },
+    {
+     "file": "crack_02496.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\02496.jpg"
+    },
+    {
+     "file": "crack_19301_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\19301_1.jpg"
+    },
+    {
+     "file": "crack_04109.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\04109.jpg"
+    },
+    {
+     "file": "crack_17282_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\17282_1.jpg"
+    },
+    {
+     "file": "crack_03895.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\03895.jpg"
+    },
+    {
+     "file": "crack_17071_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\17071_1.jpg"
+    },
+    {
+     "file": "crack_00929.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00929.jpg"
+    },
+    {
+     "file": "crack_01962.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\01962.jpg"
+    },
+    {
+     "file": "crack_08817.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\08817.jpg"
+    },
+    {
+     "file": "crack_15525_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\15525_1.jpg"
+    },
+    {
+     "file": "crack_13638_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\13638_1.jpg"
+    },
+    {
+     "file": "crack_01712.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\01712.jpg"
+    },
+    {
+     "file": "crack_08552.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\08552.jpg"
+    },
+    {
+     "file": "crack_00024.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00024.jpg"
+    },
+    {
+     "file": "crack_02537.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\02537.jpg"
+    },
+    {
+     "file": "crack_06321.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\06321.jpg"
+    },
+    {
+     "file": "crack_16794_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\16794_1.jpg"
+    },
+    {
+     "file": "crack_01413.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\01413.jpg"
+    },
+    {
+     "file": "crack_10552_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\10552_1.jpg"
+    },
+    {
+     "file": "crack_00630.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00630.jpg"
+    },
+    {
+     "file": "crack_07933.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\07933.jpg"
+    },
+    {
+     "file": "crack_16558_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\16558_1.jpg"
+    },
+    {
+     "file": "crack_09190.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\09190.jpg"
+    },
+    {
+     "file": "crack_09215.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\09215.jpg"
+    },
+    {
+     "file": "crack_04435.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\04435.jpg"
+    },
+    {
+     "file": "crack_16997_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\16997_1.jpg"
+    },
+    {
+     "file": "crack_00081.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00081.jpg"
+    },
+    {
+     "file": "crack_06221.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\06221.jpg"
+    },
+    {
+     "file": "crack_06822.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\06822.jpg"
+    },
+    {
+     "file": "crack_05390.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\05390.jpg"
+    },
+    {
+     "file": "crack_14900_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\14900_1.jpg"
+    },
+    {
+     "file": "crack_02622.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\02622.jpg"
+    },
+    {
+     "file": "crack_05223.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\05223.jpg"
+    },
+    {
+     "file": "crack_05799.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\05799.jpg"
+    },
+    {
+     "file": "crack_01770.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\01770.jpg"
+    },
+    {
+     "file": "crack_07437.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\07437.jpg"
+    },
+    {
+     "file": "crack_07638.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\07638.jpg"
+    },
+    {
+     "file": "crack_03435.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\03435.jpg"
+    },
+    {
+     "file": "crack_01695.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\01695.jpg"
+    },
+    {
+     "file": "crack_07265.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\07265.jpg"
+    },
+    {
+     "file": "crack_15737_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\15737_1.jpg"
+    },
+    {
+     "file": "crack_19954.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\19954.jpg"
+    },
+    {
+     "file": "crack_18946_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\18946_1.jpg"
+    },
+    {
+     "file": "crack_00834.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00834.jpg"
+    },
+    {
+     "file": "crack_05365.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\05365.jpg"
+    },
+    {
+     "file": "crack_15045_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\15045_1.jpg"
+    },
+    {
+     "file": "crack_03615.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\03615.jpg"
+    },
+    {
+     "file": "crack_00148.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00148.jpg"
+    },
+    {
+     "file": "crack_00683.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00683.jpg"
+    },
+    {
+     "file": "crack_04043.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\04043.jpg"
+    },
+    {
+     "file": "crack_00404.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00404.jpg"
+    },
+    {
+     "file": "crack_00797.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00797.jpg"
+    },
+    {
+     "file": "crack_13963_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\13963_1.jpg"
+    },
+    {
+     "file": "crack_08383.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\08383.jpg"
+    },
+    {
+     "file": "crack_00360.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00360.jpg"
+    },
+    {
+     "file": "crack_05716.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\05716.jpg"
+    },
+    {
+     "file": "crack_02068.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\02068.jpg"
+    },
+    {
+     "file": "crack_13981_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\13981_1.jpg"
+    },
+    {
+     "file": "crack_18117_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\18117_1.jpg"
+    },
+    {
+     "file": "crack_00775.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00775.jpg"
+    },
+    {
+     "file": "crack_09312.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\09312.jpg"
+    },
+    {
+     "file": "crack_11267_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\11267_1.jpg"
+    },
+    {
+     "file": "crack_05797.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\05797.jpg"
+    },
+    {
+     "file": "crack_00188.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\00188.jpg"
+    },
+    {
+     "file": "crack_05195.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\05195.jpg"
+    },
+    {
+     "file": "crack_02309.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\02309.jpg"
+    },
+    {
+     "file": "crack_16047_1.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\16047_1.jpg"
+    },
+    {
+     "file": "crack_05572.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\05572.jpg"
+    },
+    {
+     "file": "crack_04403.jpg",
+     "label": 1,
+     "defect": "crack",
+     "source": "D:\\Tech Boss\\cv-data\\concrete-cracks\\Positive\\04403.jpg"
+    }
+   ]
+  }
+ },
+ "sources": {
+  "concrete": "Concrete Crack Images for Classification (Ozgenel, Mendeley Data 10.17632/5y9wdsg2zt.2, CC BY 4.0), 227x227 crops; random subset"
+ }
+}

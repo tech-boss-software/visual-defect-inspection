@@ -1,6 +1,6 @@
 # System card: visual defect inspection
 
-**Project owner:** Tech Boss. **Components:** a frozen ImageNet ResNet-18 (TorchVision, unchanged) feeding a memory-bank anomaly scorer, calibration and reporting written by Tech Boss; a DeepLabV3 MobileNetV3-Large fine-tuned by Tech Boss for crack masks. **Images used for the numbers below:** synthetic parts and synthetic concrete drawn by `synthetic_parts.py`, not photographs.
+**Project owner:** Tech Boss. **Components:** a frozen ImageNet ResNet-18 (TorchVision, unchanged) feeding a memory-bank anomaly scorer, calibration and reporting written by Tech Boss; a DeepLabV3 MobileNetV3-Large fine-tuned by Tech Boss for crack masks. **Images used for the numbers below:** real concrete photographs (CC BY 4.0) for the anomaly mode, and synthetic parts and synthetic cracks drawn by `synthetic_parts.py` for the exact-mask measurements.
 
 ## Intended use
 
@@ -20,6 +20,22 @@ Every defect type was caught on every image except one cap stain (`cap/stain_003
 
 Mean score by defect type (threshold about 1.2 to 1.4): missing hole 2.1, dent 2.8 to 4.8, scratch 3.0 to 3.6, stain 3.5 to 5.0, crack 3.4. Missing holes score lowest because the filled hole looks like plain brushed metal, which the bank has plenty of; they are caught because the neighbourhood of a hole is also in the bank.
 
+## Real concrete: Concrete Crack Images for Classification
+
+Photographs of concrete surfaces (Özgenel, Mendeley Data 10.17632/5y9wdsg2zt.2, CC BY 4.0; 227 x 227 crops of bridge decks, walls and pavements), used as an image-level anomaly task: 300 crack-free images for the fit, 100 held-out crack-free images for calibration at a 5% target, test on 100 crack-free and 400 cracked images. Same features and code as the synthetic run; coreset 5% (11,760 bank patches, 1338 s to fit, almost all of it the greedy coreset). No masks exist, so there is no pixel AUROC.
+
+| Measure | Result |
+|---|---|
+| Image AUROC | 0.995 |
+| Cracks caught at the calibrated threshold | 398 / 400 |
+| Crack-free images flagged | 10 / 100 |
+| Precision / recall / F1 at the threshold | 0.976 / 0.995 / 0.985 |
+| Scoring time | 188 ms per image on 4 threads |
+
+Two misses are hairline cracks (scores 2.54 and 2.58 against a 2.64 threshold). The false-alarm rate on the test images (10%) is twice the 5% target: 100 calibration images set the threshold at their 95th percentile, and the test crack-free images are rougher than that sample (pitted surfaces at scores up to 3.25), which is exactly why the calibration set must be as varied as production. The best-F1 threshold on the test set itself (2.70, F1 0.990) is reported in `report.json` for reference only.
+
+Earlier the same category was fitted on 1,000 crack-free images; that run was abandoned because the greedy coreset over 784,000 patches would have taken hours on this CPU. The coreset is the scaling limit of this implementation: a few hundred good images per category is the practical ceiling without an approximate nearest-neighbour library.
+
 ## Segmentation mode on synthetic cracks
 
 DeepLabV3 MobileNetV3-Large fine-tuned from the TorchVision COCO/VOC checkpoint on 120 images, best epoch by validation IoU, probability threshold chosen on the 30 validation images, reported on 40 test images (27 with cracks, 13 clean).
@@ -33,10 +49,10 @@ The first run is kept (`examples/cracks/training_log-256px-6epochs.json`) becaus
 
 ## What was not measured
 
-- Any photograph. Specular highlights, perspective, assembly variation, dust, camera noise profiles and lighting drift are absent from the drawings; the bank must be fitted on the client's own good parts from the production camera, and the threshold on a separate good set from the same camera.
+- Photographs of manufactured parts: the real run is on concrete surfaces, which vary in texture but not in shape; specular highlights, assembly variation and fixed-position parts were not tested. The bank must be fitted on the client's own good parts from the production camera, and the threshold on a separate good set from the same camera.
 - Defects smaller than a stride-8 patch (8 px at 224) or textures finer than the backbone sees; `--input-size` trades speed for resolution and was not swept here.
 - Drift over time, re-calibration schedules, and the effect of fitting on fewer than 60 good images.
-- Public benchmarks (MVTec AD, NEU-DET, SDNET2018): not used, so no claim is made about them.
+- MVTec AD, NEU-DET and SDNET2018: not used (non-commercial licences, or a download blocked for scripts); the concrete set above is the real benchmark here.
 - The crack model on real concrete, asphalt or walls.
 
 ## Privacy and licence

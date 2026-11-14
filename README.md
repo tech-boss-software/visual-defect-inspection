@@ -7,7 +7,7 @@
 
 Both write dashboards that show the misses and false alarms, not only the hits, and `serve.py` is a drag-and-drop page that returns the heatmap and a calibrated verdict.
 
-**This is an engineering demonstration on drawn parts.** Three synthetic product categories (brushed plate with drilled holes, ridged bottle cap, embossed tile) and synthetic concrete cracks are generated with a pixel mask for every defect, so image-level and pixel-level scores are exact. MVTec AD and similar public sets carry non-commercial licences and were not used; a client's own photos are the first real test. See `DATA_SOURCES.md` and [MODEL_CARD.md](MODEL_CARD.md).
+**Measured on real concrete photographs and on drawn parts.** On 500 real concrete images (CC BY 4.0 dataset, 400 with cracks) the anomaly mode fitted on crack-free photos only reaches image AUROC 0.995 and catches 398 of 400 cracks at a threshold calibrated on held-out crack-free images, with 10 of 100 clean images flagged. Three synthetic product categories and synthetic cracks, drawn with a pixel mask for every defect, give the exact image-level and pixel-level numbers. MVTec AD and similar sets carry non-commercial licences and were not used. See `DATA_SOURCES.md` and [MODEL_CARD.md](MODEL_CARD.md).
 
 ## Quick start
 
@@ -29,6 +29,15 @@ python inspect_cracks.py train --data artifacts/cracks --output artifacts/cracks
 ```
 
 Open `artifacts/anomaly/dashboard.html` and `artifacts/cracks-model/dashboard.html`.
+
+## Real photos in the same benchmark
+
+```sh
+python import_folders.py --good concrete/Negative --defective concrete/Positive --category concrete --output artifacts/real --train 300 --calibration 100 --test-good 100 --test-defective 400 --defect-name crack
+python inspect_anomaly.py --coreset 0.05 benchmark --data artifacts/real --output artifacts/anomaly-real
+```
+
+`import_folders.py` turns two folders (good, defective) into the benchmark layout; masks are optional, and without them the pixel AUROC is skipped. The concrete run is in `examples/anomaly-real/`.
 
 ## Your parts
 
@@ -65,9 +74,12 @@ Everything except the two backbones is numpy and standard-library Python with un
 
 ![Crack segmentation panel](examples/cracks/test/crack_005.png)
 
+![Real concrete: a crack found by the memory bank fitted on crack-free photos](examples/anomaly-real/concrete/heatmaps/crack_00195.png)
+
 ## Limitations
 
-- Drawn parts have no specular highlights, no perspective, no assembly variation and no dust; real lines have all of these, which is why the bank is fitted on the client's own good parts and the threshold on a separate set from the same camera.
+- The real run is on concrete texture crops; manufactured parts with specular highlights, perspective and assembly variation were only drawn. The bank is fitted on the client's own good parts and the threshold on a separate set from the same camera, and the calibration set must be as varied as production (on concrete, the 5% target became 10% on rougher test images).
+- The greedy coreset scales badly: a few hundred good images per category is the practical limit on a CPU without an approximate nearest-neighbour library.
 - Image-level scores are the maximum patch distance, so a single odd patch (a fingerprint, a label edge) flags the part; the heatmap shows why, and masking the regions that are allowed to vary is the usual fix.
 - Pixel-level localisation is coarse (stride 8 at 224 px); small defects need a larger `--input-size` or a tiled scan.
 - The crack model is trained on synthetic cracks on synthetic concrete; it is a demonstration of the training, thresholding and reporting path, not a crack detector for the field.
