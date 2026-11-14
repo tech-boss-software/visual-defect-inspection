@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+artifacts/
+*.sqlite*
+*.log
+*.pt
+*.pth
+*.onnx
+.cache/
+!examples/**
